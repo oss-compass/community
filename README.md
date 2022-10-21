@@ -14,8 +14,6 @@ Welcome to the OSS Compass Community!
 
 ### User Guide
 
-### Development Guide
-
 ## How to contribute
 
 ## Acknowledgements
