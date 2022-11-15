@@ -1,6 +1,6 @@
 ---
 title: Join Community on Slack
-slug: /join-us/slack
+slug: /community/slack
 tags:
   - Community
   - Slack
