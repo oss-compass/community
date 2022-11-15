@@ -1,6 +1,12 @@
-# OSS Compass Community
+---
+title: OSS Compass Community
+slug: /about
+tags:
+  - About
+description: About OSS Compass Community
+---
 
-Welcome to the OSS Compass Community! 
+Welcome to the OSS Compass Community!
 
 We provide a public SaaS platform [OSS Compass](https://oss-compass.org/) for open source community health analytics, that is open for all the projects hosted on Github, Gitee, etc.
 
@@ -11,15 +17,12 @@ We provide a public SaaS platform [OSS Compass](https://oss-compass.org/) for op
 
 ## Quick Start
 
-[OSS Compass](https://oss-compass.org/)
+You can clicking [Quick Start](<https://oss-compass.org/docs/quick-start>) to experience our services.
 
 ## Communication
 
-We have multiple communication channels such as chat, issues, etc. You can refer to [this page](https://github.com/oss-compass/community/tree/main/communication).
-
-## Governance
-
-## How to contribute
+We have multiple communication channels such as chat, issues, etc. You can refer to [this page](./community/).
 
 ## Acknowledgements
+
 OSS Compass follows the best practices of the CHAOSS projects, including metrics models and metrics, with some back-end components originally from Grimoirelabs. Our heartfelt thanks to the [CHAOSS Community](https://chaoss.community/).
