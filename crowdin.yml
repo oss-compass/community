@@ -1,3 +1,5 @@
 files:
   - source: /
-    translation: /i18n/%two_letters_code%
+    ignore:
+      - LICENSE
+    translation: /i18n/%locale_with_underscore%/%original_path%/%original_file_name%
