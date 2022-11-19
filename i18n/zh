@@ -1,26 +1,18 @@
 ---
-title: Join Community on Slack
-slug: /community/slack
+title: Join Community on WeChat
+slug: /community/wechat
 tags:
   - Community
-  - Slack
-description: Join the OSS-Compass community on Slack
+  - WeChat
+description: Join the OSS-Compass community on WeChat
 ---
 
-You can join our chat group on Slack by clicking the button below.
+You can join our WeChat communication group by scanning the following QR code on WeChat.
 
-[![Join Community on Slack](media/slack.jpg)](https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw)
+<img alt='Join Community on WeChat' src="https://talk.gitee.com/oss-compass/wechat.jpeg" style={{height:600}} />
 
-If the button click does not work, you can copy the click or copy the following URL to your browser to access.
-
-:::info Join us on WeChat
-
-<https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw>
-
-:::
-
-You can also contact us through the following channels:
+If the QR code expires, you can contact us through the following channels:
 
 - [OSS-Compass on GitHub](https://github.com/oss-compass)
 - [OSS-Compass on Gitee](https://gitee.com/oss-compass)
-- [OSS-Compass on WeChat](./wechat.md)
+- [OSS-Compass on Slack](./slack.md)
