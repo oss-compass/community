@@ -1,28 +1,63 @@
 ---
-title: OSS Compass Community
-slug: /about
+title: Quick Start
+slug: /quick-start
 tags:
-  - About
-description: About OSS Compass Community
+  - Quick Start
+description: Coming soon!
 ---
 
-Welcome to the OSS Compass Community!
+:::tip This article should take approximately ⏱ 3 minutes to read.
 
-We provide a public SaaS platform [OSS Compass](https://oss-compass.org/) for open source community health analytics, that is open for all the projects hosted on Github, Gitee, etc.
+:::
 
-# Our Vision
+Welcome to OSS-Compass, through this article, you will be able to quickly understand what OSS-Compass is in three minutes, and get the corresponding insight analysis report for your project.
 
-* Through [OSS Compass](https://oss-compass.org/), we help people who need community data analysis, including but not limited to OSPOs, community managers, academic researchers, project owners, maintainers, developers, etc.
-* By analyzing real data from a large number of open source projects, and referring to research results from industry best practices and academics, we create an open source community [Ecosystem Evaluation System](https://github.com/oss-compass/docs/tree/main/metrics-models) that can be continuously improved and evolved, and give back to the general open source communities by means of [OSS Compass](https://oss-compass.org/).
+## View Analysis Report
 
-## Quick Start
+You can search the data report of the open source project or open source community you want to view through the website homepage.
 
-You can clicking [Quick Start](https://oss-compass.org/docs/quick-start) to experience our services.
+![explore](./media/explore.jpg)
 
-## Communication
+## Submit a project analysis request
 
-We have multiple communication channels such as chat, issues, etc. You can refer to [this page](./community/).
+If you don't find the analysis you want, you can submit your analysis request through "Submit your project" in the upper right corner of the website.
 
-## Acknowledgements
+You can choose to use GitHub or Gitee authorized login to submit your project analysis request.
 
-OSS Compass follows the best practices of the CHAOSS projects, including metrics models and metrics, with some back-end components originally from Grimoirelabs. Our heartfelt thanks to the [CHAOSS Community](https://chaoss.community/).
+![Submit Project Step 1](./media/submit-project-step-1.gif)
+
+After logging in, you can submit a Single repository analysis or Community analysis request as needed.
+
+* **Single repository**: Focus on data insights from a single open source repository with a single Git-hosted repository as the object of analysis.
+* **Community**: Taking an open source community as the object of analysis, focusing on data insights in the process of community development.
+
+### Submit as Single repository
+
+1. You can select an authorized repository through the interface, or manually enter a Git repository address.
+2. If you wish to update the list of your authorizations, click Update Authorization in the drop-down menu to update.
+3. Of course, you can also manually fill in the address of the Git repository you wish to submit the analysis to.
+
+![Submit as Single repository](./media/submit-as-single-repository.gif)
+
+### Submit as Community
+
+1. Click "Submit as Community" to switch to Community analysis request submission.
+2. You can select the authorized repository through the interface, or manually enter the Git repository address to add your Software Artifact Repository.
+3. Enter your community name at the bottom of the form.
+4. In addition, you can also add a governance repository from the community, which is an option
+
+> If you wish to update the list of your authorizations, click Update Authorization in the drop-down menu to update.
+
+![Submit as Community](./media/submit-as-community.gif)
+
+## View project analysis request progress
+
+The project analysis requests will create a Pull Request under the repository specified by the OSS Compass. You can check the execution of your analysis report in the Pull Request.
+
+After the submission is complete, you can follow the progress of the analysis report through OSS-Compass's GitHub or Gitee repository.
+
+:::info You can click here to visit
+
+<https://github.com/oss-compass/compass-projects-information/pulls>
+
+:::
