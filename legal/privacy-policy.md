@@ -6,7 +6,7 @@ tags:
 description: OSS COMPASS Privacy Policy
 ---
 
-OSS Compass is provided by OSCHINA ("Shenzhen AOSI Network Technology Co.ltd" or "we/us") and we are committed to protecting the privacy of the user of our services and our website ("You/r"). This Privacy Policy is part of the OSS Compass Terms of Use and explains our practices regarding the use of personal data collected and processed through our services and website. Defined terms set out herein shall have the same meaning as in OSS Compass Terms of Use of which it forms part. 
+OSS Compass is provided by OSCHINA ("Shenzhen AOSI Network Technology Co.ltd" or "we/us") and we are committed to protecting the privacy of the user of our services and our website ("You/r"). This Privacy Policy is part of the OSS Compass Terms of Use and explains our practices regarding the use of personal data collected and processed through our services and website. Defined terms set out herein shall have the same meaning as in OSS Compass Terms of Use of which it forms part.
 
 By accessing or using the Website in any form and in particular, by sending your data in a contact or registration form, you agree to be bound by these Privacy Policy. If you do not accept any term of these Privacy Policy, then you may not access the Website or use our services.
 
@@ -61,9 +61,9 @@ Except as indicated, we do not reveal any of your data unless it is necessary fo
 
 We inform you that we use the following international third-party services to provide our Services:
 
-- Google Inc (Google Apps, Google Analytics): https://policies.google.com/privacy?hl=en-US
-- Baidu, Inc. (Baidu Statistics): https://tongji.baidu.com/web/help/article?id=330&type=0
-- Sensors Data (Sensors Analytic): https://www.sensorsdata.cn/compliance/law.html
+- Google Inc (Google Apps, Google Analytics): <https://policies.google.com/privacy?hl=en-US>
+- Baidu, Inc. (Baidu Statistics): <https://tongji.baidu.com/web/help/article?id=330&type=0>
+- Sensors Data (Sensors Analytic): <https://www.sensorsdata.cn/compliance/law.html>
 
 We require all third parties to respect the security of your personal data and to treat it in accordance with the law. We do not allow our third-party service providers to use your personal data for their own purposes and only permit them to process your personal data for specified purposes and in accordance with our instructions.
 
@@ -73,7 +73,7 @@ We generally keep personal information only for as long as required to fulfill t
 
 ## YOUR RIGHTS
 
-Access and Amendment. If you have registered with us and created a OSS Compass  ID profile or an OSS Compass Account wish to access or update certain personal information contained therein, you may do so online by visiting the “My Profile” or “My Account” settings in your respective account or by visiting https://compass.gitee.com. If you have any questions about our practices or this Privacy Policy, please contact us at compass-service@gitee.com.
+Access and Amendment. If you have registered with us and created a OSS Compass  ID profile or an OSS Compass Account wish to access or update certain personal information contained therein, you may do so online by visiting the “My Profile” or “My Account” settings in your respective account or by visiting <https://compass.gitee.com>. If you have any questions about our practices or this Privacy Policy, please contact us at compass-service@gitee.com.
 
 ## CHANGES TO THE PRIVACY POLICY
 

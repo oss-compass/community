@@ -1,16 +1,16 @@
 ---
-title: OSS COMPASS TERMS OF USE
+title: OSS Compass 服务条款
 slug: /terms-of-use
 tags:
-  - Terms Of Use
-description: Legal Information and Notices
+  - 使用条款
+description: 法律信息和声明
 ---
 
-## ACCEPTANCE OF TERMS
+## 接受服务条款
 
-These Legal Notice and Terms of Use ("TOU") govern the access to and use of the website at https://compass.gitee.com (the Website) and services offered here. The term “You/User” refers to any natural or legal person who accesses or has accessed the Website. By accessing or using the Website in any form and in particular, by sending your data in a contact or registration form, you agree to be bound by these Terms of Use. If you do not accept any term of these Terms of Use, then you may not access the Website or use our services.
+这些法律声明和使用条款管理访问和使用网站 <https://compass.gitee.com>（以下简称：网站）和在此提供的服务。 The term “You/User” refers to any natural or legal person who accesses or has accessed the Website. By accessing or using the Website in any form and in particular, by sending your data in a contact or registration form, you agree to be bound by these Terms of Use. If you do not accept any term of these Terms of Use, then you may not access the Website or use our services.
 
-Shenzhen AOSI Network Technology Co.ltd reserves the right to update and modify the TOU at any time without notice to you. The most current version of the TOU can be reviewed by clicking on the "Terms of Use" hyperlink located at the bottom of our webpages(https://compass.gitee.com). By using the Website after a new version of the TOU has been posted, you agree to the terms of such new version.
+Shenzhen AOSI Network Technology Co.ltd reserves the right to update and modify the TOU at any time without notice to you. The most current version of the TOU can be reviewed by clicking on the "Terms of Use" hyperlink located at the bottom of our webpages(<https://compass.gitee.com>). By using the Website after a new version of the TOU has been posted, you agree to the terms of such new version.
 
 ## ABOUT US
 
@@ -20,7 +20,7 @@ The owner of this website is Shenzhen AOSI Network Technology Co.ltd (the "Compa
 
 Through its network of Web properties, OSS Compass provides you with access to a variety of resources, including OSS Compass Metric Analyze, OSS Compass Mertric Model (collectively "Services"). The Services, including any updates, enhancements, new features, and/or the addition of any new Web properties, are subject to these TOU.
 
-Any data that You access or obtain via the OSS Compass Service (the "OSS Compass  Mertric Analyze Data ") is made available pursuant to the OSS Compass Privacy Policy, available at https://compass.gitee.com/docs/privacy-policy . You shall not use any OSS Compass  Metric Analyze Data in any manner that could be considered a violation of the Privacy Policy. You shall not use any OSS Compass  Mertric Analyze Data for purposes of marketing to individual Project contributors. You shall not create or maintain separate lists of individual Project contributors consisting of all or a part of the OSS Compass  Mertric Analyze Data.
+Any data that You access or obtain via the OSS Compass Service (the "OSS Compass  Mertric Analyze Data ") is made available pursuant to the OSS Compass Privacy Policy, available at <https://compass.gitee.com/docs/privacy-policy> . You shall not use any OSS Compass  Metric Analyze Data in any manner that could be considered a violation of the Privacy Policy. You shall not use any OSS Compass  Mertric Analyze Data for purposes of marketing to individual Project contributors. You shall not create or maintain separate lists of individual Project contributors consisting of all or a part of the OSS Compass  Mertric Analyze Data.
 
 If You use the OSS Compass Service to update information about third party participants in a Project, then You shall not submit any information that is false, inaccurate or misleading.
 

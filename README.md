@@ -1,28 +1,28 @@
 ---
-title: OSS Compass Community
+title: 关于开源指南针社区
 slug: /about
 tags:
-  - About
-description: About OSS Compass Community
+  - 关于
+description: 关于开源指南针社区
 ---
 
-Welcome to the OSS Compass Community!
+欢迎来到开源指南针社区！
 
-We provide a public SaaS platform [OSS Compass](https://oss-compass.org/) for open source community health analytics, that is open for all the projects hosted on Github, Gitee, etc.
+我们提供了一个公开的 SaaS 服务 [“开源指南针”](https://oss-compass.org/)，用于开源社区健康分析，面向 Github、Gitee 等托管平台上托管的所有开源项目开放。
 
-# Our Vision
+# 我们的愿景
 
-* Through [OSS Compass](https://oss-compass.org/), we help people who need community data analysis, including but not limited to OSPOs, community managers, academic researchers, project owners, maintainers, developers, etc.
-* By analyzing real data from a large number of open source projects, and referring to research results from industry best practices and academics, we create an open source community [Ecosystem Evaluation System](https://github.com/oss-compass/docs/tree/main/metrics-models) that can be continuously improved and evolved, and give back to the general open source communities by means of [OSS Compass](https://oss-compass.org/).
+* 通过[开源指南针](https://oss-compass.org/), 我们帮助需要对社区进行数据分析的人。包括但不限于 OSPOs、社区管理人员、学术研究人员、项目所有者、维护者、开发者等。
+* 通过分析大量公开来源项目的实际数据，并参照行业最佳实践和学术界的研究结果，我们创建一个开源社区 [生态体系评估系统](https://github.com/oss-compass/docs/tree/main/metrics-models)，加以不断改进和优化，并通过[开源指南针](https://oss-compass.org/)反哺到开源社区。
 
-## Quick Start
+## 快速入门
 
-You can clicking [Quick Start](<https://oss-compass.org/docs/quick-start>) to experience our services.
+你可以点击 [快速入门](https://oss-compass.org/docs/quick-start) 来体验我们的服务。
 
-## Communication
+## 交流
 
-We have multiple communication channels such as chat, issues, etc. You can refer to [this page](./community/).
+我们有多种沟通渠道，如即时通讯群、Issues 等。你可以访问[这个页面](./community/)进行了解。
 
-## Acknowledgements
+## 致谢
 
-OSS Compass follows the best practices of the CHAOSS projects, including metrics models and metrics, with some back-end components originally from Grimoirelabs. Our heartfelt thanks to the [CHAOSS Community](https://chaoss.community/).
+开源指南针遵循 CHAOSS 项目的最佳实践，包括度量模型和度量标准，其中部分后端组件最初来自 Grimoirebs。我们衷心感谢 [CHAOSS 社区](https://chaoss.community/)。

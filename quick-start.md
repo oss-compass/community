@@ -1,62 +1,62 @@
 ---
-title: Quick Start
+title: 快速入门
 slug: /quick-start
 tags:
-  - Quick Start
+  - 快速入门
 description: Coming soon!
 ---
 
-:::tip This article should take approximately ⏱ 3 minutes to read.
+:::tip 阅读本文预计需要 ⏱ 3 分钟。
 
 :::
 
-Welcome to OSS-Compass, through this article, you will be able to quickly understand what OSS-Compass is in three minutes, and get the corresponding insight analysis report for your project.
+欢迎使用开源指南针，通过这篇文章，你将在三分钟内快速了解开源指南针。并为你的项目获得相应的洞察分析报告。
 
-## View Analysis Report
+## 查看分析报告
 
-You can search the data report of the open source project or open source community you want to view through the website homepage.
+你可以通过网站主页搜索开源项目或开源社区的数据报告。
 
-![explore](./media/explore.jpg)
+![浏览](./media/explore.jpg)
 
-## Submit a project analysis request
+## 提交项目分析请求
 
-If you don't find the analysis you want, you can submit your analysis request through "Submit your project" in the upper right corner of the website.
+如果你没有找到你想要的分析，你可以通过网站右上角的「提交项目分析」按钮提交分析请求。
 
-You can choose to use GitHub or Gitee authorized login to submit your project analysis request.
+你可以选择 GitHub 或 Gitee 授权登录来提交项目分析请求。
 
-![Submit Project Step 1](./media/submit-project-step-1.gif)
+![提交项目步骤 1](./media/submit-project-step-1.gif)
 
-After logging in, you can submit a Single repository analysis or Community analysis request as needed.
+登录帐号后，你可以根据需要提交单个代码仓库或单个社区的分析请求。
 
-* **Single repository**: Focus on data insights from a single open source repository with a single Git-hosted repository as the object of analysis.
-* **Community**: Taking an open source community as the object of analysis, focusing on data insights in the process of community development.
+* **单仓项目**：聚焦于单个开源代码仓库的数据洞察力，以单个的 Git 代码仓库作为分析对象。
+* **社区项目**：将开源社区作为分析对象，侧重于社区发展过程中的数据洞察力。
 
-### Submit as Single repository
+### 以单仓项目形式提交
 
-1. You can select an authorized repository through the interface, or manually enter a Git repository address.
-2. If you wish to update the list of your authorizations, click Update Authorization in the drop-down menu to update.
-3. Of course, you can also manually fill in the address of the Git repository you wish to submit the analysis to.
+1. 你可以通过界面选择授权的代码仓库，或者手动输入 Git 代码仓库地址。
+2. 如果你想要更新你授权的组织列表，请单击下拉菜单中的授权选项以更新授权。
+3. 当然，你也可以手动填写你想要提交分析的 Git 代码仓库地址。
 
-![Submit as Single repository](./media/submit-as-single-repository.gif)
+![以单仓项目形式提交](./media/submit-as-single-repository.gif)
 
-### Submit as Community
+### 以社区项目形式提交
 
-1. Click "Submit as Community" to switch to Community analysis request submission.
-2. You can select the authorized repository through the interface, or manually enter the Git repository address to add your Software Artifact Repository.
-3. Enter your community name at the bottom of the form.
-4. In addition, you can also add a governance repository from the community, which is an option
+1. 点击「提交社区项目」，切换到社区项目分析请求页面。
+2. 你可以通过界面选择授权的代码仓库，或者手动输入 Git 代码仓库地址以添加你的软件制品仓库。
+3. 在表单底部输入对应的社区名称。
+4. 此外，你还可以从社区添加一个治理仓库。当然，这是一个可选项。
 
-> If you wish to update the list of your authorizations, click Update Authorization in the drop-down menu to update.
+> 如果你想要更新你授权的组织列表，请单击下拉菜单中的授权选项以更新授权。
 
-![Submit as Community](./media/submit-as-community.gif)
+![以社区项目形式提交](./media/submit-as-community.gif)
 
-## View project analysis request progress
+## 查看项目分析请求进度
 
-The project analysis requests will create a Pull Request under the repository specified by the OSS Compass. You can check the execution of your analysis report in the Pull Request.
+项目分析请求将在我们指定的仓库下创建一个 Pull Request。你可以在 Pull Request 中检查分析报告的处理进度。
 
-After the submission is complete, you can follow the progress of the analysis report through OSS-Compass's GitHub or Gitee repository.
+提交完成后，你可以通过开源指南针在 GitHub 或 Gitee 上的分析报告仓库跟踪分析报告的进度。
 
-:::info You can click here to visit
+:::info 你可以点击此进行访问
 
 <https://github.com/oss-compass/compass-projects-information/pulls>
 
