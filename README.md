@@ -21,7 +21,7 @@ You can clicking [Quick Start](<https://oss-compass.org/docs/quick-start>) to ex
 
 ## Communication
 
-We have multiple communication channels such as chat, issues, etc. You can refer to [this page](./community/).
+We have multiple communication channels such as chat, issues, etc. You can refer to [this page](https://oss-compass.org/docs/community/).
 
 ## Acknowledgements
 
