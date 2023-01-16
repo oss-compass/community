@@ -15,7 +15,7 @@ If the button click does not work, you can copy the click or copy the following 
 
 :::info Join us on WeChat
 
-<https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw>
+<https://join.slack.com/t/oss-compass/shared_invite/zt-1nao7q582-YHFdFdcPiqzr2c3KItl_SA>
 
 :::
 
