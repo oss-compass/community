@@ -9,7 +9,7 @@ assignees: eyehwan, normal-coder, wangliang-cs
 
 <!-- Thank you for sharing your metric model idea with the Metrics Model Working Group! -->
 
-<!-- If it is an idea coming from CHAOSS metrics-model working group(https://github.com/chaoss/wg-metrics-models), you can attach metrics-model definition link here directly. Because we two communities has already setup a soomth collaboration process together. ! -->
+<!-- If it is an idea coming from CHAOSS metrics-model working group(https://github.com/chaoss/wg-metrics-models), you can attach metrics-model definition link here directly. Because we two communities have already setup a soomth collaboration process together. ! -->
 
 # Metric Model Title
 <!-- Title of the Metric Model -->
