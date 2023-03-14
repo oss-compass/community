@@ -1,9 +1,9 @@
 ---
 title: OSS-Compass Technical Seminar Weekly Meeting
-slug: /community/meetup
+slug: /community/metting
 tags:
   - Community
-  - meetup
+  - metting
 description: Participate in OSS-Compass community seminars and exchanges
 ---
 
