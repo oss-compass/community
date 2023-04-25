@@ -9,13 +9,13 @@ description: Join the OSS-Compass community on Slack
 
 You can join our chat group on Slack by clicking the button below.
 
-[![Join Community on Slack](media/slack.jpg)](https://join.slack.com/t/slack-vit2156/shared_invite/zt-1hv9pabzr-80W3QeM4zABSJFWEmPNipw)
+[![Join Community on Slack](media/slack.jpg)](https://join.slack.com/t/oss-compass/shared_invite/zt-1ttt9sv5h-8E~oPP6VJqm8ero5qH9LlA)
 
 If the button click does not work, you can copy the click or copy the following URL to your browser to access.
 
-:::info Join us on WeChat
+:::info Join us on Slack
 
-<https://join.slack.com/t/oss-compass/shared_invite/zt-1nao7q582-YHFdFdcPiqzr2c3KItl_SA>
+<https://join.slack.com/t/oss-compass/shared_invite/zt-1ttt9sv5h-8E~oPP6VJqm8ero5qH9LlA>
 
 :::
 
