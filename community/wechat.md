@@ -7,6 +7,12 @@ tags:
 description: Join the OSS-Compass community on WeChat
 ---
 
+<!--
+import PdfViewer from '@site/src/components/PdfViewer';
+import pdfFile2 from './media/test.pdf';
+
+<PdfViewer pdfUrl={pdfFile2} /> -->
+
 You can join our WeChat communication group by scanning the following QR code on WeChat.
 
 <img alt='Join Community on WeChat' src="https://talk.gitee.com/oss-compass/wechat.jpeg" style={{height:600}}/>
