@@ -14,7 +14,7 @@ import GOTC2 from './media/GOTC-王晔晖.pdf';
 - **GOTC 2023**
 
 <details>
-<summary>The Interpretation of OSS Compass Open Source Ecology Evaluation System Theory | Liang Wang</summary>
+<summary>Interpretation of OSS Compass Open Source Ecology Evaluation System Theory | Liang Wang</summary>
 &ensp;&ensp;<a target="\_blank" href={GOTC1} download="GOTC-汪亮.pdf">Download</a>
 <PdfViewer pdfUrl={GOTC1} />
 </details>
