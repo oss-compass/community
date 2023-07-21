@@ -1,3 +1,44 @@
+# 2023-07-20 Open Source Compass Lab Meeting Minutes
+
+## Time
+July 20, 2023, 14:15 to 15:30 (Beijing Time)
+
+## Attendees
+Yehui Wang, Shengxiang Zhang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, Wenxuan Long, Guoqiang Qi, Wenhao Yang, Ruiqiao Qiu, Ran Zhou
+
+## Topic - Compass Lab Frontend and Backend Design and Operation Planning
+
+### 1. Adding Issue Template to Github Repository
+Requesting Compass Lab access permission by submitting an application through the Community project using Issue, **AP: Feng Zhong designs the Issue template**.
+
+### 2. Lab Frontend Design
+- (1) The pages under Lab have been mostly designed already.
+- (2) Model Page
+  - Display style: The model page is presented in the form of cards.
+  - Difference between creating a new version and global editing: Creating a new version involves basic configurations (ecosystem dimension, model name, industry attributes, public visibility, selected dataset), while global editing under the three dots in the top right corner is used to edit specific parameters of the model, such as metrics and algorithms.
+  - Selected datasets are shown in card format, while editing datasets appears as a popup.
+  - Indicate the metrics from CHAOSS.
+  - Change "Submit" on the new model page to "Save" or "Confirm," **AP: Feng and Shengxiang to confirm**.
+  - Weight and threshold settings: Displayed in table format with draggable sliders to adjust. The default values for thresholds should be set with text prompts, specifying that some are absolute values while others are proportional values, with a range from 0 to 100 or 0 to 100%.
+  - Algorithm selection: The default algorithm's formula should be displayed, and it's suggested to be included in a link for reference.
+  - Remove the border of the model page and use colored blocks instead.
+- (3) Adding Collaborative Users for Models
+Invite users proactively or accept user applications passively. Account setup should be based on email, and users should be prompted to create a Compass Lab account, guiding them to the community for communication.
+- (4) Dashboard Page
+  - When first opened, the discussion area should be displayed by default, and users can close it if they prefer.
+  - Charts - Y-axis scaling function, **AP: Chaoqun revises the wording, Xingyou works on the backend, and Zhou Ran writes and pushs the tweet next week. Feng should remove the explanatory text below the indicators**.
+- (5) Frontend and Backend Design in Sync
+**AP: Hua Tian and Xingyou collaborate on the tasks after discussing the details**.
+
+### 3. Backend
+**AP: Hua Tian modifies the backend code based on frontend improvement suggestions; Shengbao starts splitting metrics from existing metrics model and forms new metrics sets next week.**
+
+### 4. Operation
+  - (1) WeChat official account Platform and Twiteer Tweet Cover Design
+    - Zhou Ran has submitted the requirements and created tasks, **AP: Zhong Feng completes the design work this week**.
+  - (2) How to Display Community Updates on the Official Website
+    - **AP: Zhou Ran organizes the content of community updates to be displayed on the official website, and discusses with Feng on how to present it before the next meeting.**
+    
 # 2023-07-18 Weekly Meeting Minutes of OSS Compass
 
 ## Time
