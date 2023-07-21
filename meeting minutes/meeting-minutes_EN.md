@@ -35,9 +35,9 @@ Invite users proactively or accept user applications passively. Account setup sh
 
 ### 4. Operation
   - (1) WeChat official account Platform and Twiteer Tweet Cover Design
-Zhou Ran has submitted the requirements and created tasks, **AP: Zhong Feng completes the design work this week**.
+    - Zhou Ran has submitted the requirements and created tasks, **AP: Zhong Feng completes the design work this week**.
   - (2) How to Display Community Updates on the Official Website
-**AP: Zhou Ran organizes the content of community updates to be displayed on the official website, and discusses with Feng on how to present it before the next meeting.**
+    - **AP: Zhou Ran organizes the content of community updates to be displayed on the official website, and discusses with Feng on how to present it before the next meeting.**
     
 # 2023-07-18 Weekly Meeting Minutes of OSS Compass
 
