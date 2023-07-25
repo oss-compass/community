@@ -17,7 +17,7 @@ Yehui Wang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, We
 ### Backend
 - (1) Model management: **AP - Hua Tian creates Issues for this**.
 - (2) The metric models have been categorized, **AP - Shengbao and Hua Tian discuss metric splitting in the PKU communication group**.
-- (3) To prevent data retrieval failure when saving to ES, the maximum cache size after data retrieval has been changed from 10000 to 3000. **AP - Shengbao Create an Issue to track this modification**.
+- (3) To prevent data retrieval failure when saving to ES, the maximum cache size after data retrieval has been changed from 10000 to 3000. **AP - Shengbao creates an Issue to track this modification**.
 - (4) Individual metric chart on the Dashboard page should support widget-based display. **AP - Hua Tian and Chaoqun discuss whether to embed it separately into the page or README.md. Feng will modify the UI based on backend changes**.
 
 ### Operations
