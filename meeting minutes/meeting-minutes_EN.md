@@ -23,7 +23,7 @@ Yehui Wang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, We
 ### Operations
 - (1) Official Website
   - a. 'Hot Topics' section needs updating: Change the content to project categories and subdirectories on the exploration page, along with a slideshow. **AP - Feng to confirm if project logos should be displayed**.
-  - b. Community Updates: Four categories of updates - events, news, insight reports, and interviews, will be displayed on the homepage separately from functional updates. **AP - Feng Ge to design the UI**.
+  - b. Community Updates: Four categories of updates - events, news, insight reports, and interviews, will be displayed on the homepage separately from functional updates. **AP - Feng designs the UI**.
   - c. Blog: To be listed as a separate section, archiving all community updates by category.
 
 - (2) Current communication and promotion channels can meet current demands, and will remain unchanged
