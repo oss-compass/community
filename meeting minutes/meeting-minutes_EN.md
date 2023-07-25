@@ -1,4 +1,36 @@
-# 2023-07-20 Open Source Compass Lab Meeting Minutes
+# 2023-07-25 Weekly Meeting Minutes of OSS Compass Community
+
+## Time:
+July 25, 2023, 14:15 to 15:00 (Beijing Time)
+
+## Attendees:
+Yehui Wang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, Wenxuan Long, Guoqiang Qi, Wenhao Yang, Ruiqiao Qiu, Ran Zhou
+
+## Topic: Compass Lab Frontend, Backend, and Official Website Design and and Operational Planning
+
+### Frontend Design
+- (1) 'My Models' page: **AP - Backend management account setup with frontend and backend coordination**.
+- (2) Official website: Add WeChat and Twitter icons to the bottom right corner.
+- (3) Lab's static frontend page will be roughly completed by this Friday, and backend work is in progress.
+- (4) When submitting projects, the default community name will be the project name, and submitters should be allowed to modify the name.
+
+### Backend
+- (1) Model management: **AP - Hua Tian creates Issues for this**.
+- (2) The metric models have been categorized, **AP - Shengbao and Hua Tian discuss metric splitting in the PKU communication group**.
+- (3) To prevent data retrieval failure when saving to ES, the maximum cache size after data retrieval has been changed from 10000 to 3000. **AP - Create an Issue to track this modification**.
+- (4) Individual metric chart on the Dashboard page should support widget-based display. **AP - Hua Tian and Chaoqun discuss whether to embed it separately into the page or README.md. Feng will modify the UI based on backend changes**.
+
+### Operations
+- (1) Official Website
+  - a. 'Hot Topics' section needs updating: Change the content to project categories and subdirectories on the exploration page, along with a slideshow. **AP - Feng to confirm if project logos should be displayed**.
+  - b. Community Updates: Four categories of updates - events, news, insight reports, and interviews, will be displayed on the homepage separately from functional updates. **AP - Feng Ge to design the UI**.
+  - c. Blog: To be listed as a separate section, archiving all community updates by category.
+
+- (2) Current communication and promotion channels can meet current demands, and will remain unchanged
+  - Communication Channels: Slack (for international audiences), WeChat (for domestic audiences)
+  - Promotion Channels: WeChat Official Account, Twitter.
+  - 
+# 2023-07-20 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
 July 20, 2023, 14:15 to 15:30 (Beijing Time)
@@ -39,7 +71,7 @@ Invite users proactively or accept user applications passively. Account setup sh
   - (2) How to Display Community Updates on the Official Website
     - **AP: Zhou Ran organizes the content of community updates to be displayed on the official website, and discusses with Feng on how to present it before the next meeting.**
     
-# 2023-07-18 Weekly Meeting Minutes of OSS Compass
+# 2023-07-18 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
 2023.07.18, 14:15pm~15:30pm, Local Time, Beijing
