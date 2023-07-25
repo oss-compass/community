@@ -29,7 +29,7 @@ Yehui Wang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, We
 - (2) Current communication and promotion channels can meet current demands, and will remain unchanged
   - Communication Channels: Slack (for international audiences), WeChat (for domestic audiences)
   - Promotion Channels: WeChat Official Account, Twitter.
-  - 
+
 # 2023-07-20 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
