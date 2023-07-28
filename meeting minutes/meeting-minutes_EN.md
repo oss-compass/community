@@ -19,7 +19,7 @@ July 27, 2023, from 14:15 to 14:33 (Beijing Time)
 - (4) Lab APIs can be completed within two weeks.
 ### 3. Operation
 - (1) Meeting minutes needs to include the attendees' GitHub ID links. **AP: Ran adds this information**
-- (2) The link to the meeting minutes should be added to the official website. **AP: Frontend developers implement this task**
+- (2) The link to the meeting minutes should be added to the official website. **AP: Frontend developers implement this update**
 
 # 2023-07-25 Weekly Meeting Minutes of OSS Compass Community
 
