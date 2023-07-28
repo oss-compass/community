@@ -1,3 +1,26 @@
+# 2023-07-27 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+July 27, 2023, from 14:15 to 14:33 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Wenxuan Long](https://github.com/hncslwx), [Guoqiang Qi](https://github.com/guoqiangqi), Wenhao Yang, Ruiqiao Qiu, [Zhou Ran](https://github.com/JuliaZhou2022)
+
+## Topic - Compass Lab Frontend and Backend Design Progress, Website Design, and Operational Matters Discussion
+
+### 1. Frontend
+- (1) Official website social media (WeChat Official Account, Twitter) links need to be provided. **AP: Feng creates a Task in the Project**
+- (2) Lab static pages are in progress, and embedding charts as frontend interfaces that will be called by the backend is ongoing. **AP: Chaoqun synchronizes with the backend and completes it within two weeks (by August 15th)**
+### 2. Backend
+- (1) The plan for splitting metrics has been submitted, and it can be completed within two weeks. **AP: Shengbao splits one or two metrics according to the plan and discusses with Ruiqiao and Huatian**
+- (2) Developer contribution value analysis
+  - How to identify the value of community contributors. **AP: Wenhao shares relevant academic research and discusses it with everyone in the Wechat Group**
+- (3) The backend has been refactored, and the frontend only needs to call the backend through APIs in the future.
+- (4) Lab APIs can be completed within two weeks.
+### 3. Operation
+- (1) Meeting minutes needs to include the attendees' GitHub ID links. **AP: Ran adds this information**
+- (2) The link to the meeting minutes should be added to the official website. **AP: Frontend developers implement this update**
+
 # 2023-07-25 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time:
