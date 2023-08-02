@@ -1,3 +1,37 @@
+# 2023-08-01 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+August 1, 2023, from 14:15 to 15:15 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Wenxuan Long](https://github.com/hncslwx), [Guoqiang Qi](https://github.com/guoqiangqi), Wenhao Yang, Ruiqiao Qiu, [Zhou Ran](https://github.com/JuliaZhou2022)
+
+## Topic - Compass Lab Frontend and Backend Design Progress, and Website Design Discussion
+
+### Website Design
+1. The 'Hot Topics' section on the home page is redesigned to display project classification and recommended projects, getting relevant classifications and project data directly from the project dashboard page.
+2. The projects are displayed with their icons only now in the weekly list of active projects submitted with single repo on the home page. The Github or Gitee icon should be displayed as well. **AP: Feng updates the design.**
+3. The organization avatar customized by the users when submitting the community is displayed in the weekly list of active projects submitted with the whole community's repos on the home page. **AP: Chaoqun creates a task, and clearly defines the rules for users to customize the organization avatar; Feng adjusts the corresponding interface design.**
+4. The projects' secondary categorizations shown in the weekly lists on the home page may have more than one, and the displaying should be alphabetical. **AP: Feng updates the design.**
+5. Community updates displaying
+   - Currently design is displaying in three blocks.
+   - The three blocks are shown at the bottom of the home page, placed in front of the Compass evaluating ecosystem map.
+   - The two blocks on the left side need to be designed with flexibility, and the two part may need to be combined as only one block according to the event promotion need.
+   - The third block on the right side is the calendar with schedules. Subscription services to allow community members to add the schedule to their own calendar should be provided, and it is recommended that a unified design style is used both in the Chinese and English websites. **AP: Xingyou proceeds with the front-end development, and Feng adjusts the design.**
+6. The "blog" under the "community" should be moved and put in the navigation bar as a single column on the top of the website to display all the community and project updates, and "blog" should be renamed as "News". **AP: Zhou Ran creates the task; Chaoqun modifies the back-end, and puts recent articles released on WeChat Official Account Platform on that page.**
+
+### Lab front-end
+Front-end work is in progress. Only after the metrics splitting work is done, the modification of charts on the dashboard pages can be started. Other work can be finished this week.
+
+### Lab backend
+1. The first version of the backend APIs is basically OK. The comment section of the dashboard page is displayed in the form of pictures and plain text separately, and the number of pictures is limited to 5. **AP: Feng needs to consider the design for multiple pictures displaying.**
+2. Content compliance: **AP: Huatian should carry out relevant operations according to domestic and international requirements.**
+3. Metrics splitting is in progress. Lab/Hub need adding other metrics. **AP: Huatian configures the collector in advance to collect the underlying data to be used for the new metrics.**
+4. Software project classification adjustment: setting two levels of classification; operating system classification has been done; support software classification is in progress; application software and other software need to be subdivided; classification granularity should be as small as possible. **AP: Mr. Long puts the classification map into the project information, and keeps updating.***
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-07-27 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
@@ -20,6 +54,9 @@ July 27, 2023, from 14:15 to 14:33 (Beijing Time)
 ### 3. Operation
 - (1) Meeting minutes needs to include the attendees' GitHub ID links. **AP: Ran adds this information**
 - (2) The link to the meeting minutes should be added to the official website. **AP: Frontend developers implement this update**
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
 
 # 2023-07-25 Weekly Meeting Minutes of OSS Compass Community
 
@@ -52,6 +89,9 @@ Yehui Wang, Chaoqun Huang, Xingyou Lai, Huatian Qin, Shengbao Li, Feng Zhong, We
 - (2) Current communication and promotion channels can meet current demands, and will remain unchanged
   - Communication Channels: Slack (for international audiences), WeChat (for domestic audiences)
   - Promotion Channels: WeChat Official Account, Twitter.
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
 
 # 2023-07-20 Weekly Meeting Minutes of OSS Compass Community
 
@@ -93,7 +133,10 @@ Invite users proactively or accept user applications passively. Account setup sh
     - Zhou Ran has submitted the requirements and created tasks, **AP: Zhong Feng completes the design work this week**.
   - (2) How to Display Community Updates on the Official Website
     - **AP: Zhou Ran organizes the content of community updates to be displayed on the official website, and discusses with Feng on how to present it before the next meeting.**
-    
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-07-18 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
