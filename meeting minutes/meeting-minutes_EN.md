@@ -1,3 +1,37 @@
+# 2023-08-03 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+August 3, 2023, from 14:15 to 15:00 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), Wenhao Yang, Ruiqiao Qiu, [Zhou Ran](https://github.com/JuliaZhou2022)
+
+## Topic - Compass Lab Frontend and Backend Development Progress, Website Design, and Operations Discussion
+
+### Official Website
+1. In the weekly list on the homepage, project avatars will now be displayed with Gitee/Github icons in the bottom right corner.
+2. Project secondary categorization tags will not only be shown on the homepage but also on Dashboard pages, dataset selection pages, etc. In cases with multiple categories, only the primary category will be displayed, while the others will be shown as numbers. **AP: Feng creates the task, and Xingyou will handle the related operations.**
+3. When submitting the community, the default avatar will be extracted from the first repository. Users can customize their avatars, and if they need to change them later, they can submit a pull request. The process for modifying avatars needs further discussion. **AP: Yehui and Shengxiang will discuss the avatar modification process, and Feng will create the relevant task.**
+4. The design scheme for the score distribution radar chart on the Dashboard page is OK. It is part of the work of replacing the Gitee index and will be started after the Lab is ready.
+
+### Lab Frontend
+1. There are some chart curve broken in the Dashboard. **AP: Shengbao will fix them.**
+2. Some organizations are not in the library, and certain metrics analysis results cannot be displayed. Such organizations need manual input.
+3. Lab frontend development is in progress.
+4. Embedding chart frontend development is ongoing and will be completed next week.
+
+### Lab Backend
+1. The image storage is mostly completed, and content review is yet to begin.
+2. Management backend: Whether to set up a super administrator is under discussion. **AP: Yehui and Shengxiang will discuss it.**
+3. Some metrics have already been split, and all metrics will be split by around August 8th. **AP: Shengbao, Wenhao and Ruiqiao continue to collaborate together and finish the work of splitting other metrics.**
+
+### Operations
+1. Yehui is writing articles to interpret the metrics models. One article both in Chinese and English is completed.
+2. All the adjustments to the official website discussed earlier, based on operational needs, have been created as tasks and assigned to the relevant team members.
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-01 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
