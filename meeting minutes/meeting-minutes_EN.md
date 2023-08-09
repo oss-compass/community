@@ -1,3 +1,32 @@
+# 2023-08-08 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+August 8, 2023, from 14:15 to 14:43 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Zhou Ran](https://github.com/JuliaZhou2022)
+
+## Topic - Updates on Compass Lab Frontend and Backend Development, Website Design, and Operational Discussions
+
+### Website
+1. Update the community member information on the official website, adding Wenhao and Ruiqiao. **AP: Chaoqun handles the additions**.
+2. The error on Contact Us page has been fixed.
+3. Content from the WeChat official Platform needs to be integrated under the "News" column. **AP: Xingyou handles the updates**.
+
+### Frontend Development
+1. The "My Models" page will be completed this week. The industry restriction for dataset will be removed. No default values for weights, and there will be default values for thresholds with explanations. **AP: Chaoqun finalizes modifications and outstanding tasks. Demo scheduled for next Tuesday**.
+2. A frontend entry for creating "My Models" will be added to the Lab page. **AP: Chaoqun reviews frontend design with Feng**.
+
+### Backend Development
+1. The task of splitting metrics should be completed by tomorrow.
+2. Compliance review is nearly done. Once the metrics splitting is done, model page integration will be initiated. **AP: Huatian starts model page integration as soon as possible**.
+
+### Operations
+Lab requires users to sign a usage agreement before accessing the platform. **AP: Zhou Ran prepares the agreement by next week，requesting a template from Shengxiang if needed. Feng provides input on how to display this agreement.**
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-03 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
