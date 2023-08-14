@@ -1,3 +1,32 @@
+# 2023-08-10 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+August 10, 2023, from 14:15 to 14:57 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Zhou Ran](https://github.com/JuliaZhou2022)
+
+## Topic: Compass Lab Frontend and Backend Development Progress, and Official Website Design Discussion
+
+### Lab Frontend
+1. Joint debugging and commissioning work of the Lab is still ongoing. **AP: Huatian needs to complete all joint debugging work by August 15th to ensure that the Lab can be demonstrated.**
+2. An email invitation to join the Lab will lead to a user terms acceptance page upon confirmation, followed by access to "My Models" page. **AP: Zhou Ran needs to prepare the user terms, at least English version, by next Tuesday. And Xingyou uploads the terms to the Lab once it is ready.**
+3. Comment section indentation has only two levels.
+4. Regarding metrics charts of the Lab , **AP: Shengbao and Huatian should provide the APIs**.
+
+### Lab Backend
+1. Modifications have been made to duplicated indices of the metrics by adding prefixes.
+2. After changing the indices of the metrics, all projects need to be rerun with the metrics model to recalculate median and other data. **AP: Huatian should complete the current tasks first and data recalibration can be proceeded after the official launch of the Lab.**
+3. Both the organization's activity field and hierarchy have been modified, altering the data structure. Data retrieval may need to be redone. **AP: shengbao checks it with Huatian and confirms if Data needs regaining or not.**
+4. Code is basically fine after the metrics splitting and can be merged. **AP: Yehui can proceed with code integration.**
+
+### Official Website
+1. User terms within the Lab will be displayed in a checkbox format when creating a new model or sending invitations to collaborative model work through email.
+2. The content in the "Hot Fields" section on the homepage needs to be replaced. It should display manually selected popular fields and related projects. Options can include Large language model projects such as tools, frameworks, etc. Automated changes should be supported in the future. **AP: Feng redesigns the interface display for this part.**
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-08 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
