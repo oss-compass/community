@@ -1,3 +1,33 @@
+# 2023-08-15 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+August 15, 2023, from 14:15 to 14:50 (Beijing Time)
+
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), [Wenxuan Long](https://github.com/hncslwx), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+
+## Subject: Compass Lab Frontend and Backend Development, Website Design, and Operational Issues Discussion
+
+### Lab Frontend
+1. The frontend work for the "My Models" page is mostly ready, with some detailed content and functionality yet to be added. **AP: Xingyou adds the Terms of Use at the bottom of the model creation page as soon as possible.**
+2. The timestamp of the last analysis should be displayed for the trigger analysis option, and it's suggested to be placed under the button. **AP: Feng adjusts the interface design accordingly.**
+3. The main interface of the Lab is still being integrated and tested. Deployment is possible today, and the overall work can be completed within this week. The English version will be prioritized, with the Chinese version progressing slightly slower. **AP: Chaoqun informs everyone for trial after the deployment.**
+4. The contact email in the terms of use needs to be confirmed and updated. **AP: Ran will confirm with Shengxiang for the update.**
+
+### Lab Backend
+1. Data for the last six months should be provided in default for the charts. Some datasets are incomplete, so if users select them, results might not be generated.
+2. Currently, anyone can try out the Lab. Permissions will be adjusted later.
+3. The limit for triggering analysis on a newly created model is set at 10 times, and the number of model creations has been limited.
+
+### Website
+Updates are being made to the design of Hot Fields. **AP: Feng updates the design today, and Xingyou adds the projects and secondary categories filtered by Guoqiang.**
+
+### Operations
+The design of the poster for the live broadcast on August 23rd is almost complete. **AP: Feng modifies the title based on adjustment suggestions and adds the QR code for the live broadcast. Ran will provide adjustment suggestions and the QR code to Feng later.**
+
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-10 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
