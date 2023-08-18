@@ -1,3 +1,27 @@
+# 2023-08-17 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 17, 2023, from 14:15 to 14:45 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), [Wenxuan Long](https://github.com/hncslwx), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Subject: Compass Lab Frontend and Backend Development, Website Design, and Operational Issues Discussion
+### Lab Frontend
+1. The Lab  generally went smoothly during the demo this week. The official release is scheduled for next Wednesday. The issue of model creation failure needs to be resolved. **AP: Chaoqun needs to investigate the cause and make adjustments.**
+2. On the "My Models" page, the last analysis time is now displayed. Each time analysis is triggered, the status updates. While analysis is ongoing, the analysis button cannot be clicked.
+3. Opening the Lab page, projects that can be publicly shown under a certain model are displayed. Users can filter datasets and clicking on a project leads to its Dashboard page.
+4. Publicly displayed projects on the Lab page need version indications, allowing users to choose which version to make public. **AP: Feng needs to update the interface design.**
+5. The "Discuss" button on the Lab page directly links to the comments section of the first displayed project.
+6. Subcategories of the large language model have not yet been submitted to the main directory. **AP: Xingyou needs to verify them with Huatian.**
+### Lab Backend
+1. Under the Project Dashboard page, reference metrics below each metric will be initially hidden. They will be displayed after further splitting, with modified naming. **AP: Shengbao needs to hide unrevised reference metrics before the 23rd, and attempt to display more refined metrics in the Lab.**
+2. Bug fixes in the Lab backend are ongoing. Model restructuring work should be on hold now until metrics are further atomized.
+### Official Website
+Design for Hot Fields has been completed. **AP: Xingyou needs to update the frontend by next Wednesday.**
+### Operational Matters
+1. Materials for the live broadcast on August 23rd have been fully prepared. **AP: Ran needs to check with Feng.**
+2. Compass custom T-shirts will be distributed to everyone in the team soon. **AP: Ran needs to handle this matter.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-15 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
