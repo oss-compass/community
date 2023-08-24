@@ -1,3 +1,27 @@
+# 2023-08-22 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 22, 2023, from 14:15 to 15:00 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Feng Zhong](https://github.com/poorfish), [Wenxuan Long](https://github.com/hncslwx), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic: Compass Lab Frontend and Backend Development Progress, Official Website Design, Operational Issues Discussions
+### Official Website
+1. The "Popular Fields and News" section has been adjusted and should be deployed for everyone to see today. **AP: Xingyou needs to proceed with the deployment, and Zhouran provides news content.**
+2. Select projects for the "Popular Projects" section from the secondary categories. The LLMs projects need to be added to the primary category. **AP: Shengbao updates the primary categories, and Xingyou updates frontend content.**
+### Lab Frontend and Backend
+1. On the "My Models" page, temporarily change "Default Model Version" to "Default Displayed Version." Design adjustments will be made later. **AP: Chaoqun needs to modify the text.**
+2. The Dashboard page should support screenshots, which can be added to comments.
+3. Update images and text in the default algorithm section. **AP: Xingyou uploads clearer algorithm images and relevant text as soon as possible.**
+4. There are duplicates in the dataset. **AP: Chaoqun confirms with Huatian.**
+5. Adjust capitalization of dataset and metric names. **AP: Chaoqun makes adjustments.**
+6. Only rightward adjustments are allowed for the weight right now, retaining two decimal places. The range displayed after the threshold should be fixed instead of dynamic. **AP: Chaoqun fixes the bug.**
+7. The hyperlink in the upper right corner of the comment section has no response upon clicking and its function seems duplicated with that of the second "#" symbol. The default sorting should display the latest comments. These minor issues will be addressed in the future.
+8. If names don't fit in a single line, they can be displayed in two lines. Consider name length limitation in the future.
+9. After completing frontend and backend modifications today, proceed with gray testing. **AP: Collaboration between frontend and backend teams.**
+### Operations
+After the official release of Compass Lab, introductory text needs to be published. **AP: Zhouran needs to complete the text promptly and publish it.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-17 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 17, 2023, from 14:15 to 14:45 (Beijing Time)
