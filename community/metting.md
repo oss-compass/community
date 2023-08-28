@@ -22,3 +22,9 @@ If the button click does not work, you can copy the click or copy the following 
 <https://meeting.tencent.com/dm/AE8RoTY40SfS>
 
 :::
+
+:::info View the meeting minutes
+
+<https://github.com/oss-compass/community/blob/main/meeting%20minutes/meeting-minutes_EN.md>
+
+:::
