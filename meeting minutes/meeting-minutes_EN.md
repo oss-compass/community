@@ -1,3 +1,25 @@
+# 2023-08-24 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 24, 2023, from 14:15 to 14:35 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic: Compass Lab Frontend and Backend Development Progress, Official Website Design, and Operational Issues Discussion
+### Lab Frontend and Backend
+1. The Lab frontend is mostly functional, with ongoing fixes for issues like dataset disorder and login errors. **AP: Huatian handles fixes.**
+2. Lab backend functionalities are mostly operational. Work is being done on restructuring old models and optimizing metrics analysis times.
+3. Redefinition of tokens for event collection is also in progress.
+4. Localization of Lab frontend content is in progress.
+### Official Website Design
+1. The Hot Projects section of the website does not support the display of project icons as well as the icon of Gitee or Github. This issue needs to be resolved. **AP: Xingyou communicates with Huatian for resolution.**
+2. The Recent Hot Topics section of the website requires manual content deployment. It is recommended to have this managed on a repository and deployed automatically. **AP: Xingyou confirms with Huatian.**
+3. The content for News section on the website needs to be updated promptly. **AP: Zhouran provides relevant content to the frontend as soon as possible.**
+4. Below the Tencent Meeting link on the website, add a link for meeting minutes in the repository. **AP: Xingyou adds the link.**
+### Operations
+1. On the afternoon of August 23rd, the first Community Board meeting of 2023 was held. The Compass Lab's value was recognized by all Board members, who provided numerous suggestions for its developmental direction. **AP: Zhouran promptly sends out meeting minutes for everyone to review and discuss how to implement the relevant suggestions.**
+2. On the evening of August 23rd, a live broadcast was held for the community, featuring the Compass Lab demonstration. Plans for promoting the Lab and encouraging more open-source community usage will be discussed. **AP: Zhouran creates supplementary operational plans promptly, and arranges discussion for the promotion strategies with the relevant Board members.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-22 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 22, 2023, from 14:15 to 15:00 (Beijing Time)
