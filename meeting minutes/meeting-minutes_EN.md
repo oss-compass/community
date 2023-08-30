@@ -1,3 +1,22 @@
+# 2023-08-29 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 29, 2023, from 14:15 to 14:51 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Guoqiang Qi](https://github.com/guoqiangqi), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic: Compass Lab Frontend and Backend Development Progress and Official Website Design Discussion
+### Official Website
+1. Gitee icons for popular projects section have been added, and Github icons still need to be added. **AP: Huatian and Chaoqun add the Github icons.**
+2. Design for the Weekly List of Active Projects display has been finalized. **AP: Huatian and Chaoqun proceed with the development according to the design.**
+3. The open-source ecosystem evaluation system diagram on the homepage can be moved to the evaluation model page, and the homepage can be redesigned to showcase the SaaS services offered by Compass. **AP: Chaoqun moves the diagram to the evaluation model page, and Feng designs a new diagram for Compass SaaS services later.**
+### Lab Frontend and Backend
+1. Certain metrics and metric analysis time are optimized, and some UI display bugs are fixed.
+2. After refactoring the interface code for the dashboard page, chart embedding will be supported. **AP: Huatian completes refactoring as soon as possible, then proceeds with chart embedding support work.**
+3. Detailed annotations need to be added for each metric chart. For example, the contributor count metric should show specific contribution values, organization information, etc. This needs to be done before starting the Gitee index replacement work. **AP: Feng considers the presentation format.**
+4. The dataset for the dashboard page should be made public and hosted in a repository, accessible through an API. **AP: Huatian carries out relevant operations.**
+5. Compass Lab has been released. In the near future, data such as the number of new model creations, new board creations, user count, etc., need to be collected for observation. **AP: Huatian collects the data.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-24 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 24, 2023, from 14:15 to 14:35 (Beijing Time)
