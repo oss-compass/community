@@ -1,3 +1,26 @@
+# 2023-08-31 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 31, 2023, from 14:15 to 14:54 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Title: Compass Lab Frontend and Backend Development Progress, Official Website Design, and Operational Issues Discussions
+### Official Website
+1. The community icons are not displayed for projects on the homepage's weekly list of active projects. It is suggested to display the icons of the first repository when submitting a community in default, with the option for users to choose icons from other repositories. Currently, the icons of several dozens of communities submitted can be manually modified. **AP: Chaoqun needs to submit a PR, with Xingyou, Chaoqun, Yehui, and Shengxiang collaborating to manually modify these icons.**
+2. The official website needs to include information about Wenxuan Long and his colleagues. **AP: Wenxuan Long provides the materials to Zhouran as soon as possible, and Chaoqun updates it to the official website.**
+3. Keywords on the dashboard page should be searchable to attract traffic. This will be done when time allows.
+### Lab Frontend and Backend
+1. Some of the tokens for event retrieval have been updated and need testing. **AP: Huatian conducts the testing.**
+2. The function for enabling the charts embedding will be started once the backend is restructured.
+3. Bug fixes for text internationalization of the Lab are in progress.
+4. Draft version of displaying details for metrics on the dashboard page needs to be completed by September 21. **AP: Shengbao finishes clarifying the detailed information of the metrics next week, and Feng will design the detailed metrics page.**
+5. The dataset classification error has not been fully fixed. Currently, there is a delay in deleting old information, and manual modification is recommended before the time limit is met. **AP: When modification is needed, Huatian will submit a PR for manual modification.**
+6. It is necessary to manage the Compass backend's internal data dashboard. **AP: Huatian will maintain this.**
+### Operations
+1. Huawei has requested consultation from iResearch for the China Basic Software White Paper, with data sourced from Compass. Currently, it is confirmed that the data will be organized based on collaboration development index and activity levels. **AP: Shengbao and Huatian provides data based on these two dimensions. This data will not be presented immediately. After communication with relevant communities, Yehui will organize and present the data. Zhouran will coordinate with iResearch for related promotional work.**
+2. Zhouran has completed the English introduction of Lab and sent it to CHAOSS. CHAOSS has already made revisions and will soon publish it on their Blog and Twitter. The Chinese introduction of Lab will be posted on the WeChat official account platform this Friday. **AP: Zhouran needs to publish the Chinese version of Lab introduction on the WeChat official account platform and share the English version from CHAOSS's Twitter.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-29 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 29, 2023, from 14:15 to 14:51 (Beijing Time)
