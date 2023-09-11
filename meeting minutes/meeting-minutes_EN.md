@@ -1,3 +1,23 @@
+# 2023-09-07 Weekly Meeting Minutes of OSS Compass Community
+## Time
+September 7, 2023, from 14:15 to 15:05 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic: Progress in Compass Lab Frontend and Backend Development, Official Website Design, and Operations Issues Discussion
+### Lab Frontend and Backend
+1. The initial batch of event tokens has been tested successfully. **AP: Shengxiang continues providing other tokens to Huatian, prioritizing tokens corresponding to detailed metrics.**
+2. Detailed metrics have been fully organized.
+3. Presentation format for detailed metrics: Create an entry point on the Dashbord page, which, when clicked, will lead to a unified page displaying the detailed changes of all metrics related to community trends, rather than presenting each metric separately. **AP: Feng adjusts the design, and presents it again in the next meeting.**
+4. Chart embedding functionality has been completed and needs an entry point for users to select their preferred format. **AP: Feng designs the entry format, which can include watermarks. Shengxiang and Huatian discuss optimization of the metrics display.**
+### Official Website
+1. Frontend and backend work related to customizing community icons has been completed. Shengxiang suggests making the peripheral border lines slightly lighter. In cases of slow internet speed, the GitHub and Gitee icons may not sync with community icons, which can be optimized further with the peripheral border lines issue.
+2. The categorization of projects on the explore page needs to be organized. **AP: Shengxiang needs to open an issue for optimizing the secondary categorization on the explore page.**
+### Operations
+1. Yuehui has been exploring ways to developing the business of large model assessment evaluating within Compass, conducting interviews, and gathering needs. **AP: Yuehui shares the interview findings with Shengxiang.**
+2. In mid-September, Yuehui will attend the OSS EU 2023 to present the value of Compass. It is recommended to include insight reports from Compass in the presentation. **AP: Zhou Ran collaborates with Yuehui to prepare content for community insight reports.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-08-31 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 31, 2023, from 14:15 to 14:54 (Beijing Time)
