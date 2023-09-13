@@ -1,3 +1,43 @@
+# 2023-09-12 Weekly Meeting Minutes of OSS Compass Community
+## Time
+September 12, 2023, from 14:15 to 15:09 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022), Liang Wang, Fenju Fu, Zline, Yong Chen (China Telecom), Liming Nie
+## Topic: Compass Frontend and Backend Development and Operations Issues Discussion
+### Operations
+1. In the last two weeks of September, the technical meetings will be held once a week on Thursday.
+   - **AP: Ran Zhou will update the WeChat group, Slack, and official website notifications.**
+2. It is necessary to design a panoramic view chart of Compass services for Yehui to present at the Open Source Summit 2023.
+   - **AP: Feng will design it, Ran will follow up the progress, which should be completed before September 21st.**
+3. The name of the Lab detailed metrics pages needs better definition, and it is recommended to include marketing slogans, such as "Changing the Community in 90 Days."
+   - **AP: Yehui and Shengxiang will discuss this issue further.**
+4. How to use the objective data presented on the Lab detailed metrics pages needs discussion. It is suggested to present the usage through articles, videos, etc., and provide consulting services and improvement suggestions for specific communities.
+   - **AP: (1) Ran and Yehui will select 5 communities and plan improvement suggestion discussion activities, with articles publishing in advance for feedback. (2) Wenhao will assist Teacher Liang Wang in providing improvement suggestions from a literature perspective. (3) Wenhao will provide suggestions for improving tools needed from the software engineering perspective or through GitHub actions (precommit), with Yehui assisting in follow-up.**
+5. Huawei will release the China Basic Software White Paper with iResearch at the Huawei HC Conference in September, using data from Compass. Xingyou and Shengbao are currently providing data support.
+   - **AP: Shengbao and Xingyou will complete this work next week.**
+### Frontend
+1. The design of the detailed metrics page has been updated, and the logic for single-repository projects is basically okay. The detailed metrics for multi-repository communities need to be integrated with community management and will be gradually improved in the future.
+   - **AP: Xingyou, Shengbao, and Huatian will start frontend and backend development of the detailed metrics page, which shoud be completed before September 21st.**
+2. It is recommended to display standard values on the detailed metrics page and mark data below the standard.
+   - **AP: Feng will add this design, Shengbao will provide standard values, and Xingyou will carry out frontend deployment. This work should be completed before September 21st. Shengbao will regularly collect data below the standard for Yehui later.**
+3. It is suggested to add a discussion area for each model on the detailed metrics page, and this task can be worked on later when time allows.
+4. The project's secondary classification displaying design is already completed, and frontend development is pending.
+   - **AP: Xingyou will carry out related development work, and complete it this week.**
+5. The Explore page now supports direct links to repositories by clicking on the Github or Gitee icons under the project.
+   - **AP: Ran informs the user who raised this request.**
+### Backend
+1. Internationalization files for frontend and backend have been updated to a separate repository. All related documents will be placed in this repository going forward.
+2. Embedding chart parameters in the backend has been completed; frontend work is yet to begin.
+   - **AP: Feng will design the interface. Xingyou will handle frontend development and complete this task as soon as possible.**
+3. The backend of scores issues of some community has been modified, and frontend updates are pending.
+   - **AP: Xingyou will cooperate with Huatian to modify frontend parameters and complete this work as soon as possible.**
+4. Compass and LLMs: Ruiqiao is researching how to use LLMs in open source communities.
+   - **AP: Ruiqiao will maintain discussions with Yehui on this topic.**
+5. Discussion on the private deployment of Compass capabilities.
+   - **AP: Yehui and Chen Yong from China Telecom will discuss this after the meeting.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-09-07 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 September 7, 2023, from 14:15 to 15:05 (Beijing Time)
