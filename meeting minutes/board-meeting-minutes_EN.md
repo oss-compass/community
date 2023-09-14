@@ -54,6 +54,6 @@
    - **AP: Yehui Wang organizes board members to discuss and draft new vision, mission, slogans, etc.**
 2. Consensus was reached in the discussion: starting with software selection, utilizing the research results of Professor Minghui Zhou and Professor Liang Wang, as well as the existing models of Compass, the community members discuss how to implement these results in engineering of Compass.
    - **AP: Professor Minghui Zhou shares relevant research results with the Compass community, and Yehui Wang organizes developers to implement them.**
-4. **AP: Yehui Wang organizes relevant community members to review existing research results of community evaluation algorithm, create an index document collection, and try to implement them in Compass Lab.**
-5. **AP: Yehui Wang organizes relevant boards to discuss the Gitee index replacement plan.**
-6. **AP: Ran Zhou should clarify the specific operational plans ASAP and then invite Hongshu, Zhihao Shan, and others relevant to participate in the discussion.**
+3. **AP: Yehui Wang organizes relevant community members to review existing research results of community evaluation algorithm, create an index document collection, and try to implement them in Compass Lab.**
+4. **AP: Yehui Wang organizes relevant boards to discuss the Gitee index replacement plan.**
+5. **AP: Ran Zhou should clarify the specific operational plans ASAP and then invite Hongshu, Zhihao Shan, and others relevant to participate in the discussion.**
