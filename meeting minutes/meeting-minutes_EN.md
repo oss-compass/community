@@ -1,3 +1,25 @@
+# 2023-09-21 Weekly Meeting Minutes of OSS Compass Community
+## Time
+September 21, 2023, from 14:15 to 14:24 (Beijing Time)
+## Attendees
+[Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Compass Frontend and Backend Development and Operations Issues Discussion
+### Backend
+1. Access to the official website oss-compasss.org is slow due to Gitee's overseas bandwidth being fully utilized. A 10 Mbps bandwidth from Huawei Cloud is now added as an overseas entry point.
+2. Download and sharing functionality has been added to the overview charts on the dashboard page.
+3. Detailed metrics:
+   - Issue and PR interfaces have been added.
+   - The GitHub contributor list has been completed, and the Gitee list is in progress.
+### Frontend
+1. Some feature updates and news have been added to the News page of the official website.
+2. Secondary classification tags for projects have been added.
+3. Frontend work on charts' download and sharing functionality is in progress and will be put into grayscale testing tomorrow.
+   - **AP: After Xingyou completes frontend work tomorrow, Huatian proceeds with the grayscale testing.**
+### Operations
+Some contents published on the WeChat Official Account Platform are being prepared into both Chinese and English copies for frontend team to upload to the official website.
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-09-12 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 September 12, 2023, from 14:15 to 15:09 (Beijing Time)
