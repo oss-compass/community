@@ -1,3 +1,4 @@
+
 # 2023-10-12 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 12, 2023, from 14:15 to 14:26 (Beijing Time)
@@ -18,6 +19,33 @@ October 12, 2023, from 14:15 to 14:26 (Beijing Time)
    - **AP: Shengbao needs to complete the review as soon as possible.**
 2. The process of providing improvement suggestions to specific communities based on the objective data presented on the detailed metrics pages needs to be expedited in order to showcase the value of Compass at the end-of-year summit.
    - **AP: Wenhao conducts insights as soon as possible and shares relevant academic research results promptly. Subsequently, discuss the technical implementation plan based on the research results. Ran Zhou confirms the target communities with Yehui.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
+# 2023-10-17 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 17, 2023, from 14:15 to 14:45 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Chaoqun Huang](https://github.com/nanzm), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022), [Ruiqiao Qiu](https://dune0310421.github.io/)
+## Topic - Discussion on Compass Frontend and Backend Development, Official Website, and Operational Matters
+### Frontend and Backend
+1. Frontend and backend development of detailed metrics page shall be continued.
+2. The Compass deployment document has been tested, with only the email invitation part remaining problematic. Once this is fixed, the document will be publicly released in the repository and handed over to CHAOSS for deployment.
+    - **AP: Shengbao tries to complete the testing of this document today and upload it to the docs repository.**
+3. Custom time is enabled now for Download and Share function of the charts with all frontend and backend work done.
+### Official Website
+1. The design for the panorama of Compass feature overview on the homepage needs textual descriptions to be continued.
+    - **AP: Ran Zhou provides the texts, and Yehui reviews them before handing them over to Feng for design.**
+2. The way to present updated content on the News page needs to be redesigned, such as using dividing lines, adding timestamps to the titles, etc.
+    - **AP: Feng will update the presentation methods, and the frontend will be optimized accordingly.**
+3. How to showcase academic research results based on Compass in the Compass community: whether to merge it with Compass Lab or create a separate Compass Research page. Feng suggests merging it with Lab for now due to limited initial content.
+    - **AP: After the meeting, Yehui and Shengxiang further discuss this, and Feng will design the presentation method based on the discussion results.**
+### Operations
+1. CHAOSS is preparing to deploy Compass SaaS services, and the investment allocation is in place. 
+2. The Ministry of Industry and Information Technology's Electronic First Institute and the Shenzhen Bureau of Industry and Information Technology, together with other organizations, organizes the Shenzhen 1024 Programmers' Festival, and will jointly release the China Open Source Evaluation Index with Compass as part of the Festival.
+3. The European open source project OSS Review Toolkit wants to integrate Compass, hoping the user experience of the Compass official website and SaaS services can be improved.
+    - **AP: Ran Zhou submits improvement plan to Yehui as soon as possible.**
+4. The replacement of the Gitee Index will be carried out once the detailed metrics page is completed.
 ## Kanban tracking
 https://github.com/orgs/oss-compass/projects/1
 
