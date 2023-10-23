@@ -1,3 +1,27 @@
+
+# 2023-10-12 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 12, 2023, from 14:15 to 14:26 (Beijing Time)
+## Attendees
+[Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Wenhao Yang](https://yangwenhao3906.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Discussion of Compass Frontend and Backend Development and Operations
+### Backend
+1. Detailed metrics page backend development and API creation are in progress. The PR and issue lists have already been put in the gray phase, and all backend development is to be completed next week.
+   - **AP: Shengbao completes backend metrics development as soon as possible, and Huatian completes API creation as soon as possible.**
+2. There are already more than 300 technology categories, with some new categories awaiting approval.
+   - **AP: Yehui deals with the review as soon as possible.**
+### Frontend
+1. The frontend for charts downloading and sharing has been completed, and this feature is already live.
+2. The development of detailed metrics static pages is in progress. It is expected to be completed in about a week after the backend development is finished.
+   - **AP: Xingyou expedites frontend development based on backend progress.**
+### Operations
+1. The Compass deployment documentation architecture diagram has been completed, and the English documentation has been written and is in the review stage.
+   - **AP: Shengbao needs to complete the review as soon as possible.**
+2. The process of providing improvement suggestions to specific communities based on the objective data presented on the detailed metrics pages needs to be expedited in order to showcase the value of Compass at the end-of-year summit.
+   - **AP: Wenhao conducts insights as soon as possible and shares relevant academic research results promptly. Subsequently, discuss the technical implementation plan based on the research results. Ran Zhou confirms the target communities with Yehui.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-10-17 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 17, 2023, from 14:15 to 14:45 (Beijing Time)
