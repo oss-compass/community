@@ -1,3 +1,24 @@
+# 2023-10-24 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 24, 2023, from 14:15 to 14:20 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Chaoqun Huang](https://github.com/nanzm), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Discussion on Compass Frontend and Backend Development, Official Website, and Operations Issues
+### Frontend
+No updates currently.
+### Backend
+Backend development of detailed metrics is in progress, with the part of github completed and gitee to be completed this Thursday.
+### Operations
+1. The issue of Compass replacing Gitee Index:
+    - **AP: Yehui and Shengxiang discuss the progress separately.**
+2. The issue of implementation of academic achievements in Compass: 
+    - **AP: Yehui and Shengxiang discuss the specific plan as soon as possible.**
+### Official Website
+1. Text update of the official website:
+    - **AP: Ran Zhou provides the text update plan as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-10-19 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 19, 2023, from 14:15 to 14:52 (Beijing Time)
