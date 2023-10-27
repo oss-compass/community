@@ -1,3 +1,36 @@
+# 2023-10-26 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 26, 2023, from 14:15 to 15:05 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ruiqiao Qiu](https://dune0310421.github.io/), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Compass Lab Frontend and Backend Development Progress, Official Website Design, and Operational Issues Discussion
+### Frontend
+No updates at the moment.
+### Backend
+1. Detailed metrics development is completed and is in testing currently.
+    - **AP: Huatian provides the API and tries to complete it by next week.**
+2. Tokens of the collaboration with Nanjing University and Peking University need to be expanded.
+    - **AP: Shengxiang handles this as soon as possible.**
+### Operations
+1. Solution design for the implementation of academic achievements in Compass:
+      - **AP: Yehui and Shengxiang should finalize the solution as soon as possible.**
+### Official Website
+1. Update the official website sitemap information for search engine content crawling.
+     - **AP: Huatian and Shengbao provide backend support, while Xingyou and Chaoqun provides frontend support.**
+2. Suggestions for modifying the homepage of the official website:
+   - Reorganize the text in the slogan section according to the logic of "Who am I + Why choose us". Change the icons to animated versions of the Compass logo and enhancement of the report page charts.
+      - **AP: Ran Zhou creates an issue, adds the reorganized text, Shengbao provides the charts, and Feng redesigns the icons, images, and presentation.**
+   - Display use cases under the slogan and charts, including collaborations with CHAOSS, Nanjing University, Peking University, and some communities, to showcase the value of Compass.
+      - **AP: Ran Zhou confirms the content to be displayed, and creates an issue, while Feng designs the presentation.**
+   - Add a "Documentation" section to the navigation bar and place deployment documents, user documents, and other documents on this page.
+      - **AP: Ran Zhou creates an issue, and Yehui and Wenxuan Long review and supplement the documentation content.**
+   - Adjust the navigation bar names and order: Documentation>Projects>Compass Lab>Join Community>News>About.
+      - **AP: Ran Zhou creates an issue.**
+   - Remove the existing open source evaluation system panorama and provide the latest Compass panorama.
+      - **AP: Ran Zhou creates an issue, and Yehui provides the panorama.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-10-24 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 24, 2023, from 14:15 to 14:20 (Beijing Time)
