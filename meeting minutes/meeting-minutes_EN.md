@@ -1,3 +1,33 @@
+# 2023-10-31 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 31, 2023, from 14:15 to 15:00 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Discussion of Compass Frontend and Backend Development, Official Website, and Operational Issues
+### Official Website
+1. An issue for modifying the homepage of the official website has been created, and design work is in progress.
+    - **AP: Feng provides the design draft as soon as possible, and Ran Zhou supplements the required content.**
+2. The documentation page needs to be supplemented with content; redesign of the layout is needed or not needs confirmation.
+    - **AP: Ran Zhou coordinates with Wenxuan Long to confirm the content supplementation task, and discusses with Feng to confirm whether a redesign of the page is necessary.**
+3. Dividing lines and timestamp have been added for the navigation section on the left of the News page; the English titles need to be simplified and adjusted for capitalization.
+    - **AP: Ran Zhou simplifies English titles and confirms their length and capitalization, and Xingyou makes frontend modifications.**
+4. Popup displays on the comparison analysis page need to be readjusted.
+    - **AP: Xingyou adjusts the frontend.**
+### Frontend and Backend
+1. The detailed metrics interface has been completed; the frontend team should complete their work as soon as possible.
+    - **AP: Xingyou completes the frontend work this week.**
+2. Other enterprises and academic institutions' needs for accessing Compass: Compass interfaces are in public GraphQL format currently and can be provided externally.
+    - **AP: Xingyou provides the GraphQL interface to Wenxuan Long, and Long will test its usage.**
+### Operations
+1. The mini summit of Compass with CHAOSS and the Board meeting of Compass community should be planned in mid-December.
+    - **AP: Ran Zhou confirms the timing with the board members, arranges the venue, and finalizes the specific plan of the event theme, guests, event process, event gifts, dinner party, etc.**
+2. Customization of event gifts: Hoodies or other options, with a focus on quality.
+    - **AP: Ran Zhou confirms the budget and proposal and arranges for production in advance.**
+3. Community annual summary booklet: Confirm the content and design and move forward as soon as possible.
+    - **AP: Feng confirms the design proposal and timeline, and Ran Zhou confirms the specific content and arranges for production in advance.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-10-26 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 26, 2023, from 14:15 to 15:05 (Beijing Time)
