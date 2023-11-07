@@ -1,3 +1,30 @@
+# 2023-11-02 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 2, 2023, from 14:15 to 14:45 (Beijing Time)
+## Attendees
+[Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Tiandong Liu - Kaiyuanshe
+## Topic - Discussion of Compass Frontend and Backend Development, Official Website, and Operational Issues
+### Official Website
+1. Navigation bar adjustment plan is complete, and frontend modifications can be proceeded.
+   - **AP: Xingyou modifies the frontend.**
+2. Homepage adjustment plan is ready. For now, follow the plan, and discuss details later.
+   - **AP: Xingyou modifies the frontend, and Ran Zhou discuss details with Feng further.**
+### Frontend and Backend
+1. Sitemap information update needs to be expedited.
+   - **AP: Huatin makes the updates promptly.**
+2. Frontend modication of comparative analysis pages as a popup page is done.
+### Operations
+1. On the morning of December 13th, the Board meeting of Compass Community will be held in Yanyuan of Peking University.
+   - **AP: Ran Zhou notifies all Board members, collects agenda items, and sends meeting invitations promptly.**
+2. In the afternoon of December 13th, a Compass Community Mini-Summit will be held near Peking University, targeting universities, open-source projects, OSPOs, developers, enterprises, etc. It will focus on Compass Lab, discussing the implementation of academic research results in Compass and Compass's developments in the field of open-source evaluation.
+   - **AP: Ran Zhou develops the planning proposal promptly.**
+3. Token for the metrics model interface can be provided to more than 50 people next week.
+4. A replacement plan for the Gitee index will be released next week.
+5. Kaiyuanshe hopes to collaborate with OSS Compass on the data section of its Annual Report to showcase the development of open source projects and communities domestically and internationally.
+   - **AP: Shengxiang, Yehui discuss further with the Kaiyuanshe.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-10-31 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 31, 2023, from 14:15 to 15:00 (Beijing Time)
