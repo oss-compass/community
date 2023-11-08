@@ -1,3 +1,18 @@
+# 2023-11-07 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 7, 2023, from 14:15 to 14:20 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Discussion of Compass Frontend and Backend Development, Official Website, and Operational Issues
+### Official Website & Frontend and Backend
+1. The sitemap info has been updated, and the keywords and repository information of the reports needs to be extracted from the frontend. Documents should include a sitemap plugin to generate sitemap information automatically.
+    - **AP: Xingyou communicates with Huatian and gives frontend support.**
+### Operations
+1. The Compass annual meeting is scheduled on December 13th in Beijing. Specific arrangements will be discussed on Thursday.
+    - **AP: Ran Zhou prepares relevant discussion points in advance.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-02 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 2, 2023, from 14:15 to 14:45 (Beijing Time)
