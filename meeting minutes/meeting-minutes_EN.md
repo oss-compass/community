@@ -1,3 +1,23 @@
+# 2023-11-09 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 9, 2023, from 14:15 to 14:20 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Wenxuan Long](https://github.com/hncslwx), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), [Ruiqiao Qiu](https://dune0310421.github.io/)
+## Topic - Discussion of Compass Frontend and Backend Development, Official Website, and Operational Issues
+### Official Website 
+1. The architecture diagram and documentation of Compass are in progress.
+    - **AP: Yehui Wang completes the documentation ASAP, and Feng Zhong goes ahead with the display design next week.**
+### Frontend and Backend
+1. The frontend development of detailed metrics page is in progress.
+    - **AP: Xingyou finishes the frontend tasks ASAP.**
+### Operations
+1. Compass replacing Gitee Index and the academic research landing in Compass should be finished before Compass annual meeting on December 13th.
+    - **AP: Yehui Wang and Shengxiang Zhang advance these issues ASAP.**
+2. The invitation design, guest invitation, agenda sorting, conference arrangements and other matters of the annual meeting on December 13th are in progress.
+    - **AP: Ran Zhou makes arrangements accordingly and Feng Zhong provides design support.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-07 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 7, 2023, from 14:15 to 14:20 (Beijing Time)
