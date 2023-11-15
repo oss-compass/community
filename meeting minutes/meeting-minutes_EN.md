@@ -1,3 +1,36 @@
+# 2023-11-14 Weekly Meeting Minutes of OSS Compass Community
+## Video Playback
+https://meeting.tencent.com/v2/cloud-record/share?id=5b082afe-9400-4f45-95fa-0c5aac830c34&from=3&is-single=true
+## Time
+November 14, 2023, from 14:15 to 15:25 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), [Ruiqiao Qiu](https://dune0310421.github.io/), Zhige
+## Topic - Progress Discussion of Compass Frontend and Backend Development, Official Website, and Operational Issues
+### Official Website
+1. The architecture diagram of the Compass evaluation system has been restructured.
+    - **AP: Feng Zhong designs the website display based on the restructuring diagram.**
+2. Homepage top design update: The overall update plan is acceptable, but the picture should be changed as a slideshow showcasing different features of Compass.
+    - **AP: Feng Zhong updates the design.**
+3. Homepage top text adjusted according to the display plan.
+    - **AP: Ran Zhou confirms the adjusted text.**
+### Operations
+1. Replacement of Gitee Index, and matters related to academic implementation in Compass are pending progress.
+    - **AP: Shengxiang Zhang expedites relevant matters.**
+2. Some universities have expressed interest in cooperating with Compass recently, to be followed up.
+    - **AP: Shengxiang Zhang follows up on related collaborations.**
+3. Compass's new developments will be announced at the annual meeting on December 13: Compass online on Gitee, detailed metrics page online, and Compass Academic interface online.
+### Frontend and Backend
+1. Frontend of detailed metrics page is nearly complete, pending grayscale testing and adjustments; the table needs to support downloads.
+    - **AP: Xingyou Lai adds table download option, completes remaining frontend work promptly, and makes deployment to the test server.**
+    - **AP: Feng Zhong provides adjustment plans for icons, colors, display format, etc., and Xingyou Lai makes modifications accordingly.**
+    - **AP: Yehui Wang provides adjustment plans for various metrics and descriptive texts.**
+2. Access permissions for detailed metrics information need to be differentiated based on community roles; normal users, after logging in, should be defaulted to see data from the last month, with additional permissions available for other users.
+    - **AP: Feng Zhong provides a design plan for permission application interface; Yehui Wang organizes the Board to discuss and decide on permission issues regarding detailed metrics information.**
+3. Multiple tag categories can be created for new open source project repositories; existing tags of the repositories can be used as reference for classification, and direct fetching is recommended.
+    - **AP: Huatian Qin outputs data structure and plan; Shengxiang Zhang promotes subsequent work.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-09 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 9, 2023, from 14:15 to 14:20 (Beijing Time)
@@ -246,6 +279,8 @@ Some contents published on the WeChat Official Account Platform are being prepar
 https://github.com/orgs/oss-compass/projects/1
 
 # 2023-09-12 Weekly Meeting Minutes of OSS Compass Community
+## Video Playback
+https://meeting.tencent.com/user-center/shared-record-info?id=e04f3283-e507-4ad5-9464-89328ea3933d&from=7&reload=1
 ## Time
 September 12, 2023, from 14:15 to 15:09 (Beijing Time)
 ## Attendees
