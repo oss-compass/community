@@ -1,3 +1,50 @@
+# 2023-11-16 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 16, 2023, from 14:15 to 16:05 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Liang Wang - Nanjing University, Xiaoming Li - Kaiyuanshe, Tiandong Liu - Kaiyuanshe, SamHu (Jianyu), Jie Wang, Yuqi Hu - HKUST(GZ)
+## Topic - Progress Discussion of Compass Product Plans, Frontend and Backend Development, Official Website, and Operational Issues
+### Product Plans
+1. Project Deep Dive Insight Plan Discussion
+   - Detailed metrics section on the project report page is named as "Project Deep Dive Insight" product.
+   - The main page design for Project Deep Dive Insight has been adjusted to showcase contributors, Issues, and PR metrics. The color style and order of the pie charts on the secondary pages have been redefined.
+      - **AP: Xingyou Lai handles the frontend adjustments, Yehui Wang reconsiders and provides relevant titles and textual explanations from the user's perspective.**
+2. Gitee Index Replacement Discussion (token)
+   - Preliminary replacement plan for Gitee Index is ready. Discussion needed on how to help users understand the new metrics and how to correspond with the previous Gitee Index. Repositories not yet included by Compass during the replacement process need inclusion criteria set.
+      - **AP: Yehui Wang, Shengxiang Zhang, and Feng Zhong discuss displaying plan for new metrics and the relationship between old and new metrics. Yehui Wang, and Shengxiang Zhang confirm repository inclusion criteria.**
+   - Shengxiang Zhang provides a batch of GitHub tokens to Huatian Qin today; Gitee repos does not require additional tokens.
+3. Compass Academic Plan Discussion
+   - Compass academic plan is ready, and the general plan is acceptable. It will be integrated into Compass Lab.
+      - **AP: Feng Zhong communicates with Shengxiang Zhang, providing design plans.**
+### Website
+1. Homepage carousel images need to showcase "Project Analysis", "Detailed Metrics", and "Academic Research (pending)" functions of Compass. Text has been updated in the issue and frontend modifications can begin.
+    - **AP: Xingyou Lai makes frontend modifications promptly, and Ran Zhou assists in confirming the text.**
+2. The Compass architecture diagram on the homepage requires English texts.
+    - **AP: Yehui Wang provides them.**
+3. Navigation bar update plan discussed earlier needs frontend modifications to start promptly.
+    - **AP: Xingyou Lai makes frontend modifications promptly.**
+4. A concise version of the English title for the Dynamic page has been submitted to the frontend and needs prompt modification.
+    - **AP: Xingyou Lai makes frontend modifications promptly.**
+5. The document page outline is ready; it needs to be converted to markdown format and uploaded to the repository. Collaborative writing will commence after discussion and task assignment in the next meeting.
+    - **AP: Wenxuan Long converts the outline to markdown, and Ran Zhou assists in uploading it to the repository. Discussion on task assignment will be proceeded in the next meeting, followed by collaborative writing.**
+### Frontend and Backend
+1. After users submit a project and on the account settings page, add a link to "My Subscriptions" page. Unmerged PRs can include a prompt informing users when they can see submitted projects on "My Subscriptions" page. An issue has been created; frontend and backend modifications are required.
+   - **AP: Huatian Qin provides backend data, and Chaoqun Huang updates the frontend.**
+2. The frontend for the Detailed Metrics page is complete and is in the grayscale testing phase.
+3. Access permissions for Detailed Metrics information have been changed.
+4. Prompt execution of multiple tag classifications for repositories needs handling.
+    - **AP: Huatian Qin promptly provides the data structure plan.**
+5. The current project technical classifications are archived in the repository's collection document. Other classifications can be added through PR requests.
+### Operations
+1. Before community meetings, topics need to be filled in [Feishu Document](https://giteecode.feishu.cn/docx/J968dXuvBoMSSoxLRa6cBDbYn6g?from=from_copylink) in advance.
+    - **AP: Everyone fills his/her own topics individually.**
+2. Community Board meeting on December 13: Topics need to be collected promptly, and invitation letters should be sent out soon.
+    - **AP: Yehui Wang provides topics promptly, and Ran Zhou sends invitation letters to all Board members.**
+3. Community Annual Meeting on December 13: Collection of topics and guest invitations are mostly completed, and audience invitations are pending.
+    - **AP: Yehui Wang, and Ran Zhou finalize guest and topic information and start audience invitations soon.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-14 Weekly Meeting Minutes of OSS Compass Community
 ## Video Playback
 https://meeting.tencent.com/v2/cloud-record/share?id=5b082afe-9400-4f45-95fa-0c5aac830c34&from=3&is-single=true
