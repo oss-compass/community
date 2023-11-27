@@ -1,3 +1,44 @@
+# 2023-11-23 Weekly Meeting Minutes of OSS Compass Community
+## Video Playback
+https://meeting.tencent.com/user-center/shared-record-info?id=bd439590-0e7b-4955-9612-375ea7f99b04&from=7
+## Time
+November 23, 2023, from 14:15 to 15:02 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Progress Discussion of Compass Product Solutions, Frontend and Backend Development, Official Website, and Operational Issues
+### Product Solutions
+1. Project Deep Dive Insight Solution
+   - Title and text descriptions have been updated; frontend reconstruction of the contributor part is in progress.
+       - **AP: Xingyou Lai completes the reconstruction and deploys it to the grayscale as soon as possible.**
+   - Backend work has been completed and verified.
+2. Gitee Index Solution Discussion (token)
+   - Adding 10 new tokens, totaling 60-70 tokens.
+      - **AP: Shengxiang Zhang starts increasing token supply daily. Shengbao Li follows up on backend progress.**
+3. Compass Academic Solution
+   - The backend code for the project prediction model of Nanjing University has been merged; frontend design and development are yet to begin.
+      - **AP: Shengxiang Zhang provides text descriptions promptly. Yehui Wang and Feng Zhong discusses specific presentation methods. Feng Zhong provides frontend design solution as soon as possible.**
+### Official Website
+1. Decision needed on whether the homepage's three-dimensional evaluation system architecture diagram should be presented in the form of charts or widgets.
+   - Three-dimensional widgets cannot achieve SVG rendering and may have version compatibility issues in different projects.
+   - Suggested solution: Compass official website should directly use chart form for presentation, and Gitee website can consider using widget form.
+      - **AP: Feng Zhong and Chaoqun Huang confirm the final solution.**
+2. Unpublished model-related documents in both Chinese and English have been submitted as [PR](https://github.com/oss-compass/docs/pull/16) for deletion.
+3. Division of labor for document page content needs to be addressed promptly.
+    - **AP: Shengbao Li and Ran Zhou follow up on division of labor and content updates.**
+### Frontend and Backend
+1. Detailed metrics backend has been completed.
+2. Opensearch expansion is required for the website.
+    - **AP: Huatian Qin expands it as soon as possible.**
+### Operations
+1. Design and development of the permission management interface are needed to meet different data access requirements.
+   - Suggestion: Start it after the community annual meeting.
+2. A researcher from the University of Chicago (Taiwanese) requests access to Compass data for academic research, requiring a decision.
+   - Suggestion: Understand the rules for national and corporate data export, as well as how much data the researcher needs and what value this collaboration can provide to Compass.
+      - **AP: Yehui Wang communicates with the researcher via email, organizing a Board discussion in December.**
+3. Wenxuan Long's company has no issues with the use of Compass data after integration; discuss further if any problems arise later.
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-21 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 21, 2023, from 14:15 to 15:05 (Beijing Time)
