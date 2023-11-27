@@ -1,3 +1,35 @@
+# 2023-11-21 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 21, 2023, from 14:15 to 15:05 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Chaoqun Huang](https://github.com/nanzm), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Progress Discussion of Compass Product Plans, Frontend and Backend Development, Official Website, and Operational Issues
+### Product Plans
+1. Project Deep Dive Insight Discussion
+   - **AP: Yehui Wang provides relevant titles and text adjustments to Xingyou Lai.**
+2. Gitee Index Discussion (Token)
+   - 20 new tokens added.
+3. Compass Academic Page Solution Discussion
+   - **AP: Yehui Wang, Feng Zhong, and Shengxiang Zhang further discuss it.**
+### Official Website
+1. Open Source Evaluation System Architecture Progress:
+   - Preliminary design is taking shape, transitioning from a 2D to a 3D model. It will be displayed only on the homepage; no display needed on the project report page.
+   - **AP: Feng Zhong provides design drafts by Wednesday; Xingyou Lai makes frontend adjustments by Wednesday noon.**
+2. Frontend adjustments for the homepage are in progress. The image carousel will initially feature the project analysis and detailed metric pages.
+   - **AP: Xingyou Lai completes frontend adjustments ASAP.**
+3. Document page outline has been submitted in [PR](https://github.com/oss-compass/docs-zh/pull/5) for review; task assignment in Thursday's meeting.
+### Frontend and Backend
+1. Repository multi-label data retrieval solution [Issue](https://github.com/oss-compass/compass-projects-information/issues/787) has been created, requiring discussion.
+   - **AP: Yehui Wang and Shengxiang Zhang further discuss it.**
+### Operations
+1. Agenda of community Board meeting on December 13th has been sent to every Board. And the Annual meeting invitations and audience invitations have been completed, with an expected attendance of around 50 people.
+2. Details of the annual meeting program are in progress, and the design and production of venue layout materials are underway.
+   - **AP: Ran Zhou and Feng Zhong discuss the design of the check-in wall poster and LED screen display poster.**
+3. Media collaboration for promotion after the annual meeting is pending confirmation.
+   - **AP: Ran Zhou discusses media promotion matters with Yuhua Gong.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 16, 2023, from 14:15 to 16:05 (Beijing Time)
