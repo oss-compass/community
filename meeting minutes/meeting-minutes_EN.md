@@ -1,3 +1,36 @@
+# 2023-11-28 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 28, 2023, from 14:15 to 14:56 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi),  [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Frontend and Backend Development Progress Discussion of Compass Product Solutions and Official Website
+### Product Solutions
+1. Project Deep Dive Insight Solution
+   - Removed unnecessary models from the frontend and added contributor-related models.
+   - Eliminated the scrollbar from the metric table page.
+   - The display format of metric models needs to be adapted to Gitee requirements.
+      - **AP: Huatin Qin confirms which adjustments are needed.**
+   - The metric table is too long and requires freezing the first column.
+      - **AP: Xingyou Lai makes frontend modifications.**
+   - Backend for the contributor milestone portrait model is completed and awaiting testing.
+      - **AP: Shengbao Li completes testing promptly.**
+   - Aim to complete three contributor portrait models before the annual meeting; other models will be completed later.
+   - Domain portrait table filtering
+      - **AP: Xingyou Lai and Huatin Qin verify specific data.**
+2. Gitee Index Scheme Discussion (token)
+   - The scheme is finalized, and backend development is in progress.
+   - Will replace Gitee Index for over 20,000 recommended repositories.
+     - **AP: Huatin Qin and Shengbao Li verify specific SIGs and repository lists for OpenHarmony and openEuler.**
+3. Compass Academic Scheme
+   - Tokens have been increased to over 60.
+   - Preliminary page design is completed.
+     - **AP: Shengxiang Zhang supplements cooperation process content. Ran Zhou creates a Tencent questionnaire account for creating and collecting information. Xingyou Lai starts frontend development.**
+### Official Website
+1. Frontend development of the three-dimensional diagram for the evaluation system is in progress, and Gitee side will also use charts for display.
+   - **AP: Xingyou Lai and Feng Zhong confirm specific design adjustments.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-23 Weekly Meeting Minutes of OSS Compass Community
 ## Video Playback
 https://meeting.tencent.com/user-center/shared-record-info?id=bd439590-0e7b-4955-9612-375ea7f99b04&from=7
