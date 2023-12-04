@@ -1,3 +1,33 @@
+# 2023-11-30 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 30, 2023, from 14:15 to 14:45 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi),  [Ran Zhou](https://github.com/JuliaZhou2022), Zhige
+## Topic - Progress Discussion of Compass Product Solutions, Frontend and Backend Development, and Official Website
+### Product Solutions
+1. Project Deep Dive Insight Solution
+    - The interface name is changed to "Project Deep Dive Insights".
+    - The confirmed redesign plan is OK, and the frontend work can be started.
+       - **AP: Xingyou Lai starts frontend work as soon as possible.**
+    - The colors of the metrics pie chart needs to be further refined.
+       - **AP: Xingyou Lai makes the necessary adjustments.** 
+2. Compass Academic
+    - The collaboration process is complete; the text of the research area needs confirmation, and the frontend work can be started based on the current design.
+       - **AP: Ran Zhou and Shengxiang Zhang confirm the final text. Xingyou Lai starts frontend development.**
+    - Please provide the frontend with the design scheme for the validation page as soon as possible.
+       - **AP: Feng Zhong provides this part of the design scheme as soon as possible.**
+### Official Website
+- The three-dimensional diagram of the evaluation system has been adjusted, and the overall effect has been optimized; frontend development can continue.
+   - Data is not displayed below the graph.
+   - The interface has been created, and the frontend can import real data.
+   - The design needs to be synchronized with the Gitee front end.
+      - **AP: Feng Zhong communicates with the Gitee frontend developer.**
+### Frontend and Backend
+1. Bugs that occurred in production have been fixed, and the contributors profile model will be completed today.
+2. OpenSearch has been expanded.
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-28 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 28, 2023, from 14:15 to 14:56 (Beijing Time)
