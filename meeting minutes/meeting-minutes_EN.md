@@ -1,3 +1,46 @@
+# 2023-12-05 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 5, 2023, from 14:15 to 15:03 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi),  [Ran Zhou](https://github.com/JuliaZhou2022), Qiuyue Lu - XMIRROR, Chao Chen - XMIRROR
+## Topic - Progress Discussion of Compass Product Solutions, Frontend and Backend Development, and Official Website
+### Product Solutions
+1. Project Deep Dive Insight Plan
+    - Run the data for three new models ASAP.
+         - **AP: Shengbao Li promptly provides the data list to Hutian Qin.**
+    - Accelerate the data processing for the past six months of OpenHarmony, openEuler, openGauss, and MindSpore communities. For other communities, process as much data as possible, at least the last six months.
+         - **AP: Shengbao Li promptly provides data tables for the mentioned four communities to Hutian Qin.**
+    - Some model data has issues and needs correction.
+         - **AP: Yehui Wang confirms modifications with Hutian Qin and Shengbao Li.**
+    - Include a graph showing contribution frequency for the contribution model.
+    - Administrators and users need to be allowed to modify contribution organization information next year. Implementation details need further discussion.
+        - **AP: Yehui Wang leads relevant discussions.**
+    - Differentiate the five categories of domain portraits with distinct colors.
+        - **AP: Xingyou Lai makes the necessary modifications.**
+    - Provide text content for the three new models.
+        - **AP: Yehui Wang provides the required content.**
+    - Interface needed for new chart data.
+        - **AP: Xingyou Lai specifies requirements, and Shengbao Li assists Hutian Qin in prompt provision.**
+2. Compass Academic
+    - Frontend and backend mostly completed.
+    - Further expand functionality to offer academic research results or tool solutions for community improvement.
+        - **AP: Yehui Wang supplements content. Xingyou Lai performs frontend updates.**
+3. Gitee Index Replacement
+   - To be conducted this week, completion over the weekend.
+    - Start promotion of Compass replacing Gitee Index over the weekend or next week.
+### Website
+1. Deployment of the three-dimensional diagram for the evaluation system is in progress.
+    - **AP: Feng Zhong reviews the frontend and provides optimization suggestions.**
+2. Update existing content on the documentation page first, with additional content to be added after the annual meeting.
+### Frontend and Backend
+1. Abnormal scroll id quantity in deep search for opensearch causing contention for resources among multiple queues.
+    - **AP: Hutian Qin and Shengbao Li investigate and resolve the issue.**
+2. The merging speed of new PRs for secondary categories is currently slowing down. Speed up after the completion of Gitee Index replacement.
+3. Detailed discussion on data query time limits needed in the community Board meeting.
+    - **AP: Yehui Wang schedules a Board discussion.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-11-30 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 30, 2023, from 14:15 to 14:45 (Beijing Time)
