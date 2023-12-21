@@ -1,3 +1,48 @@
+# 2023-12-07 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 7, 2023, from 14:15 to 14:59 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi),  [Ran Zhou](https://github.com/JuliaZhou2022), Lingyun Situ - Nanjing University
+## Topic - Progress Discussion of Compass Product Solutions, Frontend and Backend Development, and Official Website
+### Product Solutions
+1. Project Deep Dive Insight Solution
+    - Three contributor models will be completed today.
+    - The data interfaces of newly added charts have been completed.
+    - Bug for the comparison analysis of governance repository and software product repository is pending resolution.
+       - **AP: Xingyou Lai and Huatian Qin resovle it within the week.**
+    - Data from the OpenHarmony, openEuler, openGauss, and MindSpore communities for the past two weeks is now in the gray phase, currently running data for the last three months.
+       - **AP: Huatian Qin completes the run as soon as possible and allocates resources to the GVP repositories promptly.**
+2. Compass Academic
+   - Renamed as Compass Collaboration.
+   - Six cases including Peking University, Nanjing University, and openEuler are already in place.
+   - Internationalization of text has been completed.
+   - For questionnaire collection, contact via email temporarily, and modify the original text.
+       - **AP: Yehui Wang provides modification details, and Lai Xingyou makes frontend modifications.**
+   - Frontend for immediate experience is ready; backend data submission is pending.
+       - **AP: Shengbao Li submits it today.**
+   - Nanjing University's tool is a private project; the tool can be deployed to Compass. Suggested packaging it as a web service.
+       - **AP: Shengbao Li discusses the solution with Huatian Qin.**
+3. Gitee Index Replacement
+    - Deployed to the gray phase with some minor bugs to be fixed later.
+    - Backup of Gitee index charts for the GVP repositories of OpenHarmony, openEuler, openGauss, and MindSpore.
+      - **AP: Shengbao Li performs the backup.**
+### Official Website
+1. Update the documentation page as soon as possible:
+    - Restructure the documentation system to be similar to the dashboard page.
+        - **AP: Shengbao Li updates the documentation structure, Yehui Wang adds content.**
+     - Translate and update three articles about the evaluation system published on the WeChat official account platform to the website by this Friday.
+       - **AP: Ran Zhou translates articles, Yehui Wang provides image translations, and Xingyou Lai updates the frontend.**
+2. The frontend for the calendar has added meeting events; backend deployment is pending.
+### Frontend and Backend
+- The issue of abnormal scroll ID quantity in opensearch deep query has been resolved.
+### Operations
+1. Create a 3-page PowerPoint presentation for the annual meeting to be displayed on LED screens before, during breaks, and at the end of the event.
+   - **AP: Ran Zhou creates an issue, and Zhong Feng designs and produces them.**
+2. After all features are online, record a demo for use as the opening video material for the annual meeting.
+   - **AP: Yehui Wang provides recording material over the weekend, and Ran Zhou produces the video.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-12-05 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 5, 2023, from 14:15 to 15:03 (Beijing Time)
