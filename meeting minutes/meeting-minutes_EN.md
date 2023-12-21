@@ -1,3 +1,33 @@
+# 2023-12-19 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 19, 2023, from 14:15 to 14:31 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi),  [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Discussion on Compass Product Solutions, Frontend and Backend Progress, and Operational Matters
+### Product Solutions
+1. Project Deep Dive Insight Solution
+    - The value of metrics that are not currently counted or are in the process of being counted in the three-dimensional diagram pendant of the evaluation system is 0, needing text prompts.
+      - **AP: Xingyou Lai checks with Huatian Qin and makes modifications in the Compass side, with Qin Huatian making modifications in the Gitee side.**
+2. Compass Collaboration
+   - Two new cases from Nanjing University need adding, and redesign of the presentation format is needed. It is currently suggested to shrink the existing 5 cases and add them directly to save modification time costs, with a redesign when necessary later.
+      - **AP: Xingyou Lai attempts modifications to see if it is feasible.**
+### Frontend and Backend
+1. Data for models rerun recently needs optimization.
+    - **AP: Shengbao Li makes optimization as soon as possible.**
+2. No large-scale updates in the near future, focusing on fixing bugs for recent feature updates.
+### Operations
+1. Board meetings and annual meetings were successfully held with positive feedback.
+2. Organizing the content and designing the format for the community annual report should be commenced.
+    - **AP: Ran Zhou organizes the content, and Feng Zhong handles the design work.**
+3. WeChat Official Account Platform authentication and registration of Bilibili account.
+    - **AP: Shengxiang Zhang completes these issues as soon as possible.**
+4. The article summarizing the annual meeting should be released as soon as possible.
+    - **AP: Ran Zhou completes the video and document release as soon as possible.**
+5. An article on how to embed the three-dimensional diagram pendant of Compass evaluation system in the README on Github should be written and published.
+    - **AP: Ran Zhou completes relevant articles and makes publishing as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-12-07 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 7, 2023, from 14:15 to 14:59 (Beijing Time)
