@@ -1,3 +1,28 @@
+# 2023-12-26 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 26, 2023, from 14:15 to 14:25 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend and Backend and Operational Matters
+### Frontend
+1. Text prompt of "In Progress" has been added to the three-dimensional evaluation system diagram.
+2. Bug on the mobile terminal where the contributor model could not be clicked has been fixed.
+3. Total contribution count has been added to the title of the contribution distribution pie chart in the Project Deep Dive Insight Solution.
+4. The scaling of the existing 5 cases in Compass Collaboration has been completed, with 2 new cases to be added.
+     - **AP: Xingyou Lai adds them as soon as possible.**
+### Backend
+1. The backend of the models have been optimized, increasing data processing speed by 5-10 times.
+2. Need to track the time taken to run global data for all the collected communities.
+    - **AP: Huatian Qin conducts the tracking.**
+### Operations
+1. Articles of detailed introducation for recent feature updates should be published this week.
+    - **AP: Shengbao Li and Xingyou Lai make video recordings and organize initial drafts of the introduction; Ran Zhou edits the videos, optimizes the texts, and handles the publishing.**
+2. Review video and article for the annual meeting have been released.
+3. Annual report to be released in January.
+   - **AP: Ran Zhou organizes the content as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2023-12-19 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 19, 2023, from 14:15 to 14:31 (Beijing Time)
