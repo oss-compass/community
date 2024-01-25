@@ -1,3 +1,34 @@
+# 2024-1-16 Weekly Meeting Minutes of OSS Compass Community
+## Time
+January 16, 2024, from 14:15 to 14:42 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Wenxuan Long](https://github.com/hncslwx), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Daniel Izquierdo - Bitergia
+## Topic - Progress Discussion on Compass Frontend and Backend and Operational Matters
+### Frontend and Backend
+1. The color of domain tags in the contributor persona details page needs to be optimized.
+   - **Action Point (AP): Xingyou Lai should coordinate with Feng Zhong and Shengxiang Zhang for verification and make the necessary modifications as soon as possible.**
+2. The URL for downloading the table in the contributor persona details page becomes quite long when additional table parameters are appended. This may cause issues when using it in WeChat. It is suggested to maintain the current solution and assess its effectiveness during usage. Any problems can be addressed later.
+   - **AP: Xingyou Lai should create an issue first and follow up accordingly.**
+3. The interface for downloading the table in the contributor persona details page needs to be restructured to support the download. The backend interface has been completed and awaits frontend verification.
+   - **AP: Xingyou Lai should coordinate with Huatian Qin for verification as soon as possible.**
+4. The backend development testing for the Project Deep Dive Insight Solution, which allows administrators and developers to modify organization information, has been completed and is ready for deployment.
+   - **AP: Huatian Qin should deploy it as soon as possible.**
+5. The processing of the CNCF contributor organization information list is still ongoing.
+   - **AP: Shengbao Li and Huatian Qin should complete this task within this month.**
+6. The interface for personal modification of organization information has been completed. The process and format for administrators or third parties to submit pull requests to modify organization information need further refinement.
+   - **AP: Shengbao Li should confirm the process and format.**
+7. Progress on formulating the mechanism for accessing Compass data APIs: Communication is needed with the operations team and service providers to obtain the real IP addresses.
+   - **AP: Huatian Qin should expedite progress on this matter.**
+### Operations
+1. Publish the 2023 annual report this week.
+   - **AP: Ran Zhou should finalize the content as soon as possible, and Yehui Wang will review and provide modifications if necessary.**
+2. The data usage process for Compass：
+   - **AP: Shengxiang Zhang should review the draft and provide feedbacks as soon as possible.**
+3. Plan a live talk show after the Spring Festival about open source evaluation, featuring Daniel Izquierdo and Wang Yehui as key speakers.
+   - **AP: Yehui Wang should confirm the schedule and specific topic with Daniel. Ran Zhou will handle the planning.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-1-9 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 January 9, 2024, from 14:15 to 15:01 (Beijing Time)
