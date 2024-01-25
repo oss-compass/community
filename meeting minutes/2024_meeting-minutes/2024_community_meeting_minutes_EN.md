@@ -1,3 +1,32 @@
+# 2024-1-23 Weekly Meeting Minutes of OSS Compass Community
+## Time
+January 23, 2024, from 14:15 to 14:53 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Tiandong Liu - Kaiyuanshe
+## Topic - Progress Discussion on Compass Frontend and Backend and Operational Matters
+### Frontend and Backend
+1. Project Deep Dive Insight Solution:
+    - The frontend work for downloading contributor persona details table functionality is completed and in the grayscale phase. The table content is currently in English, and translation to Chinese will not be provided until users demand it. This feature should be live by the end of the month.
+    - Domain persona tag colors have been modified for better differentiation, displaying different categories of the tags in rows. To avoid information overload,  it is suggested to hide the details and only show 5 major categories of the tags. And categories with more contributions are marked for each contribulor.
+        - **AP: Feng Zhong redesigns the display style, and Xingyou Lai modifies the frontend.**
+    - Colors for contributor distribution and frequency distribution pie charts have been adjusted. The four types of the role persona above the frequency distribution chart are currently arranged by contributor quantity, and they need to be rearranged alphabetically.
+        - **AP: Xingyou Lai makes adjustment promptly.**
+    - Data interface for supporting the organization information modification is in progress. Modification through the Project Deep Dive Insight Solution page needs to include prompts and icons in a popup format for filling in the dates.
+        - **AP: Shengbao Li and Huatian Qin quickly integrate model data, Huatian Qin provides remaining interfaces promptly, and Xingyou Lai adjusts the frontend promptly. Ensure this feature goes live by the end of the month.**
+    - Bug of displaying incomplete project evaluation data within the last year is still being addressed.
+        - **AP: Huatian Qin and Shengbao Li identify the cause and fix it ASAP.**
+    - The organization information currently provided is in English. Naming rules of organization information need to be established for user-input.
+        - **AP: Huatian Qin and Shengbao Li discuss and confirm the rules.**
+2. Compass Data API Retrieval Mechanism: Access logs need reviewing for the design of limit mechanism for access by token.
+    - **AP: Huatian Qin handles related matters promptly.**
+### Operations
+1. Community report of 2023 should be released this week.
+    - **AP: Ran Zhou optimizes the content and proceeds the publishing promptly. Board members' approval are needed before publication.**
+2. Compass data usage process was confirmed OK, awaiting supplementary terms, to be completed before the Spring Festival.
+    - **AP: Shengxiang Zhang supplements the terms promptly, and Ran Zhou communicates with the relevant user.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-1-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 January 16, 2024, from 14:15 to 14:42 (Beijing Time)
