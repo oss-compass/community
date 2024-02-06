@@ -1,3 +1,27 @@
+# 2024-2-6 Weekly Meeting Minutes of OSS Compass Community
+## Time
+February 6, 2024, from 14:15 to 14:40 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend and Backend and Operational Matters
+### Frontend and Backend
+1. The organization information modification feature has been deployed and is effective after testing.
+2. The display format of Domain Persona has been updated, with text prompts displayed as pop-ups, scheduled for release this week.
+3. The three-dimensional evaluation system diagram on the project report page now remains consistent with the homepage when in full-screen mode.
+4. Compass badges are awaiting updates.
+   - **AP: Xingyou Lai communicates with Feng Zhong for redesigning the badges.**
+5. Compass proxy updates are currently under stable testing, and further observation will continue.
+6. Some backend bugs have been fixed.
+7. Currently, intervals and limits on access times have been set for Compass data access permissions. It is suggested the limit can be adjusted to 1000 times per hour.
+   - **AP: Huatian Qin makes adjustments and handles the deployment as soon as possible.**
+### Operations
+1. Compass Data Usage Agreement to be drafted by the end of this week.
+   - **AP: Shengxiang Zhang completes it as soon as possible.**
+2. Tweets regarding the organization information modification feature and domain persona updates to be published later this week.
+   - **AP: Ran Zhou completes and publishes the content as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-1-23 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 January 23, 2024, from 14:15 to 14:53 (Beijing Time)
