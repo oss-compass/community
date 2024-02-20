@@ -1,3 +1,39 @@
+# 2024-02-20 Weekly Meeting Minutes of OSS Compass Community
+## Time
+February 20, 2024, from 14:15 to 14:54 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Xingyou Lai](https://github.com/coder-sett), [Huatian Qin](https://github.com/EdmondFrank), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Compass Community 2024 Business Planning and Operational Matters Discussion
+### 2024 Business Plan
+1. SaaS Services:
+    - Add custom community persona components and personal prersona components to meet the personalized needs of open source community managers and developers.
+    - Add software package version information to address open source selection needs.
+    - Add developer info search in the search box.
+    - Provide a one-page diagnostic report for each project.
+    - New features to be added to Project Deep Dive Insight Solution: labeling robots of contributors list, support of repository filtering for community projects, support of searching specific contributors in the contributors list, support for viewing code line numbers in domain persona, and distinguishing between internal and external developers.
+    - Develop frontend tracking functionality to capture user behavior, analyze which modules users are more interested in, and provide data for analysis.
+    - Bug fixes for existing functionalities.
+2. Evaluation System:
+    - Add contributor journey, security, and compliance models.
+3. Compass Evaluation of Community Value/Developer Value.
+### Operations
+1. User Surveys:
+    - User positioning shifts from focusing solely on OSPOs of big corporations to also targeting a broader range of small-scale open source community managers and developers.
+    - Conduct surveys targeting open source community developers and managers to understand their real needs from Compass.
+    - Collect user feedback to prioritize feature updates.
+    - Mainly survey three types of users: open source community managers/developers gathered by OSChina, security/compliance vendors, and Apache China open source community managers/developers.
+       - **Assigned Personnel (AP): Shengxiang Zhang supports user surveys through Gitee's resources channel, initially categorizing relevant open source communities and later participating in the survey process. Ran Zhou should plan the overall survey as soon as possible, designing the format and content of the survey. Yehui Wang guides the survey execution, participates in the survey process, and analyzes the survey results.**
+2. Collaborate with external vendors for community operations.
+   - Collaborate with external vendors in security, compliance, and other areas to jointly build models and promote related community operational work.
+3. Initial draft of Compass Data Usage Agreement completed.
+    - **AP: Ran Zhou should confirm the specific content with Shengxiang Zhang as soon as possible, and Shengxiang Zhang communicates with the legal department for reviewing.**
+4. Community organization structure adjustment：
+   - Community members become community contributors.
+    - Add a user committee.
+      - **AP: Ran Zhou records the matter, and Yehui Wang organizes the discussion at the next Board meeting.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-2-6 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 February 6, 2024, from 14:15 to 14:40 (Beijing Time)
