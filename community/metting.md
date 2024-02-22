@@ -10,7 +10,7 @@ description: Participate in OSS-Compass community seminars and exchanges
 We hold regular online technical workshops to discuss and make decisions around evaluation models and the evolution of OSS Compass SAAS services, so feel free to share your thoughts with us via online meetings.
 
 - **Conference Topic**: OSS-Compass Technical Seminar Weekly Meeting
-- **Meeting Time**: Every Tuesday and Thursday 14:15-15:15 Beijing time (GMT+08:00) (Provisional adjustment: Every Thursday from September 18, 2023 to September 30, 202)
+- **Meeting Time**: Every Tuesday 14:15-15:15 Beijing time (GMT+08:00)
 - **Tencent Conference No.**：513-5733-3878
 
 [![Join the meeting](media/metting-en.png)](https://meeting.tencent.com/dm/AE8RoTY40SfS)
