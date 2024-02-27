@@ -1,3 +1,36 @@
+# 2024-02-27 Weekly Meeting Minutes of OSS Compass Community
+## Time
+February 27, 2024, from 14:15 to 14:37 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), Xiaoming Li - Kaiyuanshe
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. Development of OpenHarmony dashboard is about to commence.
+2. Update on the status of lingering issues in the project repository board.
+   - **AP: Shengxiang Zhang informs Huatian Qin for updates.**
+3. Optimization needed for excessive server memory usage during backend model data processing.
+   - **AP: Shengbao Li and Huatian Qin make optimization promptly.**
+4. Estimate the time required to rerun all data after resolving memory issues.
+   - **AP: Shengbao Li and Huatian Qin make the estimation.**
+5. The Contributor Persona List in Project Deep Dive Insight Solution now includes a contributor search button. It's suggested to place the search box at the top, enabling search for contributors, projects, etc.
+   - **AP: Feng Zhong redesigns the search box placement. Xingyou Lai adjusts the frontend. Shengbao Li and Huatian Qin make backend modification support.**
+6. Introduce search boxes in the Project Deep Dive Insight Solution's Issue and PR lists, remove the URL column, add hyperlinks in the title column, optimize table display, and enhance reading experience.
+   - **AP: Feng Zhong designs search box placement and proposes a new display format for Issue and PR lists. Xingyou Lai adjusts the frontend. Shengbao Li and Huatian Qin make backend modification support.**
+7. Profile pictures have been added for each contributor in the Contributor Persona List of Project Deep Dive Insight Solution, clicking on which will redirect to their Gitee or Github homepage.
+8. Textual explanations for various types of repositories on the project submission page added .
+9. Content update on the official website's dynamic page: updating previously pending articles from the WeChat official account platform in both Chinese and English, to be completed this week.
+   - **AP: Xingyou Lai complete as soon as possible.**
+### Operations
+1. Organize offline discussions among community developers in March to plan business strategies and identify killer applications.
+2. By the end of March, Yehui Wang will lead relevant community members to participate in The 2nd OSPO Summit and Dev.Together 2024 held in Shenzhen. Surveys will be distributed during the events for user research.
+   - **AP: Ran Zhou designs survey questionnaire promptly and submits a draft within two weeks.**
+3. User interviews.
+   - **AP: Shengxiang Zhang assists in inviting open source community managers and developers for interviews through Gitee resources to understand user demands.**
+4. Expedite the review of Compass data usage agreements.
+   - **AP: Shengxiang Zhang promptly requests legal review and submits the final draft.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-02-20 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 February 20, 2024, from 14:15 to 14:54 (Beijing Time)
