@@ -1,3 +1,37 @@
+# 2024-03-05 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 05, 2024, from 14:15 to 14:47 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Feng Zhong](https://github.com/poorfish), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Fenju Fu - OpenAtom
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. Add filtering to the contributors list in the Project Deep Dive Insight Solution:
+   - Currently, only general filters such as all repositories and including bots are moved to the top.
+   - Other filters related to columns remain unchanged, still adding organizational filters in the table header.
+   - Domain persona and role persona filters are selected by default, currently not checked, and need to be fixed.
+     - **AP: Xingyou Lai makes the fixing.**
+2. The official homepage now includes recent update alerts at the top.
+3. The default view range for Project Deep Dive Insight Solution data has been changed to 6 months.
+4. The technology secondary classification has recently added Rust projects. Currently, only 30 projects are displayed by default in each category, and now pagination is needed to display all.
+   - **AP: Xingyou Lai confirms with Huatian Qin and makes the modification.**
+5. Project repository topic data needs to be gathered into the Compass dataset.
+   - **AP: Shengbao Li collects this data.**
+6. Recent backend work mainly involves supporting table filtering parameters, ensuring dependencies are updated regularly, etc. Elasticsearch expansion is scheduled for next week.
+   - **AP: Huatian Qin proceeds with the ES expansion as soon as possible.**
+7. The issue of excessively high memory usage in recent model runs will be resolved this week; the issue has been created.
+   - **AP: Shengbao Li resolves it as soon as possible.**
+8. Repository Dashboard maintenance: update status in a timely manner, handle all remaining tasks by the end of March, and update the corresponding status.
+   - **AP: Shengxiang Zhang urges relevant personnel to maintain the Dashboard.**
+### Operations
+1. The legal affairs of Compass data usage terms have been confirmed as OK.
+   - **AP: Ran Zhou quickly asks the frontend to update the related processes and terms on the official website, and at the same time, contact the foreigner who wanted to use Compass data before to discuss the specific usage plan.**
+2. March 28-30, Compass team will attend the 2nd OSPO Summit and Dev.Together 2024 held in Shenzhen to conduct user research and will set up a booth at the Dev.Together summit to present OSS Compass, finding users, and understanding their demands.
+   - **AP: Ran Zhou finalizes the draft survey questionnaire within this week for discussion and feedback from the team, completes the final version of the questionnaire as soon as possible, and designs the booth plan promptly.**
+3. Organize an offline meeting for community development members at the end of March to discuss the community's technical planning.
+   - **AP: Ran Zhou confirms everyone's availability as soon as possible and organizes the meeting.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-02-27 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 February 27, 2024, from 14:15 to 14:37 (Beijing Time)
