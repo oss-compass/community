@@ -1,3 +1,32 @@
+# 2024-03-12 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 12, 2024, from 14:15 to 14:59 (Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. An Issue template for bug fixes has been created and will be added to the Issue creation process in all repositories.
+   - **AP: Xingyou Lai makes the addition.**
+2. Collection of topic data at the repo stage has been completed. [Issue](https://github.com/oss-compass/compass-metrics-model/issues/104) has been submitted, awaiting the merging of related PRs.
+   - **AP: Yehui Wang reviews and merges related PRs.**
+3. The issue of large memory consumption in model calculations has been resolved. [Issue](https://github.com/oss-compass/compass-metrics-model/issues/110) has been closed.
+4. Contributor domain personas have been updated with metrics such as signed-off-by, reviewed-by, code_committer, etc. The related [Issue](https://github.com/oss-compass/compass-metrics-model/issues/106) has been closed.
+5. Issue/PR details information table for Project Deep Dive Insight Solution streamlining: URL column removed, titles hyperlinked, creation time and closing time merged into one column, and adding alerts of exceeding the average for processing time.
+   - **AP: Xingyou Lai confirms with Feng Zhong and makes specific modifications for frontend adjustments; Shengbao Li and Huatian Qin provide backend data support, such as recalculating averages, providing data interface, etc.**
+### Operations
+1. The second draft of the user survey questionnaire is completed, pending modifications based on meeting discussions and testing.
+   - **AP: Ran Zhou makes modifications promptly and asks team members to conduct test fills.**
+2. Design work for the 2nd OSPO Summit and Dev.Together 2024 posters, roll-ups, etc., needs to be completed promptly. Try to finish the first wave of the meeting participation promotion this week.
+   - **AP: Ran Zhou promptly confirms meeting details with the organizers, and completes related design and promotional work.**
+3. Compass data usage process: Place it on the Compass Collaboration page, replacing the "Contact Us" button at the top with a "Data Usage Request" button, and displaying the relevant process and agreement content in a pop-up form.
+   - **AP: Xingyou Lai makes relevant frontend modifications. Ran Zhou promptly provides an English version of the process and agreement, and promotes this update on Twitter and WeChat official account platform after frontend modifications are completed.**
+4. Set up reminders for community meetings.
+   - **AP: Ran Zhou and Xingyou Lai make relevant settings.**
+5. The offline workshop for community development members is scheduled for March 26th at OSChina. Meeting notifications need to be sent before the meeting.
+   - **AP: Ran Zhou sends meeting notifications to attendees before March 26th.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-03-05 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 05, 2024, from 14:15 to 14:47 (Beijing Time)
@@ -16,8 +45,8 @@ March 05, 2024, from 14:15 to 14:47 (Beijing Time)
    - **AP: Xingyou Lai confirms with Huatian Qin and makes the modification.**
 5. Project repository topic data needs to be gathered into the Compass dataset.
    - **AP: Shengbao Li collects this data.**
-6. Recent backend work mainly involves supporting table filtering parameters, ensuring dependencies are updated regularly, etc. Elasticsearch expansion is scheduled for next week.
-   - **AP: Huatian Qin proceeds with the ES expansion as soon as possible.**
+6. Recent backend work mainly involves supporting table filtering parameters, ensuring dependencies are updated regularly, etc. OpenSearch expansion is scheduled for next week.
+   - **AP: Huatian Qin proceeds with the OpenSearch expansion as soon as possible.**
 7. The issue of excessively high memory usage in recent model runs will be resolved this week; the issue has been created.
    - **AP: Shengbao Li resolves it as soon as possible.**
 8. Repository Dashboard maintenance: update status in a timely manner, handle all remaining tasks by the end of March, and update the corresponding status.
