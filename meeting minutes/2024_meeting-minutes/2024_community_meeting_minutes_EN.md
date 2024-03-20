@@ -1,3 +1,25 @@
+# 2024-03-19 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 19, 2024, from 14:15 to 14:33(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Fenju Fu - OpenAtom
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. A new search bar will be added above the Project Deep Dive Insight Solution details page. The related [Issue](https://github.com/oss-compass/compass-web/issues/330) has been created, and the frontend modification needs to be completed as soon as possible.
+   - **AP: Xingyou Lai completes it as soon as possible.**
+2. Some bugs has recently been fixed in the backend.
+3. The expansion of OpenSearch is completed, with no issues found for the time being.
+4. Memory usage optimization has been launched. The effect will be reviewed after a full data refresh next week.
+### Operations
+1. Participation in the 2nd OSPO Summit on March 28-29: The promotional copy for the event has been published on WeChat official account platform; Yuehui Wang will attend the office hour on the morning of the 29th and the roundtable discussion in the afternoon; The details of presenting the OSS Compass usage survey at the conference need to be clarified as soon as possible.
+   - **AP: Ran Zhou confirms the details of the survey presentation with the organizers as soon as possible.**
+2. Participation in the Dev.Together 2024 on March 30: Joining the community treasure chest market, the organizers provide a booth and a small display rack, requiring the preparation of roll-up banners, display board design documents, computers, etc.; Posters, display boards, and roll-up banners are being designed, with the related [Issue](https://github.com/oss-compass/community/issues/72) already created. The display board will feature a QR code for the OSS Compass usage survey, and the roll-up banner will present community introduction content, needing to be reusable.
+   - **AP: Feng Zhong provides design documents by this Friday if possible; Ran Zhou promptly releases the copy and posters for promotion, arranges for the production of roll-up banners and submission of display board design files to the organizers for production within this week, and confirms the deadline for soliciting topics for the Unconference meeting at the same time.**
+3. The options of the OSS Compass usage survey questions need further review and confirmation.
+   - **AP: Yuehui Wang reviews and confirms them as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-03-12 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 12, 2024, from 14:15 to 14:59 (Beijing Time)
