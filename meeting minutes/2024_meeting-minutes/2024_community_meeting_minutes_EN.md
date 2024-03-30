@@ -1,3 +1,28 @@
+# 2024-03-26 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 26, 2024, from 14:00 to 15:00(Beijing Time)
+## Location
+- Offline: The office of OSChina
+- Online: Tecent Meeting 513-5733-3878
+## Attendees
+- In Person: Hongshu - OSChina, [Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Feng Zhong](https://github.com/poorfish), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+- Online: [Wenxuan Long](https://github.com/hncslwx), [Huatian Qin](https://github.com/EdmondFrank)
+## Topic - Progress Discussion on Compass Community 2024 Business Collaboration Progress, Technical Planning, and Operations Matters
+### Business Collaboration Progress
+OSS Compass, in cooperation with CHAOSS, has worked on writing open source evaluation standards. The framework and plan have now been confirmed, pending academic support. Subsequently, it will be recommended by the Linux Foundation for the standard to become an ISO international standard, and certification services will be provided.
+### 2024 Technical Planning
+1. After discussion and decision, the main features to be developed in 2024 are:
+   - Community Profile: A one-page report that can display and mine the value of open source communities.
+   - Individual Profile: A one-page report showing the value of open source contributions.
+2. **AP: Yehui Wang leads the community developers to further discuss the specific information that needs to be displayed for the above two features as soon as possible.**
+### Operations
+1. The main goal of the community participating in the 2nd OSPO Summit & Dev.Together 2024 from March 28-30 is user research and collecting user feedback.
+   - **AP: Ran Zhou organizes related user research work, with support from Shengbao Li and Xingyou Lai.**
+2. The community will participate in the Open Source Promotion Plan of China, recruiting college students to develop the community profile and individual profile features.
+    - **AP: Ran Zhou submits the application materials as soon as possible within this week.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-03-19 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 19, 2024, from 14:15 to 14:33(Beijing Time)
