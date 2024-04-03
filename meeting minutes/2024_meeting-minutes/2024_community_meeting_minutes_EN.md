@@ -1,3 +1,24 @@
+# 2024-04-02 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 02, 2024, from 14:15 to 14:34(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. The issue regarding the loss of project report page data recently mentioned by openKylin community has been investigated and resolved. It was due to insufficient memory leading to node crashes, affecting over 2000 repositories. The issue has now been fixed.
+   - **AP: Ran Zhou informs openKylin community that the issue has been resolved.**
+2. The bugs related to project report page data anomalies reported by users last weekend need to be tracked in issues.
+   - **AP: Shengxiang Zhang creates the relevant issues.**
+### Operations
+1. Last week, OSS Compass community participated in the 2nd OSPO Summit & Dev.Together 2024 held in Shenzhen, conducting user surveys through questionnaires and one-on-one interviews. The feedback collected mainly includes:
+   - Compared to open source community maintainers, operators, and others directly involved in managing open source projects, OSPOs, foundations, consulting agencies, and other entities indirectly managing or observing open source projects tend to make more use of the existing open source evaluation SaaS services provided by OSS Compass;
+   - Respondents generally expressed a desire for future OSS Compass open source evaluation reports to provide summaries and analyses after presenting the data;
+   - Regarding the community portrait and contributors' individual portrait widget features to be developed by the community in 2024, respondents generally showed high expectations and willingness to use them.
+2. The number of responses currently collected from the survey questionnaire is not enough, and more users need to be found to fill it out.
+   - **AP: By mid-April, Shengxiang Zhang seeks more users to fill out the questionnaire through Gitee.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-03-26 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 26, 2024, from 14:00 to 15:00(Beijing Time)
