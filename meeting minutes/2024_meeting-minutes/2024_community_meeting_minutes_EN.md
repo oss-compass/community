@@ -1,3 +1,20 @@
+# 2024-04-16 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 16, 2024, from 14:15 to 14:25(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Feng Zhong](https://github.com/poorfish), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. The backend workflow has been updated to support one-click releases from the frontend. Future frontend updates will not require deployment actions by the backend.
+2. The project's sub-category pages now have search, sorting, and pagination functionalities added.
+3. Project names on GitHub are case insensitive, whereas on Gitee they are case sensitive. Currently, Compass maintains case sensitivity to ensure compatibility. Related [issue](https://github.com/oss-compass/compass-web-service/issues/69).
+### Operations
+1. Compass will soon implement a collaboration project with OpenHarmony.
+2. Projects applications for OSPP need to be submitted promptly.
+    - **AP: Shengxiang Zhang needs to complete the content within this week, and Ran Zhou will make organizing and supplementing as necessary.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-04-02 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 April 02, 2024, from 14:15 to 14:34(Beijing Time)
