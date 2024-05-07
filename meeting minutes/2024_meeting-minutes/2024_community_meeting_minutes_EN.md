@@ -1,3 +1,17 @@
+# 2024-04-23 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 23, 2024, from 14:15 to 14:30(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+- Interfaces related to robot and organization selection in the Project Deep Dive Insight Solution have been added.
+### Operations
+- Projects application for the OSPP event:
+   - **AP: Ran Zhou completes the project application within this week.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-04-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 April 16, 2024, from 14:15 to 14:25(Beijing Time)
