@@ -15,6 +15,27 @@ April 16, 2024, from 14:15 to 14:25(Beijing Time)
 ## Kanban tracking
 https://github.com/orgs/oss-compass/projects/1
 
+# 2024-04-09 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 09, 2024, from 14:15 to 14:31(Beijing Time)
+## Attendees
+[Shengxiang Zhang](https://github.com/normal-coder), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. Revision of the text description of the three-dimensional evaluation system graph: "South Fit" to "Upstream Ecology", and "Northbound Adoption" to "Downstream Ecology"; completed.
+2. Issues in project info repository are being handled and will be completed this month.
+   - **AP: Shengxiang Zhang handles them as soon as possible.**
+3. The [issue](https://github.com/oss-compass/compass-web-service/issues/70) for bugs of project report pages' data anomalies has been raised , and more issues should be raised for other similar bugs as soon as possible.
+   - **AP: Shengxiang Zhang completes the creation as soon as possible.**
+4. The English version of the Compass data usage process has been put on line, and the relevant terms of agreement can be temporarily removed from the website, to be sent to the applicant when there is relevant cooperation.
+   - **AP: Ran Zhou communicates with Xingyou Lai to delete the agreement terms in the application process.**
+### Operation
+1. Community registration for OSPP activity has been reviewed and now needs to be declared for the projects.
+   - **AP: Shengxiang Zhang fills out the projects as soon as possible, Ran Zhou makes information addition.**
+2. Keep the collection of user survey feedback and no processing for the time being.
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-04-02 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 April 02, 2024, from 14:15 to 14:34(Beijing Time)
