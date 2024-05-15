@@ -1,3 +1,19 @@
+# 2024-05-07 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 7, 2024, from 14:15 to 14:32(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022), Xiaomeng Wang - National Industrial Information Security Development Research Center
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+No updates at the moment.
+### Operations
+1. Recently, some students have inquired about registering for the OSS Compass projects in OSPP event. It is recommended that students contact mentors directly, and mentors can get involved early in the students selection process.
+   - **AP: Ran Zhou informs the students who inquired to contact the mentors.**
+2. Notify the foreign university researchers who previously applied to use Compass open source evaluation data that the Compass data usage process is now ready.
+   - **AP: Ran Zhou should notify the relevant personnel ASAP.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-04-23 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 April 23, 2024, from 14:15 to 14:30(Beijing Time)
