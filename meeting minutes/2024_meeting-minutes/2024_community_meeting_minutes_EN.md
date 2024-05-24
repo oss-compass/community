@@ -1,3 +1,19 @@
+# 2024-05-14 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 14, 2024, from 14:15 to 14:25(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+1. Ongoing updates to the secondary classification of open source projects, with 10+ new categories added.
+2. Recently, over 40,000 new open source projects have been added to OSS Compass database.
+3. Project Deep Dive Insight Solution now supports specific repositories filtering within the community, with new features for excluding bots and searching organizations.
+### Operations
+1. The official email is not receiving registration verification codes or recent external collaboration application emails and this issue needs to be addressed.
+    - **AP: Shengxiang Zhang handles this as soon as possible.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-05-07 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 7, 2024, from 14:15 to 14:32(Beijing Time)
