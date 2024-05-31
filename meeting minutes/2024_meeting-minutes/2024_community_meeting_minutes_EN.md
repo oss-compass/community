@@ -1,3 +1,22 @@
+# 2024-05-21 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 21, 2024, from 14:15 to 14:29(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Community Collaboration Matters
+### Frontend and Backend
+1. Recently, the official blog content has been updated.
+2. Robot exclusion function has been OK, and it will be effective after the data is updated.
+3. The issue that official mailbox can not receive mails needs to be dealt with.
+   - **AP: Shengxiang Zhang and Huatian Qin deal with it as soon as possible.**
+4. Recently, a user reported that his Gitee project request for subscription to Compass analytics report has been pending for a long time and needs to be processed as soon as possible.
+   - **AP: Shengxiang Zhang handles it as soon as possible.**
+### Community Collaboration
+1. The recently submitted application for using Compass data for academic research needs review comments.
+   - **AP: Shengxiang Zhang will send an email to inform the applicant of the relevant comments and the follow-up cooperation program.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-05-14 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 14, 2024, from 14:15 to 14:25(Beijing Time)
