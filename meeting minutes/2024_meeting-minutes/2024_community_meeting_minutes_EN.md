@@ -1,3 +1,20 @@
+# 2024-05-28 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 28, 2024, from 14:15 to 14:25(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+The recent user request for expediting the processing of Compass analysis report subscription for a Gitee project has been finished.
+### Operations
+1. Students registration status of OSS Compass projects in OSPP: 
+    - Two students have communicated with their mentors and confirmed their registration, with one pending. Mentors need to confirm with the students, and follow up on the registration status for application submitting before the deadline of June 4.
+      - **AP: Ran Zhou reminds the mentors to handle this matter as soon as possible.**
+2. Recently, a blogging platform reached out to the Compass community for collaboration. After communication, it was confirmed that a series of interview programs could be produced and promoted based on Compass platform features and services together.
+   - **AP: Ran Zhou follows up on this matter.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-05-21 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 21, 2024, from 14:15 to 14:29(Beijing Time)
