@@ -1,3 +1,19 @@
+# 2024-06-04 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 4, 2024, from 14:15 to 14:28(Beijing Time)
+## Attendees
+[Yehui Wang](https://github.com/eyehwan), [Shengxiang Zhang](https://github.com/normal-coder), [Huatian Qin](https://github.com/EdmondFrank), [Xingyou Lai](https://github.com/coder-sett), [Shengbao Li](https://github.com/lishengbao), [Ran Zhou](https://github.com/JuliaZhou2022), Xi Chen
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+No update at this time.
+### Operations
+1. Students registration of OSS Compass projects in OSPP will soon be closed. The students registration for OSS Compass Open Source Community Persona project has been confirmed, while OSS Compass Developer Persona project needs to confirm students registration before the deadline.
+    - **AP: Shengxiang Zhang confirms with the students as soon as possible.**
+2. Cooperation between Open Source Face-to-Face Blogging Platform and Compass Community: need to continue to communicate the details and clarify the cooperation program and the benefits that can be brought to the community.
+    - **AP: Ran Zhou continues to communicate with the person in charge of the platform.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-05-28 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 28, 2024, from 14:15 to 14:25(Beijing Time)
