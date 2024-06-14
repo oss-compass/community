@@ -1,3 +1,21 @@
+# 2024-06-11 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 11, 2024, from 14:15 to 14:25(Beijing Time)
+## Attendees
+[Shengxiang Zhang](https://github.com/normal-coder), [Wenxuan Long](https://github.com/hncslwx), [Xingyou Lai](https://github.com/coder-sett), [Guoqiang Qi](https://github.com/guoqiangqi), [Ran Zhou](https://github.com/JuliaZhou2022)
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+No update at this time.
+### Operations
+1. OSS Compass projects in OSPP: Student applications have been reviewed by mentors, pending community review; specific project development plans and schedules need further discussion and refinement.
+    - **AP: Ran Zhou completes the community review as soon as possible after receiving the notification email from OSPP. Shengxiang Zhang and Yehui Wang discuss the relevant plans and schedules.**
+2. Collaboration between Open Source Face-to-Face Blog Platform and Compass Community: It has been confirmed to try out one episode first, and the guest for the first interview has been confirmed, but the content needs to be planned.
+    - **AP: Ran Zhou communicates with the relevant person to confirm the content and timing of the first episode.**
+3. The community plans to participate in the OpenAtom Open Source Ecosystem Conference 2024.
+    - **AP: Ran Zhou confirms the form of participation with Yehui Wang.**
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-06-04 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 June 4, 2024, from 14:15 to 14:28(Beijing Time)
