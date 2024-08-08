@@ -1,3 +1,21 @@
+# 2024-08-06 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 6, 2024, from 14:15 to 15:00 (Beijing Time)
+## Attendees
+[Shengxiang Zhang](https://github.com/normal-coder), [Ran Zhou](https://github.com/JuliaZhou2022), [Guoqiang Qi](https://github.com/guoqiangqi), Fenju Fu - OpenAtom
+## Topic - Progress Discussion on Compass Frontend, Backend and Operational Matters
+### Frontend and Backend
+The backend development of OSS Compass projects in OSPP is underway.
+### Operations
+1. The planning of the Open Source Project Analysis Insights interview program is in progress.
+2. The collaboration between Compass and CHAOSS on the ISO international standard for open source evaluation is ongoing.
+3. The 2024 OpenAtom Open Source Ecosystem Conference has been postponed to the end of September. Compass has applied for an exhibition booth and will research open source communities' interest on evaluation models and metrics.
+4. Discussion:
+   - Which dimensions of metrics are the community more concerned about? Based on experience, community activity > community services and support, but this needs to be verified.
+   - A contributor evaluation system similar to professional titles based on the results of Compass's contributor model evaluation can be developed.
+## Kanban tracking
+https://github.com/orgs/oss-compass/projects/1
+
 # 2024-07-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 July 16, 2024, from 14:15 to 14:25 (Beijing Time)
