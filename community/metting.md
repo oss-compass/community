@@ -13,7 +13,7 @@ We hold regular online technical workshops to discuss and make decisions around 
 - **Meeting Time**: Every Tuesday 19:00-20:00 Beijing time (GMT+08:00)
 - **Tencent Conference No.**：513-5733-3878
 
-[![Join the meeting](community/media/meeting dn.jpg)](https://meeting.tencent.com/dm/AE8RoTY40SfS)
+[![Join the meeting](media/meeting dnn.jpg)](https://meeting.tencent.com/dm/AE8RoTY40SfS)
 
 If the button click does not work, you can copy the click or copy the following URL to your browser to access.
 
