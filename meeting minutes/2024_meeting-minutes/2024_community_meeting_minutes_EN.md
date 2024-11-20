@@ -1,4 +1,4 @@
-# 2024-11-12 Weekly Meeting Minutes of OSS Compass Community
+# 2024-11-19 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 19, 2024, 20:00-20:30 PM Beijing time
 ## Attendees
@@ -6,11 +6,15 @@ Yehui Wang, Xiaohua Xin, FenJu Fu，Rongman Xu, Shengxiang Zhang, Hailing Zhao, 
 ## Topic - Compass Community Work Progress Discussion
 ### I. Insights & Thoughts on OSS-Compass (RongMan Xu)
 ● Currently have completed the learning mechanism of Rest API, including the use of HTTP methods, the meaning of Status code, how to design interfaces that conform to the style of REST architecture; as well as tested the paging and data passing mechanism through a simple code implementation;
+
 ● Familiarized with the OpenAPI specification, understood the main contents of OpenAPI, and wrote an example API document in Swagger Editor to initially familiarize with API document writing and interface testing process;
+
 ● Discussed the design of the full-volume data acquisition mechanism and the caching mechanism, and proposed some problems that need to be solved, and Shengxiang Zhang suggested that Shengbao Li could be contacted to provide relevant support.
-### II.Demonstration of Compass Lab Demo (Xingyou Lai)
+### II.Discuss the update situation of Compass Lab (Xingyou Lai)
 ● Demonstrated the updated Compass Lab demo on the current OSS-Compass website, demonstrating the operation of the updated process, and the process has now been published in the official website blog as well as the public number article;
+
 ● Discussed the weight adjustment of the annual activity metrics, Yehui Wang suggested that it can be adjusted by the relevant people themselves, and also suggested that different thresholds should be used in different areas such as operating systems and databases;
+
 ● Regarding the permissions of models and reports, users can choose to open or not, but need to set permissions such as whitelist.
 ### III. Remaining issues
 None
