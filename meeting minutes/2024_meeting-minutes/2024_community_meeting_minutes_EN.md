@@ -1,3 +1,45 @@
+# 2024-11-26 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 26, 2024, 20:00-21:30 PM Beijing time
+## Attendees
+Yehui Wang, Xiaohua Xin, Shengxiang Zhang, YiXiang Zhang，Hailing Zhao, Xiaojie Hu, Guoqiang Qi, Shengbao Li，Xingyou Lai, Songnan Li, Chunmin Li
+## Topic -Discussion on Compass's cooperation with Open Source Summer and Open Atom Foundation
+### I. Discussion on the Cooperation Matters between Open Source Summer and Compass (Yixiang Zhang)
+#### 1.Optimization of Document Layout and Clustering of Semantic Features
+Layout Optimization Strategy: Regarding the optimization of the layout and the arrangement of documents, we plan to follow the relevant ideas of Tencent. We will gradually divide each piece of content into blocks and extract basic features from each content block.
+
+Progress of Text Clustering Work: Currently, the semantic clustering has been successfully grouped into 20 categories. Through the discussion on the changing trend of the SSE value, it is determined that the elbow value is in the range of 8 to 10 and shows a gradually slowing down trend in the subsequent stage, which provides an important reference basis for the evaluation of the clustering effect. In-depth exchanges have been carried out regarding the clustering direction and algorithm level, and it is preliminarily judged that there may be abnormal situations in the dimension of the feature vector, which need to be further investigated and optimized in the subsequent stage.
+
+#### 2.Discussion on Project Data, Classification, Feature Extraction, and Word Segmentation Strategies, etc.
+Data Visualization: The discussion focused on the data standardization process and the method of accurately judging the distance between clusters by means of visualization. On this basis, Yixiang Zhang proposed that the TF-IDF method can be used to display features, and the feature extraction operation can be carried out in combination with embedding and unit models. At the same time, it was emphasized that in an unsupervised learning environment, the closeness between different groups can be closely observed through visualization means to accurately locate the appropriate stopping point, thus providing a scientific basis for data processing and model training.
+
+Optimization of Word Segmentation Strategy: Guoqiang Qi pointed out that if the word list is constructed only based on the words that have already appeared, it will inevitably lead to a significant reduction in the discreteness of subsequent features, which will further seriously affect the stability of the data distribution variance. An in-depth analysis was carried out on the factors affecting the word segmentation effect, and it was found that the mixed use of particles and other nouns is likely to cause interference. To effectively evaluate the word segmentation effect, the word list can be printed for intuitive review and analysis, so as to timely discover and correct the problems existing in the word segmentation process and improve the accuracy and effectiveness of word segmentation.
+
+Discussion on Crawler Technology: Exchanges were carried out on the technical implementation of crawlers accessing the GitHub website. Shengbao Li proposed a solution to effectively avoid access restrictions by adding cookie information. In addition, everyone discussed the differences and respective advantages of the two technical means of REST API and web crawling, and also discussed key technical points such as how to efficiently obtain HTML content, accurately locate the position of pictures and related link information. Shengxiang Zhang pointed out that due to the widespread application of the current front-end asynchronous rendering technology, crawlers may face difficulties in obtaining the original content.
+
+#### 3.Exploration of Optimizing Document Experience
+The methods of document evaluation were discussed, as well as how to evaluate the quality of documents from aspects such as paratext, layout, and content distribution. Regarding the optimization of document experience, Yixiang Zhang proposed that it can be started from two aspects: document evaluation and document format. Regarding document evaluation, the accuracy of evaluation can be improved through semantic understanding; in terms of format, attention is paid to the overall layout of the document, such as the format information and appearance of the title. In addition, the selection and verification of comparison projects were also mentioned, as well as providing support for paper production from an academic perspective.How to Evaluate the Quality of Open Source Project Documents
+
+#### 4.How to evaluate the quality of a document.
+Firstly, it can be evaluated from the dimensions of document structure and content to see whether it can provide systematic cognitive assistance to entry-level personnel. Secondly, it can be evaluated visually, such as by using a heat map, to judge which parts are more attractive. Finally, the layout of other projects can be referred to find some innovative practices. In short, a good document should be able to concentrate information better and display the core information more effectively.
+
+### II. Discussion on the Cooperation Matters between Open Atom and Compass（Hailing Zhao, Xiaojie Hu）
+#### 1.Discussion on Project Activity Evaluation
+Xiaojie Hu raised the problems encountered in the process of creating the activity evaluation model, such as being unable to find community projects such as Euler in the operating system options, and how to screen multiple code repositories for data comparison. In addition, she discussed with Yehui Wang how to view the weekly activity ranking divided by technical dimension and how to use these data in the annual selection. Regarding the above operational problems, Xingyou Lai will be responsible for following up and solving them in the subsequent stage.
+
+#### 2.Insight and Evaluation of Global Operating System Projects
+The discussion focused on how to conduct insights at the global and overall levels to identify excellent domestic and foreign projects in the field of operating systems. Yehui Wang proposed that these projects can be obtained through clustering in the technical vertical domain, and it is considered to achieve this goal in 2024 or 2025. Regarding how to evaluate the value of these projects and how to avoid missing or inaccurate projects, it was proposed that automated means can be used for identification and decision-making to achieve a more comprehensive understanding.
+
+#### 3.Considerations for the Research and Ranking Making of Operating System Databases
+The discussion was carried out on the preliminary research on operating systems and databases and the problem of the data sample size on a global scale. In the subsequent stage, it is necessary to discuss with the leaders according to the actual situation whether certain adjustments need to be made to the rules. Regarding the issue of licenses, it is necessary to count the licenses used by projects in each technical field. In addition, the coverage situation of the operating system and database fields was discussed, as well as the insight situations in the global and Chinese regions. Regarding the content of open source projects and developers, Yehui Wang proposed that the data sorting work for 2024 is currently being carried out, and he expected to complete the data analysis of Github in mid-December, and then proceed with the data analysis of Gitee.
+
+### III. Remaining Issues
+● Collect project data in the database field of 50 to 100 operating systems on a domestic scale for reference. 
+(Responsible Person: Yehui Wang; Completion Time: December 3rd)
+
+● Complete the data sorting work for 2024 this week so as to carry out subsequent data mining and analysis. 
+(Responsible Person: Yehui Wang； Completion Time: December 3rd)
+
 # 2024-11-19 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 19, 2024, 20:00-20:30 PM Beijing time
