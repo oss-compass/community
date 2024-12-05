@@ -1,3 +1,36 @@
+# 2024-12-03 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 3 2024, 20:00-21:00 PM Beijing time
+## Attendees
+Yehui Wang, Shengxiang Zhang, YiXiang Zhang，Rongman Xu，Hailing Zhao, Xiaojie Hu, Xinzhu Guo,Guoqiang Qi, Shengbao Li，Xingyou Lai, Songnan Li, Chunmin Li
+## Topic - Compass Community Work Progress Discussion
+### I. Discussion on the Cooperation between Open Source Summer and Compass (YiXiang Zhang)
+#### 1.Discussion on issues such as layout and text richness
+Regarding the layout issue, YiXiang Zhang adopted the Markdown format, but there were problems with the inconsistency of picture height information and position information. Regarding the clustering issue, the transition situation among different categories was demonstrated through two-dimensional scatter plots, and the impact of unbalanced iteration times and data on clustering results was discussed. 
+
+Regarding the Chinese and English word segmentation issues, YiXiang Zhang extracted the Chinese text but did not process the English text.  Shengxiang Zhang put forward two ideas: First, continue to deepen according to the layout part, define the content, assign weights, and constrain the paragraph length; Second, calculate the aspect ratio of the image to determine its display effect on the screen. These two ideas can help solve the layout problem and improve the readability and practicability of the thesis. In addition，The verification of the distribution of four categories in different quadrants in the thesis was discussed, as well as how to solve the problem of inconsistent position information through feature extraction. 
+#### 2.Optimization of article structure and picture processing methods
+Regarding the article structure: The discussion focused on how to quantify the visual effect, get closer to the text through code blocks and text processing methods, and consider the impact of the number of lines in code blocks on the visual height. In addition, it explored how to remove the platform's dependence on CSS or rendering styles and how to identify the structure and content of the article. 
+
+Regarding the picture processing methods， Shengxiang Zhang mentioned that project pictures can be identified through machine learning methods to achieve visual differentiation；Regarding How to divide pictures into two categories including content information and structural information and how to identify and extract text information in pictures. Shengxiang Zhang mentioned analyzing the aspect ratio of pictures visually, judging their forms, and then identifying and extracting relevant information.
+### II. Insights & Thoughts on OSS-Compass (Xu Rongman)
+#### 1.API Documentation Writing
+  The progress of the Compass project was discussed, including writing GQL in the REST form, using the Swagger editor for debugging, and raising the issue of being unable to access the GQL API. In the follow-up, Xingyou Lai  can be asked for help to solve this problem.
+### III. Discussion on the Cooperation between OpenAtom and Compass
+#### 1.GitHub Global Insights Data Analysis
+Shengbao Li shared the collection of data and validation of the developer profiling algorithm in 2024, including some statistics such as the Github innovation graph . Finally, Yehui Wang proposed that in the follow-up, cooperation with Gitee will be carried out to obtain more comprehensive data.
+#### 2.Analysis Progress of Database Operating System Projects
+Guoqiang Qi shared the list data related to this month's OpenAtom Summit, including the progress of database operating systems, etc. It was shared that there are currently more than 800,000 projects, among which there are more than 4,000 operating system-related projects and more than 8,000 database-related projects. Through model analysis, more than 250,000 projects have been identified. Next, combined with the project profile, the Chinese part and the remaining part will be separated respectively, and classified using the same methods and models. Yehui Wang suggested considering some excellent projects related to the ecosystem when ranking.
+
+Regarding the previous insight methods，Yehui Wang hoped that more attention could be paid to the database ecosystem in the follow-up. Guoqiang Qi and Hu Xiaojie had a discussion and believed that insights could be carried out by classifying around several directions of the database. This can also enrich the original report in multiple dimensions. They also hoped to see the trend and distribution of industry categories and where the technology fields can have landing applications and commercialization in which industries or sectors.
+
+In addition, regarding the establishment of a department similar to LF Research in OpenAtom, Zhao Hailing proposed that the chairman of the council will be invited to confirm relevant matters in the follow-up and plans to invite everyone to come offline for reporting and discussion around December 10th.
+### IV. Remaining Issues
+● Cooperate with Gitee in the follow-up to obtain more comprehensive data to supplement and verify relevant viewpoints (Responsible person: Yehui Wang; Completion time: December 10, 2024)
+
+● Confirm and arrange the meeting time with the chairman of OpenAtom so as to make a detailed report on the establishment of a department similar to LF Research (Responsible person: Zhao Hailing; Completion time: December 10, 2024)
+
+
 # 2024-11-26 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 26, 2024, 20:00-21:30 PM Beijing time
