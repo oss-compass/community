@@ -1,3 +1,19 @@
+# 2024-12-17 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 17 2024, 20:00-20:30 PM Beijing time
+## Attendees
+Yehui Wang, Shengxiang Zhang, YiXiang Zhang，Guoqiang Qi, Shengbao Li，Chunmin Li
+## Topic - Compass Community Work Progress Discussion
+### I. Discussion on the Cooperation between Open Source Summer and Compass (YiXiang Zhang)
+#### 1.Project feature extraction and layout optimization
+The following aspects were discussed: a. Issues related to feature extraction and positional information, including the relative position of images and rendering effects; b. About the way of handling videos, which are mainly stored in the form of a website and put into a readme document for display; c. About the structure of the project introduction, such as the project structure, contact information, and bug handling, etc., as well as how to categorize different paragraphs and color markers to better analyze the features of the project.
+#### 2. In-depth analysis of project introduction and usage guidelines
+It mainly discusses the clustering effect in the semantic feature network and how to extract the text information inside the pictures. Yehui Wang and Guoqiang Qi mentioned and explained the parts of project introduction, scene description, usage guide, developer guide and contribution guide.
+#### 3. Discussion of Image Processing and Information Extraction
+The issue of image processing was discussed; for images in the form of logos,  Yixiang Zhang suggests that they can be regarded as a kind of extra waste image and filtered out directly. Qi suggested that it is not recommended to OCR images to extract text through the model, but rather to focus on whether the image reflects the type of information and its relevance to the instructions for use. Finally, on the issue of visual optimization, Shengxiang Zhang suggested that it can be optimized by calculating the number of images in a unit space.
+### II.  Remaining Issues
+None
+
 # 2024-12-03 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 3 2024, 20:00-21:00 PM Beijing time
