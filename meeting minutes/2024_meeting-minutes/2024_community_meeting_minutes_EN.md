@@ -1,3 +1,32 @@
+# 2024-12-24 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 24 2024, 20:00-21:00 PM Beijing time
+## Attendees
+Yehui Wang, YiXiang Zhang，Hailing Zhao, Xiaojie Hu,Leiming Pan，Rongman Xu，Guoqiang Qi, Xingyou Lai, Songnan Li, Chunmin Li
+## Topic - Compass Community Work Progress Discussion
+### I. Discussion on the cooperation between Open Source Summer and Compass (Yixiang Zhang)
+#### 1. Content block aggregation and semantic information extraction
+The construction of content block and aggregation network, and the extraction of video and image information were discussed. The video information includes two forms of links and moving images, and it is more difficult to deal with the link form, which is currently dealt with by means of ordinary links. As for semantic information, it is scored by five features and attempted to be characterized using a model approach. In addition, the increase of text richness and the effect of multimodal approach on content richness are discussed. Finally, the importance of readability and timeliness is mentioned.
+#### 2.Discussion of text readability and timeliness
+The assessment of text readability was discussed, including the number of paragraphs, paragraph symbols, pictures and picture paragraphs, title length body features and other aspects. At the same time, the timeliness assessment was mentioned, which is judged by comparing the time of release version and update time. At present, this part of the work has not been completed, and it is planned to be completed before the Spring Festival. After that, Yehui Wang proposed that he would work with CAS on a long-term project, which requires a long time investment.
+#### 3. Thesis Layout Research Discussion
+Regarding the paper layout, Qi mentioned that he could refer to other researchers' models and put forward his own innovations in the paper. In addition, the issue of document update was discussed, including version release and document content matching. Regarding the continuation and innovation of readability assessment, Qi Guoqiang suggested the need for feature extraction and comparative analysis based on the existing foundation. Finally, the group discussed the research problem, research object, technological innovation and software engineering of the paper, focusing on technical issues such as API governance, asset management, knowledge base construction, and how to ensure the continuity and methodological innovation of the paper.
+### II Insights & Reflections on OSS-Compass (Rong-Man Xu)
+Rongman Xu proposed that she encountered some problems in the operation: the REST API was changed to HTTP for requesting, but when getting the information, it showed an error report. For this problem, Wang Yehui said that if these problems occur in the future, they can go to Lai Xingyou to provide help.
+### III. Discussion on the cooperation between Open Atom and Compass (Hailing Zhao、Xiaojie Hu)
+Regarding the progress of data, Wang Yehui said that the work is now in order, the global insight is basically completed, the import and export map of open source engineering for import and export of each country has been produced, and the next step will be to carry out the study of 2024, including the analysis of the domestic technical waters. It is expected that the data processing and design work will be completed by the end of the month, and a first draft will be issued around January. In addition, regarding the formation of the ad hoc committee, Zhao Hailing said that he has communicated with the chairman of the board of directors, and it is expected that it will be carried out at the beginning of next year. If there is a need for follow-up, support can be provided at any time.                            
+### IV.Introduction of Openlinksaas products and its cooperation possibilities (Leiming Pan)
+Leiming Pan, as the founder of Openlinksaas, introduced the product at the meeting, and the main functions include integration of tools needed for R&D, statistical analysis function, and health evaluation system. In addition, some tools such as remote terminal access to the database and secure publishing were also mentioned, as well as functions such as project management, communication and collaboration, and team management. Regarding the collaboration of information between client and server, and the needs of universities and enterprises for the solution, Yehui Wang suggested that we can try to use Compass to get the desired data. Finally, we discussed the service scenarios, regular functions, SaaS interface and extended functions, such as health indicators, code compliance and defect detection.
+### V. Remaining Issues
+● Develop a milestone demo next week
+(Responsible person: Yixiang Zhang; Completion date: December 31, 2024)
+
+● Complete data processing and design work in the second week of January and prepare the first draft for data insight layout
+(Responsible person: Yehui Wang; Completion date: mid-January)
+
+●Develop and publish the Compass Community Annual Report before the Chinese New Year.
+(Responsible person: Chunmin Li; Completion date: mid-January)
+
 # 2024-12-17 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 17 2024, 20:00-20:30 PM Beijing time
