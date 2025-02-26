@@ -1,0 +1,80 @@
+---
+title: Don't miss it! This OSS-Compass development guide is extremely practical!
+tags:
+  - Blog
+---
+
+Hello, all open-source friends! Long time no see! In the new year, the OSS-Compass community will also bring you new surprises! Today, we will share with you the efficient development guide compiled by the OSS-Compass community. Let's take a look together!
+
+<!--truncate-->
+
+**OSS-Compass Community Development Guide:**
+
+This development guide is jointly compiled by the members of the OSS-Compass community team. Its core objective is to help developers efficiently deploy GrimoireLab, set up front-end and back-end development environments, and expand the Compass indicator model. It covers the complete process from infrastructure setup to indicator development.
+
+**Website:** https://github.com/oss-compass/docs/tree/main/developer-guide
+
+**Overall Features:**
+
+- Full coverage of the technology stack: Covers mainstream technologies such as Ruby, Node.js, Python, Docker, and OpenSearch, meeting the needs of full-stack development.
+- Out-of-the-box: Provides Docker Compose templates and environment variable templates to reduce the cost of manual configuration.
+- Community-driven: Deeply integrates GitHub/Gitee data sources and supports multi-dimensional analysis of the health of open-source communities.
+- Modular design: Decouples services, data, and indicators in layers, supporting flexible expansion and customized development.
+
+**Applicable Scenarios:**
+
+- Platform deployment: Quickly build the service and data infrastructure of the OSS-Compass platform.
+- Indicator development: Expand the analysis capabilities of the OSS-Compass platform and develop customized indicators and models.
+- Full-stack development: Supports the full-stack development needs from the back-end to the front-end, and from data crawling to indicator calculation.
+
+The OSS-Compass development guide consists of four parts: **"Data Infrastructure Deployment Guide"**, **"Front-end and Back-end Deployment Guide"**, **"Data Indexing and Storage Specification"**, and **"Practical Guide to Indicator Development"**. The specific content is as follows:
+
+**1.Data Infrastructure Deployment Guide**
+
+Introduction: As the foundation of Compass's data analysis capabilities, this guide ensures the efficient operation of the GrimoireLab ecosystem, supports the crawling of raw data as a basis for indicator calculation and development, and supports the multi-platform compatibility of open-source community data.
+
+File: Grimoirelab Deployment Guide.md
+
+Features:
+
+- Standardization of core components: Details the deployment of the OpenSearch cluster and MariaDB database, and provides Docker Compose templates and manual configuration references.
+- Integration of customized components: Guides the installation of Compass-customized GrimoireLab components (such as grimoirelab-elk-gitee) to adapt to the data crawling and enhancement of GitHub/Gitee data sources.
+- Pre-configuration of the environment: Includes installation scripts for basic environments such as Python 3.8 and Docker, reducing the risk of dependency conflicts.
+
+**2.Front-end and Back-end Deployment Guide**
+
+Introduction: This guide provides a standardized process for the deployment of the front-end and back-end services of the Compass platform, covering the configuration details of the development and production environments from the installation of basic dependencies to the startup of the services.
+
+File: Compass Backend & Frontend Service Deployment.md
+
+Features:
+
+- Modular deployment: Covers the independent deployment processes of the back-end (Ruby on Rails), front-end (Next.js), gateway (Nginx), and scheduled task services, supporting flexible expansion.
+- Detailed environment configuration: Provides a complete .env file template, covering configuration examples of key components such as the database (MariaDB), message queue (RabbitMQ), cache (Redis), and email service (SMTP).
+- Containerization support: Achieves rapid deployment through Docker and Docker Compose, including multi-service orchestration (such as the separate deployment of the front-end document service and the main site service).
+
+**3.Data Indexing and Storage Specification**
+
+Introduction: This specification provides a standardized design for OpenSearch data storage, ensuring data consistency and scalability, and is the core data support for the Compass indicator model.
+
+File: OpenSearch Index.md
+
+Features:
+
+- Clear index classification: Defines 7 types of core indexes (such as repositories, commit records, PRs, contributors, etc.), clarifying the data structure and purpose of each index.
+- Enhanced design: Distinguishes between raw data (such as github-issues) and enhanced data (such as github-issues_enriched), supporting complex analysis scenarios.
+- Final indicator aggregation: Stores the calculated indicator results centrally through the compass_metric_model_custom_v1 index, facilitating visualization and API calls.
+
+**4.Practical Guide to Indicator Development**
+
+Introduction: A practical manual for developers, combined with code examples and configuration templates, guiding how to develop customized indicators in the Compass ecosystem, emphasizing the reusability and the efficiency of local debugging.
+
+File: 开发指标步骤\_zh.md
+
+Features:
+
+- End-to-end process: From data crawling (GrimoireLab debugging), indicator development (Python function expansion) to Lab integration, covering the complete development cycle.
+- Debugging-friendly: Provides VSCode remote debugging configuration examples, supports the phased execution of raw and enrich, and reduces the development threshold.
+- Modular expansion: Achieves the rapid registration of new indicators and the configuration of thresholds by modifying thresholds.yaml and base_metrics_model.py.
+
+Okay, the above is the detailed introduction of the OSS-Compass development guide. We hope that this development guide can help all developers better understand, use, or participate in the development work of the OSS-Compass platform. At the same time, we also welcome more open-source enthusiasts to join the OSS-Compass community and contribute to the open-source cause together!
