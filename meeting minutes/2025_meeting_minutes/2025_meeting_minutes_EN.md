@@ -1,3 +1,24 @@
+# 2025-02-25Weekly Meeting Minutes of OSS Compass Community
+## Time
+February 25 2025, 20:00-21:00 PM Beijing time
+## Attendees
+Yehui Wang, YiXiang Zhang，Hailing Zhao，Guoqiang Qi, Shengbao Li，Xingyou Lai, Songnan Li, Chunmin Li
+## Topic - Compass community work progress discussion
+### I. Discussion on the cooperation between Open Source Summer and Compass (Yixiang Zhang)
+The discussion covered aspects including the layout part, coding effects, chunking standards, etc., as well as the work of readability evaluation. It was proposed to try to conduct rapid information retrieval through knowledge distillation. Regarding the evaluation of the timeliness of texts, currently, the update frequency is judged by the version submission time, and the correlation between timeliness and content was discussed. The update frequency and timeliness of API documents were discussed, and the importance of version information was emphasized.  Yehui Wang proposed that although the timeliness of API documents is closely related to version updates, function additions, etc., it is not the most important. In fact, what everyone generally pays attention to is the usage guide and capabilities of API documents.
+
+### II. Discussing the Situation of the Yearbook Report (Zhao Hailing)
+#### 1.Analysis of the Influence of the Open Source Community and Developers
+The following questions were raised: a. Regarding open source communities with international influence, including the Linux community, Kubernetes community, etc., and which open source communities in China have international influence. b. Regarding open source developers, including active open source developers and newly added open source developers, and how many open source developers in China are at the ten-thousand level; for this question, Yehui Wang proposed the statistical method in the report, requiring that only developers who have made code contributions be counted. c. Regarding the number of open source developers in China, what is the unified external caliber of the data; Wang Yehui discussed the data sources and definition methods, which may include developers who have submitted issues, cumulative developers who have ever made contributions to Chinese projects, etc. Finally, regarding how to measure the influence of an open source project, Yehui Wang proposed that currently there is no unified measurement standard in the industry, but it can be estimated through indicators such as the number of developers and users, and it also needs to be verified through cross-data and conduct horizontal comparisons. In addition, some proxy indicators, such as the number of issue submissions, download volumes on different websites, etc., can be used to screen out open source communities with potential influence to provide references for decision-making.
+ 
+#### 2.Discussion on Follow-up Cooperation
+The establishment situation of the special committee and the follow-up cooperation plan were discussed. Regarding the report, the final draft is expected to be released this week.
+ 
+### III. Remaining Issues：
+●Complete the final draft of the report; (Responsible Person: Hailing Zhao; Completion Time: Before March 2nd)
+
+●Discuss with everyone later to determine an appropriate report promotion method; (Responsible Person: Hailing Zhao; Completion Time: March 5th)
+
 # 2025-02-11Weekly Meeting Minutes of OSS Compass Community
 ## Time
 February 11 2025, 20:00-20:30 PM Beijing time
