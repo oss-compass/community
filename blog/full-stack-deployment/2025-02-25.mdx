@@ -1,0 +1,54 @@
+---
+title: Hands-on Practice of Full-stack Deployment and Indicator Development of the OSS-Compass Platform
+tags:
+  - Blog
+authors:
+  - name: 李松楠
+    title: OSS-Compass software development engineer
+---
+
+Nowadays, with the vigorous development of open source communities, how to efficiently evaluate the health of projects, track the activities of contributors, and quantify the influence of the community has become the focus of attention for developers and enterprises. As an open source ecosystem analysis platform, OSS-Compass provides powerful technical support for community governance by integrating data collection, storage, calculation, and visualization capabilities. Based on the recently compiled OSS-Compass development guide, this article will analyze how to quickly deploy the OSS-Compass platform and develop customized indicators, enabling developers to make a leap from open source consumers to ecosystem builders.
+
+<!--truncate-->
+
+**I. The Core Architecture of the OSS-Compass Platform**
+
+The OSS-Compass platform adopts a modular architecture design and builds a complete analysis ecosystem through four layers of core components:
+
+Service Layer: The Ruby on Rails framework supports the processing of backend business logic, and the front end uses Next.js to implement a dynamic visualization interface. It conducts efficient data interaction with the backend service through the GraphQL protocol, and relies on the Nginx gateway to achieve unified entrance management and load balancing, ensuring the stability of the collaborative operation of multiple services.
+
+Data Layer: A dual-engine storage system is constructed. The OpenSearch cluster is used to achieve distributed storage of raw data such as Git commits, Issues, and PRs, as well as enhanced analysis data. At the same time, the MariaDB database is used to manage business metadata such as user permissions, forming a collaborative management mechanism for structured and unstructured data.
+
+Task Scheduling Layer: The platform integrates the Celery asynchronous task queue to handle complex data calculation processes. At the same time, it deeply integrates the GrimoireLab open source ecosystem. Through its mature data crawling toolchain, it connects to mainstream code hosting platforms such as GitHub and Gitee, and completes the processing from data collection to quality enhancement.
+
+Indicator Model: The core indicator calculation framework is built with Python. Based on the Compass Metrics Model, it supports developers to flexibly define a multi-dimensional project health evaluation system through custom algorithm modules and dynamic threshold configuration, forming an extensible indicator calculation paradigm.
+
+**II. Complete the Full-stack Deployment of OSS-Compass in Three Steps**
+
+The process of setting up the full-stack development environment of OSS-Compass mainly consists of three steps:
+
+1.Infrastructure Deployment
+
+First, quickly build the core infrastructure environment through Docker Compose. Deploy the OpenSearch cluster based on the official image, and ensure the performance of massive data storage and retrieval by optimizing the memory allocation strategy and index sharding rules. Initialize the MariaDB database service synchronously, and then deploy the GrimoireLab open source toolchain to build a complete pipeline for collecting development behavior data such as code commits, Issue tracking, and PRs from platforms such as GitHub and Gitee, providing standardized data input for subsequent analysis.
+
+2.Deployment of Backend and Frontend Services
+
+For the backend service, use the RVM toolchain to install the Ruby 3.1.2 runtime environment. Inject key parameters such as database connections and keys by configuring the.env environment variable file, and execute the database migration script to complete the initialization of the table structure. The front-end service quickly starts the Next.js application service based on the pre-built Docker image, achieving dynamic chart rendering and user interaction functions.
+
+3.Integration of Gateway and Scheduling Services
+
+Configure intelligent routing rules in the Nginx gateway layer, distribute external requests to the front-end application, backend API, and document site according to path characteristics, and at the same time integrate the load balancing strategy to improve service availability. Finally, start the Celery distributed task queue, deploy Worker nodes to handle asynchronous tasks of data analysis, and achieve automated orchestration of core jobs such as data synchronization and indicator calculation through the scheduled task scheduler. At this point, the full-stack deployment from data access, front-end and backend services to task scheduling is completed.
+
+**III. Hands-on Practice: Developing Custom Community Health Indicators**
+
+1.Data Crawling and Enhancement
+
+By editing the project configuration file of GrimoireLab, clearly specify the target repository address and the data types to be collected (such as metadata of Issues, PRs, etc.), and build a basic data collection template. Use VSCode to execute the raw stage (raw data crawling) and the enrich stage (data enhancement processing) step by step, providing structured data input for subsequent indicator calculation.
+
+2.Indicator Development
+
+The implementation of customized indicators is completed through Python functions in the compass-metrics-model framework. Taking the indicator of "the number of PRs in the past 90 days" as an example, define a function to receive parameters such as the OpenSearch client, index name, and time range, construct an aggregation query statement based on the time window and send a request to OpenSearch, and parse the returned aggregation results to extract the PR count data. The key code logic is encapsulated and returned in dictionary format to ensure compatibility with the platform's data specifications. After completing the function development, it is necessary to register the indicator mapping relationship in the model and set the interval values in the threshold configuration file to form a complete indicator definition loop.
+
+3.Visualization Integration
+
+To present the developed indicators on the front-end page, it is necessary to complete the connection of the data link. Add indicator metadata records to the database indicator table and define the corresponding relationship between the front-end display name and the data field. After the deployment is updated, the platform will automatically load the new indicator configuration, and developers can verify the accuracy of the indicator calculation through the visualization workbench, ultimately achieving the full process connection from data collection, indicator calculation to visualization presentation.
