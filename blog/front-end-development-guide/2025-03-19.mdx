@@ -1,0 +1,80 @@
+---
+title: OSS-Compass Platform Front-end Development Guide (Part 1): Detailed Explanation of Technology Stack and Development Environment
+tags:
+  - Blog
+authors:
+  - name: Lai Xingyou
+    title: Software Development Engineer in OSS-Compass Community
+---
+
+In the wave of the vigorous development of the open-source community, OSS-Compass has established an open-source project evaluation system based on an indicator model. After two years of polishing and precipitation, its functions have been continuously improved, and the community has become increasingly mature. For open-source developers who want to make a difference in the OSS-Compass community, a deep understanding of the project's front-end technical architecture is the key to opening the door to contribution. In this article, we will delve into [the front-end main repository](https://github.com/oss-compass/compass-web) project architecture and development environment of the OSS-Compass platform, covering key aspects such as its technology stack, file structure, routing system, API interaction, and development environment setup, helping everyone understand the design ideas and implementation details behind it. In the follow-up, we will further explore the management techniques of the project classification repository, the construction and optimization methods of the document repository, and study the details of API interaction to improve data interaction efficiency.
+
+<!--truncate-->
+
+### I. Architecture Pattern
+
+The front-end of OSS-Compass adopts a Single Page Application (SPA) architecture pattern based on React, and combines Next.js to achieve Server-Side Rendering (SSR). React is chosen as the foundation for building the user interface because its virtual DOM mechanism can efficiently handle interface updates. The component-based development mode splits complex pages into independent and reusable modules, greatly improving the maintainability and scalability of the code. In OSS-Compass, whether it is a basic button, search box component, or a complex page component like the model data chart on the analysis page, they are all carefully encapsulated. Each component focuses on its own functional logic, reducing the coupling degree of the code. The introduction of Next.js brings SSR and SSG features to the project, which helps to improve page performance and search engine optimization (SEO), and greatly enhances the user operation response speed and experience.
+
+### II. Core Technology Stack
+
+| **Technical Classification**                                   | **Technical Selection**   | **Selection Reasons and Key Practices**                                                                                                                                                                |
+| -------------------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ** Core Framework &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;** | React + TS + Next.js      | Based on the component-based development mode, interface type constraints are implemented through TS, and SSR is implemented with Next.js.                                                             |
+| **Styling Solution**                                           | Tailwind CSS              | A utility-first CSS framework for quickly building styles.                                                                                                                                             |
+| **Component Library**                                          | Ant Design                | An open-source UI design language and component library. It not only has an aesthetic design but also has been verified through a large number of practices, featuring good stability and ease of use. |
+| **Visualization**                                              | ECharts                   | A widely acclaimed open-source chart visualization framework. The community has a high measurement score on the OSS-Compass platform, which is better than other competing products.                   |
+| **State Management**                                           | Context API               | A simple and lightweight method for sharing state between components.                                                                                                                                  |
+| **Engineering**                                                | ESLint + Prettier + Husky | Used to identify and report issues in JavaScript code and automatically format the code before submission.                                                                                             |
+| **Internationalization**                                       | i18next                   | Multilingual files are split by namespace (e.g., i18n/{lang}/common.json), and it supports dynamic SSR loading.                                                                                        |
+
+### 3. File Structure
+
+```plaintext
+web/src/
+├── common/          // Reusable components, common utility functions, common hooks
+├── pages/           // File system routing
+├── modules/         // The modular page corresponding to the route, such as the analysis page, Lab page, and collaboration page
+└── styles/          // Style files (Tailwind and Custom styles)
+
+web/i18n/
+└── {lang}           // International configuration
+
+graphql/
+└── src/gql/         // Graphql API
+```
+
+### 4. Routing System
+
+Next.js uses the file system as the basis for routing, and each file in the pages folder will automatically correspond to a route. This approach makes route management simple and intuitive. For example:
+
+```plaintext
+pages/
+├── analyze/            // Model analyzes page routing
+│      └──[slugs].tsx   // Model analysis page dynamic routing, slugs are project ids
+├── collaboration/      // Cooperative page routing
+└── lab/                // Lab page routing
+```
+
+Next.js supports dynamic routing, allowing developers to dynamically render pages according to URL parameters. By using the square bracket ([]) syntax, dynamic routing can be easily achieved. For example, the [slugs].tsx file can be used to display the model evaluation information of the project.
+
+### 5. API Interaction
+
+OSS-Compass uses GraphQL for data interaction between the front-end and the back-end. Compared with traditional RESTful APIs, GraphQL allows the front-end to precisely specify the data it needs to obtain, and the back-end will only return the data requested by the front-end, avoiding over-fetching or under-fetching of data. For example, when obtaining a user's login information, the front-end can use a GraphQL query to request only necessary fields such as the user's name and avatar, without having to obtain a large amount of unnecessary additional data as might be the case with a RESTful API. This not only reduces the data transmission volume, improves application performance, but also makes data requests more flexible and customizable.
+
+### 6. Development Process and Specifications
+
+**(1) Development Environment Setup**
+
+- Install Dependencies: First, you need to clone the front-end project repository of OSS-Compass to your local machine. After entering the project directory, use yarn to install the required dependency packages for the project. The package.json file of the project already lists all the dependencies, including related libraries such as React, Next.js, and Tailwind CSS.
+  Configure Environment Variables: Configure the environment variable for the address of the back-end API. Create a.env.local file in the web directory of the project and add the address of the back-end API in it for configuration.
+  Start the Development Server: After installing the dependencies and configuring the environment variables, use the yarn dev command to start the development server. At this time, the browser will automatically open the local development address of the project, and developers can preview and debug the code in real-time in the browser.
+- Code Specifications ESLint, Prettier, Husky, The OSS-Compass project uses ESLint for code quality inspection, Prettier for code formatting, and Husky to execute the ESLint script before committing. ESLint can detect syntax errors, potential logical issues, and places that do not conform to the code specification in the code, while Prettier can automatically format the code to make its style uniform. The relevant configuration files can be viewed in the root directory of the web. During the development process, it is recommended that developers install the ESLint and Prettier plugins in the editor so that when saving a file, the editor will automatically check and format the code according to the configuration.
+- Start the Development Server: After installing the dependencies and configuring the environment variables, use the yarn dev command to start the development server. At this time, the browser will automatically open the local development address of the project, and developers can preview and debug the code in real-time in the browser.
+
+**(2) Code Specifications ESLint, Prettier, Husky **
+
+The OSS-Compass project uses ESLint for code quality inspection, Prettier for code formatting, and Husky to execute the ESLint script before committing. ESLint can detect syntax errors, potential logical issues, and places that do not conform to the code specification in the code, while Prettier can automatically format the code to make its style uniform. The relevant configuration files can be viewed in the root directory of the web. During the development process, it is recommended that developers install the ESLint and Prettier plugins in the editor so that when saving a file, the editor will automatically check and format the code according to the configuration.
+
+### 7. Conclusion
+
+By having an in-depth understanding of the front-end architecture of OSS-Compass and mastering the development process, developers can go to the OSS-Compass community repository (URL: https://github.com/oss-compass) to view the source code, issues, participate in community discussions, find problems that they are interested in and capable of solving, and try to contribute code. It is hoped that this article can serve as a guide for you to start your open-source contribution journey in OSS-Compass. Let's work together to promote the continuous progress of OSS-Compass in the field of open-source evaluation and bring better services to global users.
