@@ -1,3 +1,18 @@
+# 2025-04-15Weekly Meeting Minutes of OSS Compass Community
+## Time
+Apirl 15 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Yehui Wang, ShengXiang Zhang，YiXiang Zhang，Guoqiang Qi, Shengbao Li，Xingyou Lai, Songnan Li, LiWei Hu，Chunmin Li
+## Meeting Minutes
+### I. Task Allocation (Yehui Wang)
+It was mainly reported that since the beginning of this year, the financial standards have been achieved. The second demo was completed last week, and the overall architecture design, including the infrastructure layer and the PaaS layer, has been finalized. Subsequently, Zhang Yixiang and Hu Liwei will mainly follow up on the development of the data set interfaces for L1 to L3.
+### II. Introduction to the Data Platform Architecture Design (Songnan Li)
+The architecture of the data platform was mainly introduced. Starting from the data platform, it is divided into three layers: L1, L2, and L3. L1 is mainly responsible for collecting raw data and performing flattening processing. L2 is the indicator layer, where projects are processed through indicators. L3 is the model layer, which consists of indicator data.
+### III. Discussion on Related Issues (Yehui Wang, Songnan Li, YiXiang Zhang，LiWei Hu)
+Regarding the above - mentioned content, the meeting discussed the processing of metadata and the implementation of query interfaces. Li Songnan stated that there is no need to consider which layer it belongs to during the development process. Wang Yehui gave a relatively detailed explanation of the role of APIs. In addition, Wang Yehui introduced the five SaaS services (including the open - source situation insight service, community ecosystem evaluation service, developer profile, open - source selection evaluation service, data & model research service), and mentioned the definition and verification of the L1 to L3 data sets in the past week, as well as the method of obtaining REST APIs for future cooperation with the two students. Finally, the meeting mainly discussed the overall plan for 2025, the development in the direction of REST APIs, the implementation of the CHAOSS model, and the establishment of the AI Working Group. Additionally, Compass will hold its annual meeting at Peking University on June 4th, and the two students are hoped to participate.
+### IV. Remaining Issues
+Complete the development work in the direction of REST APIs to obtain the L1 to L3 data sets within half a month .(Completion time: Before the end of April；Person in charge:YiXiang Zhang，LiWei Hu)
+
 # 2025-02-25Weekly Meeting Minutes of OSS Compass Community
 ## Time
 February 25 2025, 20:00-21:00 PM Beijing time
