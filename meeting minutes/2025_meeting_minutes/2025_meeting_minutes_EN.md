@@ -1,4 +1,4 @@
-# 2025-02-25Weekly Meeting Minutes of OSS Compass Community
+# 2025-04-22Weekly Meeting Minutes of OSS Compass Community
 ## Time
 Apirl 22 2025, 19:00-20:00 PM Beijing time
 ## Attendees
