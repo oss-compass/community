@@ -1,3 +1,21 @@
+# 2025-02-25Weekly Meeting Minutes of OSS Compass Community
+## Time
+Apirl 22 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Yehui Wang, Lingyun Situ，YiXiang Zhang，Hailing Zhao，Guoqiang Qi, Shengbao Li，Xingyou Lai, Songnan Li, LiWei Hu，Chunmin Li
+## Meeting Minutes
+### I. Discussion on Compass Cooperation Matters (Wang Yehui, Situ Lingyun)
+The main current work content of OSS-Compass was discussed at the meeting. Wang Yehui introduced the background of the upcoming press conference and the relevant released functions. In addition, Teacher Situ from Nanjing University introduced the software tools he is currently developing at the school and the current commercial cooperation situation. The two parties had an in-depth discussion on the possible cooperation methods between the tool and Compass, and agreed to meet offline next Tuesday for further discussion.
+### II. Discussion on the Progress of Financial Standard Development Work (Li Songnan, Zhang Yixiang, Hu Liwei)
+●Firstly, Li Songnan introduced the technical background of the Rest API development work. Wang Yehui proposed that the mirror machine mirror station download service should be focused on being launched this year.
+
+●Zhang Yixiang described the current work progress. The environment has been set up, and he proposed that it may be necessary to divide the tasks of the developed interfaces in the future. Regarding the problems encountered during the work process, he pointed out that during the process of setting up the database in the environment, the account passwords of different users are different. After discussing with Li Songnan, the situation has been fixed, but there is still a login part that needs to configure the front-end framework, which has not been configured yet. Wang Yehui suggested splitting the tasks, and then normally proceeding with the development work.
+
+●Hu Liwei described the current work progress. He has already discussed with Li Songnan and cooperated with Yixiang. The relevant problems have been solved, and the subsequent development work can be started.
+### III. Discussion on Optimizing the Development Library and Interface Design (Zhang Shengxiang)
+Issues such as the attributes of users or code libraries, development work, interface design, and UI application were discussed. Zhang Shengxiang suggested doing solid work on the engineering level to achieve a better experience in the future. Wang Yehui proposed that Peking University and the Zhongke Soft Research Institute will establish a mirror station, which can share the computing power problem. In addition, the understanding of data based on the interface and how to maintain a consistent calling method and data under the cluster were also discussed.
+### IV. Remaining Issues
+●Complete the development tasks and formulate subsequent verification and acceptance plans; (Completion time: Before April 30, 2025; Person in charge: Li Songnan, Zhang Yixiang, Hu Liwei)
 # 2025-04-15Weekly Meeting Minutes of OSS Compass Community
 ## Time
 Apirl 15 2025, 19:00-20:00 PM Beijing time
