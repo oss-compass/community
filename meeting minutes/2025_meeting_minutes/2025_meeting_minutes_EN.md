@@ -1,3 +1,36 @@
+# 2025-04-29Weekly Meeting Minutes of OSS Compass Community
+## Time
+Apirl 29 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Yehui Wang,YiXiang Zhang，Guoqiang Qi, Xingyou Lai, Songnan Li, LiWei Hu，Chunmin Li
+## Meeting Minutes
+### I. Progress of the Development Project & Discussion of Issues (Zhang Yixiang, Hu Liwei, Li Songnan)
+#### 1.Current Progress:
+Firstly, the development interfaces by the two interns have been completed, but one interface field still needs to be modified. Next, they need to conduct a code review. In addition, they also need to perform performance testing to ensure that the project can run properly in the production environment. Finally, it is recommended that they use gray-scale testing and interface calls for performance testing.
+
+### 2.Issue Communication:
+●Hu Liwei raised the issue that regarding the sorting problem in index data query, it is necessary to confirm the cause of the inconsistent fields. Li Songnan and Wang Yehui explained that the field names of the creation time in different data sources may be different and need to be unified. Li Songnan needs to follow up on this issue in the future.
+
+●Zhang Yixiang mentioned that there was no relevant data in the test database, so he needed to construct requests by himself. He also said that he solved the problem of test data by changing the requested repository.
+
+### II. Arrangement of Follow-up Work (Wang Yehui)
+●Annual Meeting Invitation: Invite the two interns to participate in the annual meeting to be held at Peking University on June 4th.
+
+●AI Working Group: It was mentioned that the community is currently establishing an AI working group, and the two interns were asked if they were interested in participating.
+
+●Intern Arrangement: The functions of API, CHAOSS's Metrics, and Metrics Models were mentioned, and the two interns may be responsible for these in the future.
+
+●New Member Joining: Currently, two students are going to join the community, and it is necessary to follow up on the relevant situation.
+
+### III. Remaining Issues:
+●Complete the performance testing and ensure the stability of performance; (Person in charge: Zhang Yixiang, Hu Liwei; Completion time: Before May 6, 2025)
+
+●Follow up on the actual situation of the field names of the creation time in different data sources; (Person in charge: Li Songnan; Completion time: Before April 30, 2025)
+
+●Complete the code review and communicate with Xingyou to prepare for the delivery of the production environment; (Person in charge: Li Songnan; Completion time: Before May 6, 2025)
+
+●Follow up on the situation of new members and invite them to participate in the regular meeting after the holiday; (Person in charge: Li Chunmin; Completion time: Before April 30, 2025)
+
 # 2025-04-22Weekly Meeting Minutes of OSS Compass Community
 ## Time
 Apirl 22 2025, 19:00-20:00 PM Beijing time
