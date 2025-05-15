@@ -1,3 +1,23 @@
+# 2025-05-13Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 13 2025, 19:00-20:30 PM Beijing time
+## Attendees
+Wang Yehui, Li Xiaoming, Zhang Shengxiang, Qi Guoqiang, Zhang Yixiang, Hu Liwei, Jin Xi, Dai Ruiqi, Li Xuhui, Wang Lei, Zhu Jiashun, Gu Hailong, Liao Kaifeng, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin, Hawk 
+## Meeting Minutes
+### I. Introduction of Community Projects (Qi Guoqiang)
+At the meeting, Qi Guoqiang introduced in detail the OSS Compass community and the two internship projects applied for by the community to the attending students and community members. He pointed out that the OSS Compass is an open-source community. The participants cover multiple entities such as individuals, enterprises, and organizations. Its core function is to evaluate the open-source ecosystem. Through building professional evaluation models, it conducts analysis on open-source projects and communities from multi-dimensional indicators such as the number of project members, the number of contributors, the code update frequency, and the code quality.
+
+To support the functions of the community, in terms of platform architecture design, capabilities such as data collection, data pipeline and engine, and data analysis layer have been built. It covers mainstream code hosting platforms and various types of data. Through data processing and analysis tools, a series of evaluation models have been formed. The two project topics released by the community aim to build a general large model engineering platform and, based on this, provide API graph and API analysis and evaluation services for the platform. Among them, the API graph helps users manage API dependencies in a refined way. The API analysis and evaluation service relies on AI to reduce interaction costs. In the forms of functional assistants and indicator models, it meets the needs of users for understanding basic functions and querying complex project information. At the same time, deep application scenarios for university researchers, government agencies, and VC investment analysts, such as competitive product analysis and portrait retrieval, have been envisioned.
+
+In terms of the construction of the large model engineering platform, it includes modules such as interaction, intention, execution, and knowledge engineering. The focus is on intention engineering and execution engineering. Through building a series of agents, the decomposition and execution of complex tasks are achieved. In addition, Qi Guoqiang also introduced the data server configuration of the community, covering computing, data, service, and AI nodes, providing resource guarantee for the projects. Finally, he invited students interested in the projects to reorganize their thinking and submit preliminary plans. Although only two students will be selected to participate in the two projects this time, more community and internship opportunities will be provided in the future.
+### II. Discussion on the Open-source Community (Wang Yehui, Zhang Shengxiang)
+Wang Yehui said that the open-source community meeting is a platform that brings strangers together based on common interests, allowing everyone to share what they have gained and jointly achieve goals. The open-source community is not just about pure voluntary contributions. It actively meets the needs of participants, whether it is personal value, brand value, or social network value. The development of the open-source community in China benefits from its ability to bring everyone together to share things and jointly achieve goals.
+Zhang Shengxiang expressed his agreement. He said that he hopes that more students from different backgrounds will join the community and be able to integrate into the community and make contributions.
+### III. Random Self-introduction Interaction（All）
+To liven up the meeting atmosphere, Wang Yehui proposed to carry out a common random rotation self-introduction warm-up activity in the community. After each person's self-introduction, the next person is randomly designated to start the self-introduction. The attending personnel actively interacted, introducing their relevant information and hobbies at the meeting. 
+### IV. Remaining Issues
+None
+
 # 2025-04-29Weekly Meeting Minutes of OSS Compass Community
 ## Time
 Apirl 29 2025, 19:00-20:00 PM Beijing time
