@@ -1,3 +1,20 @@
+# 2025-05-20Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 20 2025, 19:00-20:30 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhang Yixiang, Hu Liwei, Chen Hongyun, Zhu Jiashun, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+## Meeting Minutes
+### I. Progress of the "Summer of Open Source" Project (Wang Yehui)
+Wang Yehui reported that several student proposals for the "Summer of Open Source" project have been received and are currently under review. After discussion, Wang Yehui and Qi Guoqiang agreed that since the project lasts three months, it would be appropriate to finalize the selected candidates first and then assist other students in finding alternative internship opportunities, such as recommending internships at the Institute of Software. 
+### II. Preparation Progress for the June Conference (Wang Yehui)
+With significant development of new services ongoing, Wang Yehui noted that some services have been launched and require validation of their functionality, performance, and user experience. He requested Zhang Yixiang and Hu Liwei to support the validation work for the new services. Li Songnan will provide a detailed briefing on the functions to be validated after the meeting.
+### III. Introduction and Discussion on the Open Source Community Evaluation System (Chen Hongyun, Wang Yehui)
+Chen Hongyun introduced the open source community evaluation framework, which covers four dimensions: vitality, organization, collaboration, and services. She confirmed that the evaluation system will serve as the research direction for her graduation thesis. Wang Yehui provided several suggestions:The terminology used in the evaluation framework should be as accessible as possible to reduce interpretation costs and facilitate practical application;Evaluation objects should be categorized into three types: communities, individuals, and software artifacts, as different stakeholders focus on different aspects;Emphasized the importance of multi-dimensional evaluation to comprehensively cover various aspects of the evaluation objects and improve accuracy.
+### IV. Discussion on the LLM Engineering Platform Construction Plan (Zhu Jiashun, Qi Guoqiang)
+Zhu Jiashun introduced three construction plans for the LLM engineering platform, detailing their architectures and advantages. He and Qi Guoqiang discussed topics such as model inference, evolution directions, and supporting tools. Finally, Wang Yehui requested Zhu Jiashun to organize the meeting discussions into documentation for future reference.
+### V. Remaining Issues
+None
+
 # 2025-05-13Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 13 2025, 19:00-20:30 PM Beijing time
