@@ -1,3 +1,22 @@
+# 2025-06-10 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 10 2025, 20:00-21:00 PM Beijing time
+## Attendees
+Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic - Compass community work progress discussion
+### I. Introduction to the Press Conference Content
+On June 3rd, OSS-Compass held a press conference at Peking University. Qi Guoqiang introduced the relevant information of the conference: the release of the Open Source Research Data Hub Service, Open Source Software Selection and Evaluation Service, Open Source Ecosystem Situation Insight Service, and Developer Portrait Service, as well as the establishment of two working groups, ISO WG and AI WG.
+### II. Discussion on Video Channel Operation and Account Certification
+Due to the live broadcast rules restrictions of the video channel, Qi Guoqiang, Zhang Shengxiang, and Li Chunmin discussed how to increase the number of followers through operational means, such as event promotion or prize incentives. They also considered certifying the account to solve the live broadcast permission issue.
+### III. Progress of the "Summer of Open Source" Internship Program
+The open source internship program has two topics, which have been respectively undertaken by Zhu Jiashun and Dai Ruiqi. The topics involve AI process orchestration and code artifact analysis. Dai Ruiqi shared the progress of analyzing API call relationships through AST, and discussed tool selection and subsequent functional expansion with Qi Guoqiang and Zhang Shengxiang.
+### IV. Future Work Plan
+Qi Guoqiang stated that four students will intern in the community, focusing on AI capability construction. In addition, he proposed a plan to build a service dashboard system for managing internal and external traffic statistics, project task flows, and resource status. Zhang Shengxiang suggested using mature monitoring tools like Prometheus to implement data collection and monitoring dashboards, reducing development workload.
+### V. Remaining Issues
+●Start the internship next week and participate in document inspection to improve document quality and evaluate its correspondence with APIs; (Responsible persons: Zhu Jiashun, Dai Ruiqi; Completion time: Before June 17, 2025)
+
+●Review and resolve issues encountered in the video channel certification process; (Responsible person: Li Chunmin; Completion time: Before June 17, 2025)
+
 # 2025-05-20Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 20 2025, 19:00-20:30 PM Beijing time
