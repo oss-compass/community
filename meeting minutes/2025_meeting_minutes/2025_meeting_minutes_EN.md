@@ -1,8 +1,24 @@
+# 2025-06-17 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 17 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Zhu Jiashun，Dai Ruiqi，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic - Compass community work progress discussion
+### I. Open Source Summer Project Progress Report (Dai Ruiqi)  
+Regarding one-click generation of multi-language ASTs, Dai Ruiqi stated that the tool currently supports C++, Java, JavaScript, and Python. After continuous attempts, language processing issues were resolved by installing required libraries. For optimizing the AST generation tool, Qi Guoqiang suggested improving its accuracy before introducing large models. Dai also mentioned that input/output information of APIs has been captured, but dependency relationships remain unaddressed. Qi recommended supplementing API dependencies to form a complete API graph, suggesting the use of Deep wiki to automatically generate API call diagrams for analysis.  
+
+### II. Open Source Summer Project Progress Report (Zhu Jiashun)  
+Concerning the Agent process, Zhu Jiashun reported resolving MCP calling issues and optimizing the report browsing function. The file upload feature is still under modification, expected to be completed next week. He also introduced methods for obtaining data via the Compass API, to which Qi Guoqiang added details on data layering and explained the conceptual design of models, including the hierarchical relationship among raw data, metrics, and models. Finally, Zhu proposed the need to design evaluation method indicators. For task orchestration, Qi recommended tools like Airflow; for COT guidance, he suggested researching relevant papers and preparing specific task flows.  
+
+### III. Remaining Issues  
+1. Resolve the file upload function by next week to ensure smooth follow-up work.
+(Responsible: Zhu Jiashun; Deadline: June 24, 2025)
+
 # 2025-06-10 Weekly Meeting Minutes of OSS Compass Community
 ## Time
-June 10 2025, 20:00-21:00 PM Beijing time
+June 10 2025, 19:00-20:00 PM Beijing time
 ## Attendees
-Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Dai Ruiqi，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
 ## Topic - Compass community work progress discussion
 ### I. Introduction to the Press Conference Content
 On June 3rd, OSS-Compass held a press conference at Peking University. Qi Guoqiang introduced the relevant information of the conference: the release of the Open Source Research Data Hub Service, Open Source Software Selection and Evaluation Service, Open Source Ecosystem Situation Insight Service, and Developer Portrait Service, as well as the establishment of two working groups, ISO WG and AI WG.
