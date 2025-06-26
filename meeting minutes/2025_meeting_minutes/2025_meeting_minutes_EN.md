@@ -1,3 +1,25 @@
+# 2025-06-24 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 24 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui，Situ Lingyun，Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Zhu Jiashun，Dai Ruiqi，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic - Compass community work progress discussion
+### I. Open Source Summer Project Progress Report (Dai Ruiqi)
+Dai Ruiqi introduced the optimization plan for API calling relationships, shifting from file-based to API-based units to avoid duplicate node issues. Qi Guoqiang proposed discussing and finalizing specific roadmaps, delivery standards, and milestone dates in the coming days. Regarding API graph construction, Qi plans to further improve attributes, enrich graph content, build API graphs for different programming languages, and support multiple application scenarios.
+ 
+### II. Open Source Summer Project Progress Report (Zhu Jiashun，Zhang Shengxiang, Qi Guoqian)
+Low-Code Platform Research and Implementation：Zhu Jiashun surveyed domestic and international low-code platforms and selected the Long Flow platform. He presented a minimum viable workflow diagram for open source project influence assessment, covering dimensions such as contributors and project update frequency. The discussion also focused on the platform's visual orchestration and modular management, emphasizing the importance of module isolation and standardized protocols.
+
+Discussion on AI Capabilities and Data Openness ：Regarding AI capability utilization, Zhang Shengxiang proposed opening data query capabilities via the MCP protocol to support calls from external AI tools. The discussion highlighted separating data governance from AI capability provision to maintain openness and flexibility. Qi Guoqiang suggested leveraging large model resources (e.g., ModelForce) to enhance model capabilities and avoid limitations of small models.
+### IV. Progress and Next Steps for Project API Internationalization (Hu Liwei)
+Hu Liwei announced the completion of API internationalization for the Compass web server project, with the PR merged. Wang Yehui instructed Li Songnan to communicate with Hu to determine the next task arrangements.
+### V. WeChat Official Account Operation Optimization (Zhang Shengxiang, Li Chunmin)
+Discussing WeChat official account operations, Li Chunmin noted limited postings as a service account. Zhang Shengxiang proposed dual-channel operations via Video account and the official account, optimizing the structure of the top four articles and incorporating Xiaohongshu-style content to enhance dissemination. Wang Yehui agreed to trial Zhang's suggestions to improve operational efficiency.
+### VI. Outstanding Issues
+●Align and confirm specific roadmaps, delivery standards, and milestone dates after the meeting. (Responsible: Dai Ruiqi; Deadline: July 1, 2025)
+
+●Design a scenario to demonstrate the application of the COT model . (Responsible: Zhu Jiashun; Deadline: July 1, 2025)
+
 # 2025-06-17 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 June 17 2025, 19:00-20:00 PM Beijing time
