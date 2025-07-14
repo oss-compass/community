@@ -1,3 +1,26 @@
+# 2025-07-08 Weekly Meeting Minutes of OSS Compass Community
+## Time
+July 8 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui，Qi Guoqiang，Zhang Yixiang，Hu Liwei，Zhu Jiashun，Dai Ruiqi，Qiao Xinyu，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic - Compass community work progress discussion
+### I.Planning for Subsequent Topics (Qi Guoqiang) 
+Qi Guoqiang proposed that future community regular meetings should plan topics in advance to accommodate the participation of more cooperative organizations and universities. Tencent Docs or similar tools can be used to allow participants to add topics by themselves, with time limits set to improve meeting efficiency. 
+### II.Progress of the Summer of Open Source Projects (Dai Ruiqi, Zhu Jiashun) 
+●Dai Ruiqi shared his understanding of CodeQL implementation and API management and query languages. Qi Guoqiang introduced the background of CodeQL and its application in security detection. Regarding whether CodeQL truly retains the semantic information of the original API, Qi Guoqiang also mentioned that CodeQL has a high learning cost and is suitable for complex pattern matching.
+
+●Zhu Jiashun raised some problems encountered in open-source data query, and Qi Guoqiang arranged for the backend to investigate. In addition, Zhu Jiashun tried different API calling methods, and Qi Guoqiang suggested using Moli Ark for testing. They discussed matters related to AI Agent and task flow, project display and evaluation, and environment access, and Qi Guoqiang put forward corresponding suggestions. Finally, they discussed the capabilities of the COT tool and whether the model can design workflows by itself. Zhu Jiashun pointed out that only administrators have the permission to arrange workflows, and Qi Guoqiang suggested defining workflows for several scenarios first, confirming that workflows can be exposed as MCP Server. 
+### III.Discussion on the Identification of Technical Field Classification for Open-Source Software (Zhang Yixiang) 
+●Functional modeling and semantic extraction: Qi Guoqiang proposed that it is necessary to extract API Block from ST and dependency relationships for functional modeling and analysis, and believed that if QQL realizes semantic information mapping through annotation documents, it is worth learning from. Dai Ruiqi mentioned that when some APIs have no annotation documents, large models can be used to supplement functional descriptions. Zhang Yixiang expressed the hope to see specific examples. 
+
+●Vulnerability detection and code analysis: Zhang Yixiang explained how to track according to vulnerability trigger points in the vulnerability detection process and also discussed the advantages and disadvantages of static analysis and dynamic testing in vulnerability detection. 
+
+●API documentation and information extraction: Zhang Yixiang focused on how to use API documentation annotations for information extraction and classification recognition, and how to expand the feature library by enriching the data structure and content of documents. Dai Ruiqi mentioned that when document annotations are incomplete, large models can be used for supplementation.
+### IV.Outstanding Issues 
+●Optimize the topic collection process for subsequent community regular meetings; (Person in charge: Li Chunmin; Completion time: July 11, 2025) 
+
+●Conduct in-depth research on the specific usage of API semantics in CodeQL. (Person in charge: Dai Ruiqi; Completion time: July 15, 2025)
+
 # 2025-06-24 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 June 24 2025, 19:00-20:00 PM Beijing time
