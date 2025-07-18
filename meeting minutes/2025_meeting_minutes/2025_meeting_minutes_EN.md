@@ -1,3 +1,33 @@
+# 2025-07-15 Weekly Meeting Minutes of OSS Compass Community
+## Time
+July 15 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui，Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Zhu Jiashun，Dai Ruiqi，Qiao Xinyu，Wanglei，Hamm，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic - Compass community work progress discussion
+### I.Progress of the Summer of Code Internship Project (Dai Ruiqi) 
+Dai Ruiqi shared content related to CODE QL semantic analysis, pointing out that it is more inclined to structural semantics. In addition, issues related to API functions were discussed.
+
+●API vector generation method: Dai Ruiqi proposed a multi-layer feature vector generation method, which converts API information into vectors for matching. 
+
+●Functional modeling and semantic matching: Qi Guoqiang believes that it is necessary to define functional templates and use large models to fill them to generate standardized functional vectors. He suggested using the template filling method to improve the accuracy of semantic similarity calculation and let the model generate annotations. 
+
+●Namespace and version management: Dai Ruiqi mentioned that the current simple naming rules lead to duplicate name conflicts, and plans to add namespaces and version numbers for distinction. Qi Guoqiang suggested that the naming should include library name, component name and version number. In addition, the issue of naming conflicts between different versions was discussed, and Qi Guoqiang proposed that including library names and version numbers can effectively avoid conflicts. 
+ 
+### II.Progress of the Summer of Code Internship Project (Zhu Jiashun) 
+●Discussion on project progress issues: Zhu Jiashun put forward the problems encountered in the internship project, including difficulties in tool debugging, API calls and image generation. He said that he is solving the problem of how to use tools effectively. 
+
+●Open source community contribution and discussion: Qi Guoqiang mentioned that the written content should be contributed to the open source community and hoped that Zhu Jiashun could submit the module to the community. He also proposed to set several high-frequency usage scenarios for testing to ensure that the system can run well in practical applications. Regarding the use of components, Zhu Jiashun said that the addition of components is going smoothly at present, various tools can be integrated smoothly, and the system has high flexibility. 
+ 
+### III.Internship cooperation (Qi Guoqiang, Qiao Xinyu) 
+Qi Guoqiang mentioned that interns Wang Lei and Qiao Xinyu have joined, and hoped that they would do related tasks in the project. The task allocation between the two will be coordinated later. Qiao Xinyu mentioned that she has read a review paper on text classification algorithms and learned some machine learning and in-depth knowledge. Qi Guoqiang suggested that Qiao Xinyu share this review paper in the next meeting to establish everyone's perception of the technical field classification. 
+ 
+### IV.Outstanding issues 
+●Improve the solution to duplicate problems next week, including registration content and solving API duplicate name issues; (Person in charge: Dai Ruiqi; Completion time: July 22, 2025)
+
+●Enrich the API and deploy it to the server within this week to better meet user needs; (Person in charge: Zhu Jiashun; Completion time: July 18, 2025)
+
+●Share the latest progress and effects of the paper on technical field classification. (Person in charge: Qiao Xinyu; Completion time: July 22, 2025)
+
 # 2025-07-08 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 July 8 2025, 19:00-20:00 PM Beijing time
