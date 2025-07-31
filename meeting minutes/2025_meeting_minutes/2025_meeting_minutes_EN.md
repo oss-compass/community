@@ -1,3 +1,21 @@
+# 2025-07-29 Weekly Meeting Minutes of OSS Compass Community
+## Time
+July 29 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Qi Guoqiang，Zhang Shengxiang，Zhang Yixiang，Hu Liwei，Zhu Jiashun，Dai Ruiqi，Qiao Xinyu，Wanglei，Hamm，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic – Discussion on Compass Community Work Progress  
+### I. Progress of Open Source Summer Project (Dai Ruiqi)  
+Dai Ruiqi shared the current status of functional descriptions, mentioning that the functional description documents have been completed. Qi Guoqiang suggested that semantic descriptions should be centralized and recommended using a functional description template for better matching. Zhang Yixiang proposed adding code comments and examples to help large models understand better. Dai Ruiqi noted that tests have been conducted using models of different scales, and attempts have been made to describe application scenarios. Zhang Yixiang suggested using slightly smaller models to save costs, emphasizing the need for more project documentation support.  
+### II. Progress of Open Source Summer Project (Zhu Jiashun)  
+Zhu Jiashun discussed issues encountered during the project with Qi Guoqiang, Zhang Shengxiang, and Zhang Yixiang, including Docker installation methods, data recovery, server connection, specific project requests, and interface standards. Regarding the research on the COT project, Zhu Jiashun mentioned that existing COT-related papers mainly focus on task decomposition, and some commercial models adopt fixed-rhythm task decomposition methods. Qi Guoqiang emphasized the need to clarify the specific plans for the COT project.  
+### III. Sharing on Text Feature Classification (Qiao Xinyu)  
+Qiao Xinyu introduced the development history of text classification algorithms from traditional machine learning to deep learning, elaborating on methods in feature engineering such as text preprocessing and feature extraction. She also presented several mainstream deep learning-based text classification methods and mentioned some authoritative evaluation metrics introduced in related papers. Qi Guoqiang suggested that Qiao Xinyu test some open-source models to evaluate their application effects in practical tasks. Zhang Yixiang stated that he would provide GPU resources for Qiao Xinyu to facilitate model testing.  
+### IV. Discussion on Subsequent Internship Work Arrangements (Qi Guoqiang, Li Shengbao, Wang Lei)  
+Qi Guoqiang explained that the current task focuses on evaluation and measurement for the open-source community, with emphasis on building regional portraits of developers. This includes identifying the number of developers and their regional distribution. He also mentioned subsequent work arrangements for intern Wang Lei, and Li Shengbao further introduced and presented details on this part. Li Shengbao demonstrated methods to identify developers' regional attributes using location information from their profile accounts and commit data, but noted issues with data missing. He discussed the accuracy of location information self-reported by developers with Qi Guoqiang and Zhang Shengxiang. Zhang Shengxiang suggested that developers' locations could be inferred by analyzing the matching between submission times and time zones. Finally, Qi Guoqiang advised Wang Lei to design a complete workflow to integrate various data for developer regional identification, starting with the 10,000 most active developers to gradually validate the workflow.  
+### V. Outstanding Issues  
+1. Research and implement the image upload function; (Person in charge: Zhu Jiashun; Deadline: August 5, 2025)
+   
+2. After the meeting, search for relevant data to conduct data analysis and identification of developer activity, and attempt to gradually validate the workflow. (Person in charge: Wang Lei; Deadline: August 5, 2025)
 # 2025-07-15 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 July 15 2025, 19:00-20:00 PM Beijing time
