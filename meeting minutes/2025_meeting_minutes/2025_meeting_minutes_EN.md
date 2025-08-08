@@ -1,3 +1,18 @@
+# 2025-08-05 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 5 2025, 19:00-20:00 PM Beijing time
+## Topic — Discussion on the Work Progress of the Compass Community
+### I. Progress of Open Source Internship Project (Dai Ruiqi)
+Shared progress related to model optimization, especially the code similarity detection function and improvements to the code function description template. It was suggested to first conduct tests on function query and similarity clustering to ensure the effectiveness of the selected models. In addition, the application of AST (Abstract Syntax Tree) and code vectorization was discussed.
+### II. Progress of Open Source Internship Project (Zhu Jiashun)
+Discussed issues regarding network deployment and service calls, suggesting that local port forwarding could be used. Furthermore, the problem of open source ID and framework was addressed, with relevant optimization recommendations put forward. Regarding project architecture design and process optimization, Zhu Jiashun stated that he would refer to the processes of other projects to design the overall workflow.
+### III. Progress of Internship Project (Wang Lei)
+Discussed data crawling and analysis. Currently, the crawled data has undergone standardization processing. The impact of geographical location information filling on data accuracy was discussed. To address this issue, it was proposed to further verify the accuracy of developers' regional information through collaboration relationships, festival characteristics, and language habits. Additionally, there are plans to verify developers' regional characteristics through collaborative network analysis and design a collaboration index to evaluate the concentration and dispersion of regional distribution.
+### IV. Progress of Internship Project (Qiao Xinyu)
+Tested the performance of T5 and BERT models in technical classification and function summarization. It was found that the T5 model performed generally, while the BERT model showed better results. The impact of preprocessing and input formats on model performance was discussed, and it was suggested to add more constraints and examples to improve the quality of model output. Plans are underway to try other models and datasets to further optimize the effectiveness of technical classification and function summarization.
+### V. Outstanding Issues
+None
+
 # 2025-07-29 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 July 29 2025, 19:00-20:00 PM Beijing time
