@@ -1,3 +1,20 @@
+# 2025-08-12 Weekly Meeting Minutes of OSS Compass Community
+## Time
+August 12 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Qi Guoqiang，WangLiang、Zhang Shengxiang，Zhang Yixiang，Dai Ruiqi，Qiao Xinyu，Li Shengbao ，Lai Xingyou, Li Songnan,，Li Chunmin
+## Topic — Discussion on the Work Progress of the Compass Community
+### I. Progress of Open Source Internship Project (Dai Ruiqi)
+The optimization of API maps and API function descriptions was discussed, with the improved methods and effects shared. The application of code vectorization, suggestions for function search, dynamic libraries and their dependency relationships were also discussed. It is planned to incorporate relevant methods in subsequent research to solve the problems. It is suggested to select more large-scale and mature projects for testing.
+### II. Progress of Internship Project (Qiao Xin Yu)
+The research on the classification of technical fields was discussed. An attempt was made to train on the Style dataset, and the training process, optimization, as well as the differences between data parallelism and model parallelism, and the problems and challenges in domain division were introduced. Regarding the current research on the classification and characteristics of operating systems, it is suggested to classify from the perspective of core architecture and key technologies, emphasize paying attention to the application and evolution of new technologies in operating systems, investigate the existing classification of operating systems through extracurricular reading, and understand the division standards of different technical directions. For the research on the characteristics of AI and operating system fields, it is suggested to focus on traditional feature engineering technologies, first learn from existing ideas, then carry out innovation in combination with specific scenarios, so as to promote the improvement and optimization of feature extraction methods.
+### III. Discussion on Other Issues (Wang Liang, Zhang Shengxiang, Zhang Yixiang)
+●The issues of API analysis, technical field identification, and the standardization of the Compass project were discussed. It was mentioned that a standard could be formulated through the Compass project, which can serve as a reference for everyone, helping to reduce confusion and improve operability.
+
+●The export of AI datasets was discussed. It is suggested that more fine-grained data can be obtained through web page atomization processing. The acquisition and processing of classification information were discussed, and it is necessary to further check whether there are problems in the pagination logic.
+### IV. Outstanding Issues
+None
+
 # 2025-08-05 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 August 5 2025, 19:00-20:00 PM Beijing time
