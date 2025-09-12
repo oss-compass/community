@@ -1,4 +1,20 @@
-# 2025-08-12 Weekly Meeting Minutes of OSS Compass Community
+# 2025-09-09 Weekly Meeting Minutes of OSS Compass Community
+## Time
+19:00-20:00 PM (Beijing Time), September 9, 2025
+## Attendees
+Qi Guoqiang, Zhang Shengxiang, Zhang Yixiang, Hu Liwei, Zhu Jiashun, Dai Ruiqi, Qiao Xinyu, Li Shengbao, Li Songnan, Li Chunmin
+## Topic - Discussion on the Work Progress of the Compass Community
+### I. Progress of the Internship Project (Wang Lei)
+Discussed how to analyze the time zone distribution within the community. It was suggested to use a scatter plot to display the time zone distribution of developers, and the importance of nodes in the network could be evaluated through centrality indicators to determine the representative time zones in the community. In addition, the issue of filtering contributors with a small number of submissions was discussed, and it was agreed that contributors with a small number of submissions should be retained.
+### II. Progress of the Open Source Internship Project (Dai Ruiqi)
+Introduced the process of building the graph database and presented its function description and flow chart; discussed whether files and functions should be used as nodes and how to define the relationships between them; regarding similarity-based queries, proposed the idea of using the graph database for function queries and screening by library name to improve performance; suggested establishing a unified knowledge base for data from multiple projects to facilitate the testing of similarity and accuracy.
+### III. Progress of the Open Source Internship Project (Zhu Jiashun)
+Discussed the problems encountered recently, including errors in report generation and low efficiency in analyzing qualitative data; proposed to standardize and refine the report template, and reminded all members to submit code in accordance with open source practices. Members were also encouraged to write design documents and user documents to improve the project development and design processes. In the follow-up, the COT work will continue to be optimized based on the discussion results.
+### IV. Discussion on Other Issues (Hu Liwei)
+Planned to analyze the third-party libraries in open source operating system distributions, and discussed the data collection plan. It may reuse existing models or external scripts. The key challenge lies in locating the repositories and upstream metadata of each distribution, which may require special handling.
+### V. Outstanding Issues
+None
+
 ## Time
 August 12 2025, 19:00-20:00 PM Beijing time
 ## Attendees
