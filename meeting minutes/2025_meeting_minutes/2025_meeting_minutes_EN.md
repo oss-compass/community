@@ -1,3 +1,25 @@
+# 2025-10-21 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 21 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wangyehui，Qi Guoqiang，Zhang Shengxiang，Zhu Jiashun，Dai Ruiqi，Li Shengbao,Li Songnan,Li Chunmin
+## Topic – Discussion on Compass Community Work Progress 
+### I. Progress of Summer of Open Source Internship Project (Dai Ruiqi)
+Last week's work was reported, and discussions were held on issues such as the reproduction problems of Fedora and OpenHarmony, and the 500 status code encountered on GT. It was suggested to re-attempt and organize the request logs. In addition, regarding the classification of open source projects, it was proposed to first use existing tools to organize data in accordance with standard methods, and for non-standard parts, internal promotion of standardized management could be carried out.
+### II. Progress of Summer of Open Source Internship Project (Zhu Jiashun)
+Discussions covered the framework research, MCP Server functions, X-Agent orchestration methods, as well as the selection and comparison of Agent frameworks. In addition, it was mentioned that a detailed study had been conducted on the version release and snapshot management mechanisms of different operating systems, and relevant contents were discussed. The progress of the COT part will be further accelerated in the follow-up.
+### III. Progress of Internship Project (Wang Lei)
+Issues related to project classification and feature extraction were discussed. It was suggested to refine multi-classification, which could improve accuracy in similar project clustering. Meanwhile, efforts should be made to find training data for experiments on large models.
+### IV. Follow-up Task Plan (Li Songnan)
+The overall plan and key milestones of the operating system "liybrea" task project were shared. A bullet screen demonstration and acceptance check will be conducted at the end of the year. It was proposed that progress alignment should be carried out regularly to ensure timelines and deliverables. Several students stated that there was no conflict and would follow up on time in the future.
+### V. Discussion on Community Operation Plan (Zhang Shengxiang)
+The plan for joint community operation was discussed, including three aspects: 
+1. The GOTC Conference will be held in the near future, and invited Compass participate in the topic sharing of the sub-forum; 
+2. It is planned to organize live activities such as online topic roundtables and debates in the follow-up; 
+3. It was emphasized that the release of the economic index needs to be advanced, and the timeline should be aligned with Wang Yehui. Li Chunmin supplemented the relevant operation plan and stated that alignment and confirmation would be made within this week.
+### VI. Pending Issues:
+1. Confirm the activity plan within this week.
+(Completion Time: October 28, 2025; Person in Charge: Li Chunmin)
 # 2025-10-14 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 14 2025, 19:00-20:00 PM Beijing time
