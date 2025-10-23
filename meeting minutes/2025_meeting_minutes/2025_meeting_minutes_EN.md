@@ -1,3 +1,24 @@
+# 2025-10-14 Weekly Meeting Minutes of OSS Compass Community
+## Time
+October 14 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wangyehui，Qi Guoqiang，Zhang Shengxiang，Zhu Jiashun，Dai Ruiqi，Li Songnan，Li Chunmin
+## Topic – Discussion on Compass Community Work Progress  
+### I. Discussion on the Joint Operation of Compass and Gitee Community Activities (Zhang Shengxiang, Wang Yehui, Qi Guoqiang, Li Chunmin)
+Starting from the preliminary community interaction planning activity plan formulated by Compass, the discussion was held from several aspects such as activity background, activity objectives, activity strategy, and activity effect. First, Gitee expressed support for the joint interaction between the two communities, but further discussion and optimization were needed regarding the specific strategy of the activity.The two sides clarified the following aspects: Regarding the activity objectives, they are the improvement of community functions, the exposure of community projects, and the further exploration of the commercial value of projects etc; Regarding the implementation of activities, it is proposed to plan a series of long-term activities to gradually enhance the influence of Compass; focusing on high-value projects, which can be achieved through topic creation and value display to attract more people's understanding and thinking about Compass; In addition, it can also be combined with Gitee's existing activities. Regarding the specific details of the activity, the two sides need to discuss and improve further before determining.
+### II. Progress and Subsequent Arrangements of Open Source Summer Internship Project (Zhu Jia Shun, Dai Ruiqi, Wang Yehui)
+a.Zhu Jia Shun reported the recent progress of the internship project, the deployment and synchronization of related libraries have been completed, and regarding the COT project and Python project framework selection, it is recommended to use the existing framework.
+
+b.Dai Ruiqi reported the progress of operating system analysis, and discussed the configuration files, repositories and version information of operating systems.
+
+c.Discussing data processing and research task allocation, Wang Yehui suggested that Dai Ruiqi and Zhu Jia Shun should divide the research on different operating systems, each focusing on one or two; In addition, confirm whether the interns have other resource needs and ensure that they can be met.
+### III. Suggestions on the Follow-up Promotion of Compass (Zhang Shengxiang)
+It is proposed that at present, Compass has many valuable cooperation projects, but the external output content is limited, which can be combined with college teachers and students to output more valuable research results, and can also be combined with recently launched models for promotion.
+### IV. Outstanding Issues
+●Plan the subsequent joint interaction operation plan of Compass and Gitee. (Person in charge: Li Chunmin; Completion time: October 31, 2025)
+
+
+
 # 2025-09-09 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 19:00-20:00 PM (Beijing Time), September 9, 2025
