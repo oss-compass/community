@@ -1,3 +1,25 @@
+# 2025-11-4 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 4 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+## Topic – Discussion on Compass Community Work Progress 
+### I. Progress of the "Open Source Summer" Internship（Zhujiashun）
+The preliminary version of the COT module was shared. Discussions were held on issues related to dynamic tool registration, Agent management, and data acquisition and calling. It was proposed that the ADK provides functions for content positioning and memory, which are helpful for generating detailed reports. The use of a multi-agent architecture was suggested to process data by dimensions, thereby improving efficiency and presentation effectiveness. Regarding the optimization of the multi-round iteration mechanism, it was recommended that tools should be guided to complete the core structure of the report to ensure consistency and repeatability.
+### II. Progress and Planning Discussion of the "Libyear" Operating System Task Project（Lisongnan、Zhu Jiashun）
+#### 1. Task Progress Report
+Zhu Jiashun introduced the current progress of the four tasks, focusing primarily on researching the data architecture and data processing flow of Repology, as well as the approaches to obtaining software package version information. Discussions were conducted on matters related to the citation of open-source projects, parsers and data standardization, data acquisition strategies, and platform data parsing.
+#### 2. Discussion on Subsequent Plans
+The overall design of the system architecture and the interaction methods between various modules were discussed, with emphasis on the importance of interface design. Moving forward, Xingyou will assist in the front-end interface design, while Jiashun and Ruiqi will be responsible for the development of core modules—all modules, however, must interact within a unified architecture. Finally, it was suggested that data from different sources should be compared and integrated to improve data accuracy and reliability. It was also reminded that the overall data scheduling mechanism needs to be considered to ensure the coordinated work of all modules.
+### III. Progress of the Technical Classification Internship（Wanglei）
+The progress related to technical classification was reported. Issues encountered in label classification generation and large-scale data processing, as well as their solutions, were discussed. Finally, it was proposed that data acquisition and processing require a certain amount of time, and the final results only need to be completed by the end of December. In addition, it was hoped that Qi Guoqiang would support Wang Lei in the label-related work, including national standards and classification based on existing topics.
+### IV. Pending Issues
+1.Conduct research on the relevant situation of open-source code citation; (Person Responsible: Li Songnan; Completion Date: November 11, 2025)
+
+2.Complete architecture design, interface design and scheduling design; (Person Responsible: Li Songnan; Completion Date: November 11, 2025)
+
+3.Enrich and improve label categories. (Person in Charge: Wang Lei; Deadline: November 11, 2025)
+
 # 2025-10-21 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 October 21 2025, 19:00-20:00 PM Beijing time
@@ -11,7 +33,7 @@ Discussions covered the framework research, MCP Server functions, X-Agent orches
 ### III. Progress of Internship Project (Wang Lei)
 Issues related to project classification and feature extraction were discussed. It was suggested to refine multi-classification, which could improve accuracy in similar project clustering. Meanwhile, efforts should be made to find training data for experiments on large models.
 ### IV. Follow-up Task Plan (Li Songnan)
-The overall plan and key milestones of the operating system "liybrea" task project were shared. A bullet screen demonstration and acceptance check will be conducted at the end of the year. It was proposed that progress alignment should be carried out regularly to ensure timelines and deliverables. Several students stated that there was no conflict and would follow up on time in the future.
+The overall plan and key milestones of the operating system "Libyear" task project were shared. A bullet screen demonstration and acceptance check will be conducted at the end of the year. It was proposed that progress alignment should be carried out regularly to ensure timelines and deliverables. Several students stated that there was no conflict and would follow up on time in the future.
 ### V. Discussion on Community Operation Plan (Zhang Shengxiang)
 The plan for joint community operation was discussed, including three aspects: 
 1. The GOTC Conference will be held in the near future, and invited Compass participate in the topic sharing of the sub-forum; 
