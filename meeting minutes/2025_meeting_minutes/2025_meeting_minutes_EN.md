@@ -1,8 +1,24 @@
+# 2025-11-11 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 11 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun,Dai Ruiqi， Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+## Topic – Discussion on Compass Community Work Progress 
+### I. Open Source Summer Internship Progress (Zhu Jiashun)
+It elaborates on the current key progress, mainly focusing on the agent integration of MCP toolbox capabilities and the opening up of ADK toolbox capabilities. However, the progress of the central warehouse is relatively slow. The report has been compiled, covering aspects such as community capabilities, confirmation of code repositories, and ecological health assessment. In addition, issues including data processing, review and evaluation standards, tool scenarios and usage, and project health assessment were discussed.
+### II. Discussion on the Progress and Planning of the Operating System Libyear Task Project (Wang Yehui, Li Songnan, Zhu Jiashun, Dai Ruiqi)
+#### 1. Discussion on Task Progress
+A preliminary architectural design diagram was presented, and the main functions to be implemented, such as data collection tasks and version detection, were explained. Regarding data collection and APIs, Li Songnan stated that external APIs will be provided, and data collection and task scheduling are core functional modules. Additionally, he mentioned that the architecture of the open-source project needs further improvement. Finally, discussions were conducted on task division, version dependency management, and data storage design.
+#### 2. Discussion on Subsequent Plans
+Discussions centered on interface design and the construction of the data collection layer, emphasizing the need to quickly build the project framework of the data collection layer to facilitate the development of subsequent work. It was pointed out that the operating system requires comprehensive monitoring and evaluation. In addition, attention should be paid to the project's open-source statement and technical reference to Repology. It is recommended to set the repository as a private warehouse in the early stage of the project and configure corresponding permissions to enable tool scanning and management.
+### III. Pending Issues
+None.
+
 # 2025-11-4 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 4 2025, 19:00-20:00 PM Beijing time
 ## Attendees
-Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Wanglei，Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
 ## Topic – Discussion on Compass Community Work Progress 
 ### I. Progress of the "Open Source Summer" Internship（Zhujiashun）
 The preliminary version of the COT module was shared. Discussions were held on issues related to dynamic tool registration, Agent management, and data acquisition and calling. It was proposed that the ADK provides functions for content positioning and memory, which are helpful for generating detailed reports. The use of a multi-agent architecture was suggested to process data by dimensions, thereby improving efficiency and presentation effectiveness. Regarding the optimization of the multi-round iteration mechanism, it was recommended that tools should be guided to complete the core structure of the report to ensure consistency and repeatability.
