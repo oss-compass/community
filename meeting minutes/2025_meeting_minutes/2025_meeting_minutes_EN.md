@@ -1,3 +1,20 @@
+# 2025-11-18 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 18 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui,  Zhang Shengxiang, Dai Ruiqi，Wanglei， Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### I. Progress of the Operating System Libyear Task Project ( Li Songnan, Dai Ruiqi)
+The current progress was reported. Li Songnan stated that the data collection architecture has been established, and the implementation of project functions is underway. Dai Ruiqi shared his progress in data capture, including the capture of version numbers and update dates. Additionally, some issues encountered in capturing version numbers and update dates, as well as database connections, were discussed. Currently, the project progress meets expectations. A task scheduling system will be built and joint debugging will be conducted subsequently.
+### II. Progress of the Technology Classification Project (Wang Lei)
+Discussions covered the classification and label system, data processing and performance optimization, classification accuracy and performance issues, as well as resource allocation. It is suggested to coordinate with Shengbao to resolve network issues. It is also recommended to optimize labels and conduct manual inspections to ensure their accuracy and rationality. Regarding whether labels need to be expanded, Wang Yehui pointed out that the current focus is on overall insights, aiming to quickly solve the classification problem of tens of millions of projects. Specific project information is not within the scope of this insight requirement.
+### III. Discussion on Data Acquisition (Wang Yehui, Zhang Shengxiang)
+The situation of data acquisition from Gitee was discussed. It was noted that full-network data was obtained through Gitee last year. It is proposed that this year's data should maintain consistency, and a unified platform acquisition plan is required. Further discussions are expected next week.
+### IV. Pending Issues
+1.Supplement and improve based on the three-tier domain classification provided by Wang Lei. (Person in Charge: Li Shengbao; Completion Date: Before November 25, 2015)
+
+2.An accuracy issue was encountered when using the Gitee AI large model for domain classification. Seek support from Li Shengbao to resolve it, provide sampled examples of domain classification, and evaluate the rationality of the domain classification based on expert experience. (Person in Charge: Wang Lei; Completion Date: Before November 25, 2015)
+
+
 # 2025-11-11 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 11 2025, 19:00-20:00 PM Beijing time
