@@ -1,3 +1,26 @@
+# 2025-11-25 Weekly Meeting Minutes of OSS Compass Community
+## Time
+November 25 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Wang Lei, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### I. Progress of Open Source Summer Internship Program (Zhu Jiashun)
+Reported the latest progress of the COT module, indicating that task templates have been adopted and part of the registration work has been completed. Mentioned that some API calls are unstable; Qi Guoqiang suggested testing stability through minor input adjustments. Additionally, discussions covered model usage, task process and template optimization, deployment documentation and environment configuration, data aggregation and report generation. It was proposed to use rules for data interception and extraction; since the health metrics are not sufficiently scientific, prioritizing community resources for data acquisition was recommended.
+### II. Progress of Operating System Libyear Task (Li Songnan, Zhu Jiashun, Dai Ruiqi)
+Reported the progress of Linux distribution-related work: code updates have been implemented, and the software package information acquisition rate has reached approximately 80%. Li Songnan raised the issue of irregular repository addresses, for which no effective solution has been formulated yet. Qi Guoqiang proposed supplementing data through package management centers to avoid missing source code repository data, and obtaining all version-related page information through multiple iterations to ensure data consistency. Zhu Jiashun stated that he will first complete data collection for all sub-versions, followed by aggregation and supplementation to improve data integrity.
+During the progress report, the problem of difficult language information statistics due to missing language field data was raised. Qi Guoqiang suggested using tools to scan code repositories for language information. Li Songnan noted that the scheduling system has been set up, with the next step being joint debugging. Plans include data pulling first, followed by phased resolution of existing issues. The timeline for completing tasks next week was confirmed, and synchronization of respective work progress was scheduled.
+### III. Progress of Technology Classification Project (Wang Lei, Li Shengbao)
+Discussed the secondary and tertiary classification of tags, highlighting issues such as difficulty in ensuring the completeness of tertiary tags and slow model processing speed. Proposed the need for a universal computing resource configuration to meet general requirements; emphasized conducting concurrency testing to determine system throughput and average task latency, thereby calculating required server resources. Finally, the launch time for full-scale data scanning and classification was discussed, with the goal of initiating analysis early next week.
+Addressed issues including data structure, data acquisition methods, API concurrency and performance testing, along with corresponding solutions. Noted that full data acquisition via API is currently not feasible; suggested resolving account overlap through email deduplication or discussing with Huawei Cloud personnel to explore data export mechanisms. Additionally, Wang Yehui requested resolving data API integration issues and identifying duplicate projects across code hosting platforms to avoid data redundancy. Technical details were further discussed, emphasizing the importance of obtaining repository lists via API and the need to confirm specific implementation methods.
+### IV. Pending Issues
+●Collate key data points mentioned in the meeting and record them in issues for subsequent follow-up ；(Owner: Zhu Jiashun; Deadline: December 2, 2025)
+
+●Complete software package information acquisition and Libyear calculation ；(Owners: Zhu Jiashun, Dai Ruiqi; Deadline: December 2, 2025)
+
+●Continue improving the secondary classification of project technical domains ；(Owner: Li Shengbao; Deadline: December 2, 2025)
+
+●Verify the accuracy of the Qwen3-32B large model for domain classification ；(Owners: Wang Lei, Li Shengbao; Deadline: December 2, 2025)
+
+●Deploy the Qwen3-32B large model on GPU servers and test domain classification speed 。(Owners: Qi Guoqiang, Wang Lei; Deadline: December 2, 2025).
 # 2025-11-18 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 November 18 2025, 19:00-20:00 PM Beijing time
