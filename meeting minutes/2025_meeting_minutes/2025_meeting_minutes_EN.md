@@ -1,5 +1,23 @@
 # 2025-11-25 Weekly Meeting Minutes of OSS Compass Community
 ## Time
+19:00-20:00 PM (Beijing Time), December 2, 2025
+## Participants
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### I. New Member Joining (Ran Fengyuan)
+First, we welcomed the new member—Ran Fengyuan—to the OSS-Compass community. The new member introduced themselves in terms of learning experience, competitions, research work, and future research directions, and will gradually participate in community work. Community members extended a warm welcome to the new member.
+### II. Progress on the Agent Project (Zhu Jiashun)
+The deployment documentation has been updated, and the data returned by the Compass API has been simplified, retaining three categories of data: core contributors, regular contributors, and peripheral contributors, to reduce token usage. Discussions were held on data processing and optimization, API design and calls, stability of project name links, management of technical frameworks and tools, and optimization directions for the Agent model. It was suggested to further optimize community tools and process task orchestration.
+### III. Discussion on Progress of Linux Distribution Upstream Version Detection (Zhu Jiashun, Dai Ruiqi)
+The progress of Linux distribution upstream version detection was reported, with the current success rate at 58%. Optimizations have been made to the language and description fields. Discussions focused on ways to improve the detection success rate; it was planned to further analyze the causes of detection failures in the meeting this Friday, and it was noted that there is still room for improvement in the accuracy of information obtained from the software center repository.
+### IV. Discussion on Follow-up Tasks (Wang Yehui, Qi Guoqiang, Li Songnan)
+Li Songnan introduced the progress of the system architecture: the data collection layer has been completed, the task scheduling layer has been built, and the next step will be data joint debugging and API design. Regarding interface design requirements, Wang Yehui requested listing the current API interfaces and evaluating their sufficiency. For the subsequent division of labor for MCP, it was hoped that Zhu Jiashun and Qi Guoqiang would jointly advance the relevant work, synchronize related documents to Ran Fengyuan, who may join in if interested. Finally, discussions were held on the utilization of existing resources, and key time nodes were confirmed to ensure the project progresses as planned.
+### V. Outstanding Issues
+1.Improve the stability of project name transmission; review and evaluate the logic used by maintainers in open source projects to obtain and update upstream version information, so as to improve accuracy.(Responsible persons: Zhu Jiashun, Dai Ruiqi; Completion date: December 9, 2025)
+
+2.Provide API interface definitions.(Responsible person: Li Songnan; Completion date: December 5, 2025)
+
+# 2025-11-25 Weekly Meeting Minutes of OSS Compass Community
+## Time
 November 25 2025, 19:00-20:00 PM Beijing time
 ## Attendees
 Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Wang Lei, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
