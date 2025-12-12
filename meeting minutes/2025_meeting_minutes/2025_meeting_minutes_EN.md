@@ -1,4 +1,28 @@
-# 2025-11-25 Weekly Meeting Minutes of OSS Compass Community
+# 2025-12-09 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 9 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Wang Lei，Huangjinxin， Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### I. Progress Report on Libyear Project & Open Source Summer Internship (Zhu Jiashun, Dai Ruiqi, Ran Fengyuan)
+1.Reported the progress of central repository processing: Rust, Python, and Ruby central repositories have been processed with a success rate of approximately 60%. Discussed issues including probe usage, old repository handling methods, version information acquisition, and package information management. Emphasized the need to obtain information from multiple data sources and ensure the acquisition of the real upstream addresses of source codes.
+
+2.Reported that the current query success rate is about 80%. Suggested enhancing and modifying the tool, modularizing data processing and calculation for easier maintenance and expansion. Supplements and improvements will be made based on the discussion after the meeting.
+
+3.Discussed how to merge data of the same packages across multiple operating systems and perform batch updates. Zhu Jiashun suggested merging codes first, stressing that codes should be as modular as possible to facilitate subsequent quality development and maintenance. Pointed out the need to uniformly collect upstream data with additional data processing, and emphasized fundamentally improving data accuracy while requiring clear task division next.
+
+4.Stated that project progress and task division have been clarified, with primary responsibilities for research and implementation of the agent. Hoped that Ran Fengyuan would share specific progress at the next meeting and cooperate with Zhu Jiashun to implement scenarios into products.
+### II. Progress of Technology Classification Project (Wang Lei)
+Proposed that approximately 13,000 pieces of data can be processed daily, including data from invalid repositories. Qi Guoqiang stated that additional resources will be added to improve processing capacity and suggested spot-checking data during the process to avoid deviations. Regarding invalid data, Li Shengbao believed there is no need to handle empty projects, only focusing on the reasoning part.
+### III. Discussion on OSS-Compass Data Accuracy (Huang Jinxin)
+Introduced the ongoing Shanghai Open Source Industry Mapping Project, which requires open source project data accurate to the city level. Regarding data accuracy, Wang Yehui explained the current data collection methods and accuracy, introduced plans for improving accuracy in the future, and finally stated that any subsequent questions can be discussed at any time.
+### IV. Pending Issues
+●Share project progress and cooperation with Jiashun at the next meeting. (Responsible person: Ran Fengyuan; Deadline: December 16, 2025)
+
+●Complete database table merging and plan subsequent task division. (Responsible person: Li Songnan; Deadline: December 12, 2025)
+
+●Complete code merging and unify upstream data collection logic. (Responsible persons: Zhu Jiashun, Dai Ruiqi; Deadline: December 12, 2025)
+
+# 2025-12-02 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 19:00-20:00 PM (Beijing Time), December 2, 2025
 ## Participants
