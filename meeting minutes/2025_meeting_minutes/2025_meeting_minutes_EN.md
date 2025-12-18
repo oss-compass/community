@@ -1,3 +1,19 @@
+# 2025-12-16 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 16 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui,  Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Huangjinxin， Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### I. Progress Report on the Libyear Project & Open Source Summer Internship (By Zhu Jiashun, Dai Ruiqi)
+Zhu Jiashun reported on the merge progress: all codes have been placed in the feature/merge branch, and the database merge has also been completed. The HTTP client has been updated to simulate browser behavior for anti-crawling purposes, though the updated version has not yet been pushed to the repository. The success rate has been increased from 60% to 87%. The legacy package repository has not been deleted but a local copy has been retained. In addition, discussions were held on the management and statistics of systems and packages.
+
+Topics including software package version management and discrepancies in version package data sources were deliberated. The importance of tracking the latest versions of software packages was emphasized to ensure that the distribution version incorporates up-to-date packages. It was suggested that the data table be split to decouple distribution version and software package information, and further discussions on the source code hosting address would be conducted after the meeting. Other discussed issues covered source code hosting address consistency, software package address consistency, runtime and proxy access, as well as resource and permission management. Finally, Wang Yehui recommended decoupling the two tables for distribution versions and software packages, and pointed out that multiple addresses might exist which need to be sorted out and verified. Li Songnan proposed creating a new general table to store the basic information and upstream addresses of software packages, with labels assigned to addresses from different sources.
+### II. Discussion on Adding a User Guide to the Official Website（By Wang Yehui,  Zhang Shengxiang，Li Chunmin）
+Wang Yehui pointed out that there is currently a lack of a formal user guide. Zhang Shengxiang suggested using a mind map to structure the content, and implementing navigation and tagging functions to help users locate required information more easily. Finally, Wang Yehui recommended integrating the user guide with blog content, presenting it to users via floating windows or hyperlinks to enhance comprehensibility and usability, and adding relevant links to each service page.
+### III. Sharing of Research on Open Source Repository Evaluation（By Ran Fengyuan）
+Ran Fengyuan shared the literature research in the field of open source repository evaluation. He summarized the methods for open source repository evaluation from both academic and product implementation perspectives.
+## IV. Outstanding Issues
+●Split the data table to decouple distribution versions and software packages.(Responsible Person: Li Songnan；Completion Date: December 18, 2025)
+
 # 2025-12-09 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 9 2025, 19:00-20:00 PM Beijing time
