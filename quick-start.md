@@ -58,6 +58,6 @@ After the submission is complete, you can follow the progress of the analysis re
 
 :::info You can click here to visit
 
-<https://github.com/oss-compass/compass-projects-information/pulls>
+[https://github.com/oss-compass/compass-projects-information/pulls](https://github.com/oss-compass/compass-projects-information/pulls)
 
 :::

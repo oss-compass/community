@@ -24,7 +24,7 @@ Criticality Score, sounding quite mysterious, is a quantified assessment project
 
 This formula involves three mysterious variables: ai, Si, and Ti. The ai represents the weight of the i-th metric, Si is the value of that metric, and Ti is the threshold of the metric. The threshold refers to the maximum value the metric can reach.
 
-Using the log function for normalization is a common method, but this formula is a bit special: both the numerator and denominator use the form log(1+x) instead of log(x), and the +1 ensures that the final result is positive; and the denominator uses log(1+max(Si,Ti)), where max is used to keep the denominator constant at log(1+Ti) when Si<Ti, and the formula result remains 1 when Si>Ti.
+Using the log function for normalization is a common method, but this formula is a bit special: both the numerator and denominator use the form log(1+x) instead of log(x), and the +1 ensures that the final result is positive; and the denominator uses log(1+max(Si,Ti)), where max is used to keep the denominator constant at log(1+Ti) when Si &lt; Ti, and the formula result remains 1 when Si > Ti.
 
 With these complex calculations, the C value is kept between 0 and 1. Truly a magical transformation of the algorithm!
 

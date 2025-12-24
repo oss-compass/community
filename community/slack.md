@@ -15,7 +15,7 @@ If the button click does not work, you can copy the click or copy the following 
 
 :::info Join us on Slack
 
-<https://join.slack.com/t/oss-compass/shared_invite/zt-1ttt9sv5h-8E~oPP6VJqm8ero5qH9LlA>
+[https://join.slack.com/t/oss-compass/shared_invite/zt-1ttt9sv5h-8E~oPP6VJqm8ero5qH9LlA](https://join.slack.com/t/oss-compass/shared_invite/zt-1ttt9sv5h-8E~oPP6VJqm8ero5qH9LlA)
 
 :::
 

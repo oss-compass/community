@@ -16,7 +16,7 @@ In this study, we study the community evolution behavior in developer social net
 
 ### 1. Introduction
 
-Open source software development is a socialized software production approach, and a deep understanding of the developer social networks (DSNs) in open source projects and their evolutionary processes is crucial for understanding the phenomenon of collective intelligence in the open source world. Existing methods for studying the evolution of open source communities and networks can be categorized into two types: network-level and community-level statistical models. The first type quantifies a series of snapshots of the social network using statistical metrics. These works typically utilize metrics such as network diameter, shortest paths between nodes, modularity, hierarchical structure, and centrality to measure the properties of the social network as a whole. While most of these metrics provide an overall assessment of the nature of the social network, a natural phenomenon in social networks is the spontaneous formation of complex community structures among interacting individuals. Therefore, understanding the community patterns within DSNs can provide a deeper understanding of open source software development. As Conway's Law suggests, the architecture of a system reflects the organization of its implementers. Although some measurement methods have addressed the measurement of groups or communities within social networks, the ability of these network-level statistical data to reveal the structure and evolution of communities within DSNs is relatively weak. The second type of method uses a community perspective to reveal the evolutionary patterns of social networks within DSNs. Existing methods propose using patterns such as community split, shrink, merge, and expand, etc, to describe community evolution behavior, which provides rich semantic information but still has limitations: first, it is difficult to describe the evolution of a community using a single pattern; second, existing methods are difficult to support quantitative analysis; third, these patterns are limited to describing the evolution of individual communities and are difficult to extend these concepts to the entire DSN network level. Therefore, there is a need for a comprehensive, quantitative representation and measurement method for community evolution behavior to form a complete, in-depth, and scientific understanding of this widespread phenomenon.
+Open source software development is a socialized software production approach, and a deep understanding of the developer social networks (DSNs) in open source projects and their evolutionary processes is crucial for understanding the phenomenon of collective intelligence in the open source world. Existing methods for studying the evolution of open source communities and networks can be categorized into two types: network-level and community-level statistical models. The first type quantifies a series of snapshots of the social network using statistical metrics. These works typically utilize metrics such as network diameter, shortest paths between nodes, modularity, hierarchical structure, and centrality to measure the properties of the social network as a whole. While most of these metrics provide an overall assessment of the nature of the social network, a natural phenomenon in social networks is the spontaneous formation of complex community structures among interacting individuals. Therefore, understanding the community patterns within DSNs can provide a deeper understanding of open source software development. As Conway's Law suggests, the architecture of a system reflects the organization of its implementers. Although some measurement methods have addressed the measurement of groups or communities within social networks, the ability of these network-level statistical data to reveal the structure and evolution of communities within DSNs is relatively weak. The second type of method uses a community perspective to reveal the evolutionary patterns of social networks within DSNs. Existing methods propose using patterns such as community split, shrink, merge, and expand, etc, to describe community evolution behavior, which provides rich semantic information but still has limitations: first, it is difficult to describe the evolution of a community using a single pattern; second, existing methods are difficult to support quantitative analysis; third, these patterns are limited to describing the evolution of a single community and are difficult to extend to the entire DSN network level. Therefore, we need a comprehensive and quantitative representation and measurement method for community evolution behavior to form a complete, in-depth, and scientific understanding of this common phenomenon.
 
 ### 2. Quantitative Measurement Method for Community Evolution Based on Information Entropy
 
@@ -36,23 +36,19 @@ Fig1 Method Overview
 
 The indicator calculation process proposed in this work includes three steps. Firstly, as shown in Figure 1 (a), we integrated OSS Compass, GHTorrent database, and GitHub GraphQL API3 to retrieve the corresponding public data for Issue and Pull Request. Record the participants of Issues to extract joint discussion relationships. These records are used to construct DSN and perform community evolution analysis in subsequent steps. Next, as shown in Figure 1 (b), we use the data obtained from window segmentation and construct a DSN snapshot from the fragments using a weighted undirected graph. Then, the improved Clauset Newman Moore (CNM) algorithm was applied to perform community detection. Finally, as shown in Figure 1 (c), we propose a set of indicators based on information entropy to measure community evolution behavior, including measures of community fragmentation, contraction, merging, and expansion behavior. On the basis of a single community, this research method can also summarize these indicator values to quantify the community evolution behavior at the DSN network level.
 
-Building a DSN snapshot is a necessary prerequisite for measuring the evolutionary behavior of the community included in it. We segment the raw data use a sliding window of 12 weeks, starting at time $$t$$, with a step of 1 week. We then use a weighted undirected graph $$G_t=\langle V,E,U,W \rangle$$ to model the DSN structure composed of issue and PR participants within this window (we ignore the time index $$t$$ in the following text). The vertex $$v_j \in V$$ represents a user present in the DSN, and the edge $$e_{i,j}\in E$$ represents social interaction between users $$v_i$$ and $$v_j$$. The edge weight $$w_{i,j}\in W$$ quantifies the intensity of social interaction between users using edge $$e_{i,j}$$ following equation (1). The node weight $$u_i \in U$$ is the level user activity obtained by quantifying the vertex $$v_i$$ according to equation (2). Specifically, given the count $$cnt_{i,j}$$ of a conversation between a pair of users $$v_i$$ and $$v_j$$ (jointly participating in an issue or PR) within a time window $$t$$, the weight $$w_{i,j}$$ of the corresponding edge is calculated as follows:
+Building a DSN snapshot is a necessary prerequisite for measuring the evolutionary behavior of the community included in it. We segment the raw data use a sliding window of 12 weeks, starting at time $t$, with a step of 1 week. We then use a weighted undirected graph $G_t=(V,E,U,W)$ to model the DSN structure composed of issue and PR participants within this window (we ignore the time index $t$ in the following text). The vertex $v_j \in V$ represents a user present in the DSN, and the edge $e_{i,j}\in E$ represents social interaction between users $v_i$ and $v_j$. The edge weight $w_{i,j}\in W$ quantifies the intensity of social interaction between users using edge $e_{i,j}$ following equation (1). The node weight $u_i \in U$ is the level user activity obtained by quantifying the vertex $v_i$ according to equation (2). Specifically, given the count $cnt_{i,j}$ of a conversation between a pair of users $v_i$ and $v_j$ (jointly participating in an issue or PR) within a time window $t$, the weight $w_{i,j}$ of the corresponding edge is calculated as follows:
 
-<center>
-
-$$w_{i,j} = \ln(cnt_{i,j} + 1)$$ (1)
-
-</center>
+$$
+w = \ln(cnt + 1) \quad (1)
+$$
 
 Based on the edge weights above, we further quantify the user's activity in the DSN by calculating its weight for each user using equation (2):
 
-<center>
+$$
+u = \ln(\sum w + 1) \quad (2)
+$$
 
-$$u_i=\ln(\sum_{j=1}^{|V|}w_{i,j}+1)$$ (2)
-
-</center>
-
-Next, for each DSN snapshot, we use community detection algorithms to mine the communities formed within it. In this work, community refers to a group of users closely interact with each other in the DSN snapshot. Given the $$t^{th}$$ snapshot $$G_t$$ of DSN. We use an improved Clauset Newman Moore (CNM) algorithm to detect potential communities in the snapshot. For $$G_t$$, the result of community detection is a set of non-overlapping communities, each includes a subset of users with strong joint discussion relationship in the DSN. By applying community detection to all snapshots arranged in time, we obtained a series of communities that evolves over time. Based on the detected communities, we can construct the migration matrices of community members reflected in two DSN snapshots at adjacent times, namely $$t$$and $$t+1$$, as shown in Figure 2 (a).
+Next, for each DSN snapshot, we use community detection algorithms to mine the communities formed within it. In this work, community refers to a group of users closely interact with each other in the DSN snapshot. Given the $t^{th}$ snapshot $G_t$ of DSN. We use an improved Clauset Newman Moore (CNM) algorithm to detect potential communities in the snapshot. For $G_t$, the result of community detection is a set of non-overlapping communities, each includes a subset of users with strong joint discussion relationship in the DSN. By applying community detection to all snapshots arranged in time, we obtained a series of communities that evolves over time. Based on the detected communities, we can construct the migration matrices of community members reflected in two DSN snapshots at adjacent times, namely $t$ and $t+1$, as shown in Figure 2 (a).
 
 <center>
 
@@ -66,48 +62,42 @@ Fig 2 Transfer Matrix and Migration of Community Members Between Continuous Time
 
 </center>
 
-Based on the above community member migration matrix, we can apply it to a community $$c_{t,i}$$ at time t, as well as a community $$c_{t+1,j}$$ at time $$t+1$$ to calculate the weight distribution as shown in Figures 2 (b) and (c), respectively; Furthermore, by using information entropy, we measure the evolutionary behavior patterns of a single community, including its split, shrink, merge, and expand, within a continuous time frame. Compared with the existing research, which mostly assigns a single pattern to a pair of matching communities, our method can comprehensively and quantitatively describe all the behavior patterns and their degrees for each community in the evolution process. We take the $$i^{th}$$ community, i.e. $$c_{t,i}$$, in the DSN snapshot to explain how to calculate the split and shrink indicies. Assuming that there are $$m$$ communities in the DSN at time $$t+1$$, we can calculate the distribution of active users remaining in the project at time $$t+1$$ for community$$c_{t,i}$$, who migrate to the $$m$$ communities in the next time step as follows (as shown in Figure 2(b)):
+Based on the above community member migration matrix, we can apply it to a community $c_{t,i}$ at time t, as well as a community $c_{t+1,j}$ at time $t+1$ to calculate the weight distribution as shown in Figures 2 (b) and (c), respectively; Furthermore, by using information entropy, we measure the evolutionary behavior patterns of a single community, including its split, shrink, merge, and expand, within a continuous time frame. Compared with the existing research, which mostly assigns a single pattern to a pair of matching communities, our method can comprehensively and quantitatively describe all the behavior patterns and their degrees for each community in the evolution process. We take the $i^{th}$ community, i.e. $c_{t,i}$, in the DSN snapshot to explain how to calculate the split and shrink indicies. Assuming that there are $m$ communities in the DSN at time $t+1$, we can calculate the distribution of active users remaining in the project at time $t+1$ for community $c_{t,i}$, who migrate to the $m$ communities in the next time step as follows (as shown in Figure 2(b)):
 
-<center>
-
-$$\hat{\psi_{i,j}} = \frac{\psi_{i,j}}{\sum_{j=1}^m \psi_{i,j}}$$ (3)
-
-</center>
+$$
+\hat\psi = \psi / \sum \psi \quad (3)
+$$
 
 And calculate the information entropy corresponding to the distribution using equation (4):
 
-<center>
+$$
+\mathcal{H} = - \sum \hat\psi \cdot \log_2(\hat\psi) \quad (4)
+$$
 
-$$\mathcal{H}_{c_{t,i}} = - \sum_{j=1}^m \hat{\psi_{i,j}}\log_2(\hat{\psi_{i,j}})$$ (4)
+Intuitively, the above information entropy measures the degree of separation of members in $c_{t,i}$ in migrating to different communities at the next time step. Based on the above information entropy, we can calculate the split and shrink index of $c_{t,i}$ as it evolves to the next moment following equations (5) and (6), respectively:
 
-</center>
+Split index
+$$
+\mathcal{I}^\psi = (1-\eta)\mathcal{H} \quad (5)
+$$
 
-Intuitively, the above information entropy measures the degree of separation of members in $$c_{t,i}$$ in migrating to different communities at the next time step. Based on the above information entropy, we can calculate the split and shrink index of $$c_{t,i}$$ as it evolves to the next moment following equations (5) and (6), respectively:
+Shrink index
+$$
+\mathcal{I}^\eta = \eta(\mathcal{H}^* - \mathcal{I}^\psi + \sigma) \quad (6)
+$$
 
-<center>
+Similar to the process of calculating community split and shrink indices mentioned above, based on the member migration distribution shown in Figure 2 (c), we focus on a community $c_{t+1,j}$ at time t+1, and measure its merge index as shown in equation (7) and expand index following equation (8) from the distribution of its members migrate from communities in the previous time step $t$:
 
-Split index $$\mathcal{I}_{c_{t,i}}^\psi = (1-\eta_i)\mathcal{H}_{c_{t,i}}$$ (5)
+Merge index: I = (1-mu) H (7)
 
-Shrink index $$\mathcal{I}_{c_{t,i}}^\eta = \eta_i(\mathcal{H}^*_{t\rightarrow t+1} - \mathcal{I}_{c_{t,i}}^\psi + \sigma_{\eta_i})$$ (6)
-
-</center>
-
-Similar to the process of calculating community split and shrink indices mentioned above, based on the member migration distribution shown in Figure 2 (c), we focus on a community $$c_{t+1,j}$$ at time t+1, and measure its merge index as shown in equation (7) and expand index following equation (8) from the distribution of its members migrate from communities in the previous time step $$t$$:
-
-<center>
-
-Merge index $$\mathcal{I}_{c_{t+1,j}}^\phi = (1-\mu_j)\mathcal{H}_{c_{t+1,j}}$$ (7)
-
-Expand index $$\mathcal{I}_{c_{t+1,j}}^\mu = \mu_j(\mathcal{H}^*_{t\leftarrow t+1} - \mathcal{I}_{c_{t+1,j}}^\phi + \sigma_{\mu_i})$$ (8)
-
-</center>
+Expand index: I = mu (H* - I + sigma) (8)
 
 Taking the community split and shrink indicies as an example, the above indices have the following properties to make them effective in quantifying community evolution behaviors:
 
-1. Given $$0<\eta_i<1$$, and assuming $$\psi's$$ show a uniform distribution, the split and shrink indices of the community are monotonically increasing functions of the number of communities $$m$$ in the next time step;
-2. Assuming $$\eta_i > 0$$, $$m>1$$, the split and shrink indices are monotonically decreasing and monotonically increasing functions of $$\eta_i$$ , respectively, under any given $$\psi's$$;
-3. When the migration distribution $$\psi's$$ suggests the members of a community migrages evently to communities detected in the next time step, the split index reaches its maximum value and the shrink index reaches its minimum value;
-4. When the migration distribution $$\psi's$$ of retained personnel is extremely uneven (all migrating to a single community in the next time step), the split index reaches its minimum value and the shrink index reaches its maximum value.
+1. Given 0 &lt; eta &lt; 1, and assuming psi's show a uniform distribution, the split and shrink indices of the community are monotonically increasing functions of the number of communities m in the next time step;
+2. Assuming eta &gt; 0, m &gt; 1, the split and shrink indices are monotonically decreasing and monotonically increasing functions of eta, respectively, under any given psi's;
+3. When the migration distribution psi's suggests the members of a community migrages evently to communities detected in the next time step, the split index reaches its maximum value and the shrink index reaches its minimum value;
+4. When the migration distribution psi's of retained personnel is extremely uneven (all migrating to a single community in the next time step), the split index reaches its minimum value and the shrink index reaches its maximum value.
 
 Based on the above properties, we believe that the proposed community evolution index can accurately reflect our intuitive understanding of community evolution behaviors.
 
@@ -120,7 +110,7 @@ We conducted empirical research on a dataset consisting of 32 open source reposi
 
 #### 3.1 RQ1: Effectiveness
 
-We evaluate the effectiveness of the proposed indicies by comparing the community evolution pattern detection results of the proposed method and existing methods. We use the process proposed in existing work to detect qualitative community evolution patterns in DSN, which serve as the ground-truth for the evaluation. More specifically, for continuous time steps $$t$$ and $$t+1$$, we first calculate the similarity between each pair of communities detected in the two DSN snapshots. The generation of DSN snapshots and community detection are consistent with the above statement for fair comparison.
+We evaluate the effectiveness of the proposed indicies by comparing the community evolution pattern detection results of the proposed method and existing methods. We use the process proposed in existing work to detect qualitative community evolution patterns in DSN, which serve as the ground-truth for the evaluation. More specifically, for continuous time steps $t$ and $t+1$, we first calculate the similarity between each pair of communities detected in the two DSN snapshots. The generation of DSN snapshots and community detection are consistent with the above statement for fair comparison.
 
 <center>
 

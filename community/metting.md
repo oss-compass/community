@@ -19,12 +19,12 @@ If the button click does not work, you can copy the click or copy the following 
 
 :::info Join the meeting
 
-<https://meeting.tencent.com/dm/AE8RoTY40SfS>
+[https://meeting.tencent.com/dm/AE8RoTY40SfS](https://meeting.tencent.com/dm/AE8RoTY40SfS)
 
 :::
 
 :::info View the meeting minutes
 
-<https://github.com/oss-compass/community/blob/main/meeting%20minutes/meeting-minutes_EN.md>
+[https://github.com/oss-compass/community/blob/main/meeting%20minutes/meeting-minutes_EN.md](https://github.com/oss-compass/community/blob/main/meeting%20minutes/meeting-minutes_EN.md)
 
 :::
