@@ -4,9 +4,9 @@ tags:
   - Blog
 ---
 
-Liang Wang$^{1,2}$，Zhiwen Zheng$^{1,2}$，Xiangchen Wu$^{1,2}$，Baihui Sang$^{1,2}$，Jierui Zhang$^{1,2}$，Xianping Tao$^{1,2}$
+Liang Wang, Zhiwen Zheng, Xiangchen Wu, Baihui Sang, Jierui Zhang, Xianping Tao
 
-$^1$Department of Computer Science and Technology, Nanjing University, State Key Laboratory for Novel Software Technology $^2$OSS Compass
+Department of Computer Science and Technology, Nanjing University, State Key Laboratory for Novel Software Technology, OSS Compass
 
 ### Abstract
 
@@ -44,7 +44,7 @@ Figure 1. Overview of the proposed approach.
 
 All data in this study are derived from file modification records of open-source software (OSS) projects and their corresponding fork sets in OSS Compass and GHTorrent. Firstly, we performed data preprocessing on the raw records, which involved cleaning and partitioning based on forks. The data cleaning rules included ensuring that at least one external developer in the fork repository had created a non-empty commit, and non-empty commits indicated modifications or the creation of at least one file. The data partitioning process was based on time windows. In this study, our focus was primarily on measuring the diversity of commits created by forked repositories of open-source software within a one-month time span. The distribution of commits after data preprocessing is depicted in Figure 1 (a), where the shaded area represents a valid snapshot containing all valid forks and their corresponding commit sets during that period.
 
-Secondly, we constructed the file modification matrix for each partitioned snapshot. Equation (1) represents the $$i^{th}$$ row of the file modification matrix, where the index $$i$$denotes the valid fork number, $$n$$ represents the index of all valid file modification sets across forks in that snapshot, and the corresponding component value $$c_{i1}$$ represents the modification count in the file at position $$1$$ for the $$i^{th}$$ fork. We stacked all modification vectors in this snapshot to form the matrix $$M_t$$, as illustrated in Figure 1(b). It is important to note that, due to the removal of file objects with a modification scale of 0 during data cleaning, the matrix $$M_t$$ does not have any rows or columns entirely filled with zeros.
+Secondly, we constructed the file modification matrix for each partitioned snapshot. Equation (1) represents the i-th row of the file modification matrix, where the index i denotes the valid fork number, n represents the index of all valid file modification sets across forks in that snapshot, and the corresponding component value c_i1 represents the modification count in the file at position 1 for the i-th fork. We stacked all modification vectors in this snapshot to form the matrix M_t, as illustrated in Figure 1(b). It is important to note that, due to the removal of file objects with a modification scale of 0 during data cleaning, the matrix M_t does not have any rows or columns entirely filled with zeros.
 
 $$
 \vec{c} = ( c_1, c_2, \cdots, c_j, \cdots, c_n )^T \quad (1)
@@ -60,11 +60,11 @@ Finally, for each file modification matrix Mt obtained above, we calculated the 
 \mathrm{QE}(M)=\frac{1}{m^2} \sum \sum \mathcal{D}(\vec{c}_i, \vec{c}_j) \quad (2)
 $$
 
-  Where$$EQ(M)$$represents Rao's Quadratic Entropy, estimating the expected difference between randomly selecting two forks from the fork collection. $$M$$ is the file modification matrix corresponding to the snapshot (time index $$t$$ is omitted), $$m$$ is the number of forks in a snapshot, $$\vec{c}_i$$ and $$\vec{c}_j$$ are the $$i^{th}$$ and $$j^{th}$$ rows in $$M$$, and $$\mathcal{D}(\cdot)$$ is a distance function measuring the difference between two vectors.
+  Where QE(M) represents Rao's Quadratic Entropy, estimating the expected difference between randomly selecting two forks from the fork collection. M is the file modification matrix corresponding to the snapshot (time index t is omitted), m is the number of forks in a snapshot, c_i and c_j are the i-th and j-th rows in M, and D is a distance function measuring the difference between two vectors.
 
 - Choosing Distance Function
 
-  In this study, we represented the distance function using the Laplace kernel function, where $||\cdot||_1$ is the 1-norm, and $\gamma$ is a hyperparameter used to adjust the sensitivity of the function to differences. We chose the Laplace kernel function because it is a non-linear transformation sensitive to small changes, demonstrating excellent performance in various detection tasks such as character recognition. This choice is motivated by our practical examination of the studied objects. Through an analysis of the actual file modification processes in the fork collection, we observed that many forks made slight modifications to project files, with some even modifying only a single line in a file. Based on the Laplace kernel function's performance in actual scenarios and after comparative testing with various distance functions, we ultimately selected the distance function presented in Equation (3).
+  In this study, we represented the distance function using the Laplace kernel function, where ||x||_1 is the 1-norm, and gamma is a hyperparameter used to adjust the sensitivity of the function to differences. We chose the Laplace kernel function because it is a non-linear transformation sensitive to small changes, demonstrating excellent performance in various detection tasks such as character recognition. This choice is motivated by our practical examination of the studied objects. Through an analysis of the actual file modification processes in the fork collection, we observed that many forks made slight modifications to project files, with some even modifying only a single line in a file. Based on the Laplace kernel function's performance in actual scenarios and after comparative testing with various distance functions, we ultimately selected the distance function presented in Equation (3).
 
 $$
 \mathcal{D}(\vec{c}_i, \vec{c}_j)=1-\exp(-\gamma \| \vec{c}_i - \vec{c}_j \|) \quad (3)
@@ -78,7 +78,7 @@ $$
 \mathcal{H}(M)=\frac{1}{m^2} \sum \sum (1-\exp(-\gamma \| \vec{c}_i - \vec{c}_j \|)) \quad (4)
 $$
 
-According to the above definition, it is clear that the value of $\mathcal{H}_{fork}(M)$ lies in the range (0,1]. Consistent with most entropy properties, $\mathcal{H}_{fork}(M)$ attains its minimum when the number of changes to files modified by different forks is identical. Through mathematical reasoning, it can be derived that the fork entropy obtained through the above process possesses the following fundamental properties:
+According to the above definition, it is clear that the value of H_fork(M) lies in the range (0,1]. Consistent with most entropy properties, H_fork(M) attains its minimum when the number of changes to files modified by different forks is identical. Through mathematical reasoning, it can be derived that the fork entropy obtained through the above process possesses the following fundamental properties:
 
 - Symmetry: Fork entropy is independent of the organizational order of forks in the calculation process.
 - Continuity: Fork entropy is a continuous function.

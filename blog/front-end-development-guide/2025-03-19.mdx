@@ -25,7 +25,7 @@ The front-end of OSS-Compass adopts a Single Page Application (SPA) architecture
 | **Visualization**                                              | ECharts                   | A widely acclaimed open-source chart visualization framework. The community has a high measurement score on the OSS-Compass platform, which is better than other competing products.                   |
 | **State Management**                                           | Context API               | A simple and lightweight method for sharing state between components.                                                                                                                                  |
 | **Engineering**                                                | ESLint + Prettier + Husky | Used to identify and report issues in JavaScript code and automatically format the code before submission.                                                                                             |
-| **Internationalization**                                       | i18next                   | Multilingual files are split by namespace (e.g., i18n/{lang}/common.json), and it supports dynamic SSR loading.                                                                                        |
+| **Internationalization**                                       | i18next                   | Multilingual files are split by namespace (e.g., i18n/[lang]/common.json), and it supports dynamic SSR loading.                                                                                        |
 
 ### 3. File Structure
 
@@ -37,7 +37,7 @@ web/src/
 └── styles/          // Style files (Tailwind and Custom styles)
 
 web/i18n/
-└── {lang}           // International configuration
+└── [lang]           // International configuration
 
 graphql/
 └── src/gql/         // Graphql API
