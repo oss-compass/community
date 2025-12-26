@@ -6,11 +6,7 @@ tags:
 description: Coming soon!
 ---
 
-:::tip This article should take approximately ⏱ 3 minutes to read.
-
-:::
-
-Welcome to OSS-Compass, through this article, you will be able to quickly understand what OSS-Compass is in three minutes, and get the corresponding insight analysis report for your project.
+Welcome to OSS-Compass, through this article, you will be able to quickly understand what OSS-Compass Ecosystem Evaluation Service is in three minutes, and get the corresponding insight analysis report for your project.
 
 ## View Analysis Report
 
