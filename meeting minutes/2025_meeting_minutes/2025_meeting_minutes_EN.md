@@ -1,3 +1,17 @@
+# 2025-12-23 Weekly Meeting Minutes of OSS Compass Community
+## Time
+December 23 2025, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Zhang Shengxiang, Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+### 1. Progress Report on Libyear Project & Open Source Summer Internship (Li Songnan, Zhu Jiashun, Dai Ruiqi)
+Zhu Jiashun and Dai Ruiqi reported the current progress, and the group discussed issues including upstream URL acquisition and updates, Debian maintenance mechanisms, and upstream address exposure. They also deliberated on the impact of central repositories of different programming languages on version release timelines.Wang Yehui suggested leveraging the Google depends.dev platform as a supplementary probe for upstream address retrieval and recommended manual monitoring of version release schedules. In addition, he proposed that binding release managers might resolve certain issues, while emphasizing the need for a trade - off analysis of its pros and cons.
+
+Li Songnan introduced the table structure optimization for software package information, which involves adding a new version release information table and modifying the designed REST API to accommodate the new table structure and requirements. Li Shengbao advised redundantly adding package names to the tables for query convenience, and suggested direct association by package name while retaining unique IDs to prevent confusion.
+### 2. Progress Update on Technical Classification Project (Wang Lei)
+Wang Lei stated that new servers have recently arrived, but model download and deployment have not been completed yet. Wang Yehui responded that the new servers are currently running trial tests on other model versions, with debugging expected to be finished soon. He stressed the need to test the accuracy of the new model versions and proposed drawing table relationship diagrams to clearly illustrate the invocation relationships among various tables for the reference of all team members.
+### 3. Outstanding Issues
+●Organize the table structure and provide documentation and relationship diagrams. (Responsible Person: Songnan Li, Due Date: December 26, 2025)
+
 # 2025-12-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 December 16 2025, 19:00-20:00 PM Beijing time
