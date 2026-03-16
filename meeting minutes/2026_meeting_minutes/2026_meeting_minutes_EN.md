@@ -1,3 +1,20 @@
+# 2026-03-10 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 10 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+## Meeting Minutes
+### I. Discussion on Server Connection and Report Generation (Zhu Jiashun, Dai Ruiqi)
+Issues related to server connection and code submission workflow were discussed. The Remote SSH feature in VS Code cannot be used directly as TCP forwarding permissions are disabled; development is currently conducted via the command line or Web IDE. Qi Guoqiang will apply for the relevant permissions. For report generation and data transmission, Wang Yehui proposed using Pydantic for strong type constraints, standardizing field descriptions to ensure stable output formats.
+### II. Discussion on PR Submission Workflow (Wang Lei)
+The PR submission process and Agent role definition were reviewed. Wang Yehui emphasized that the Agent should serve as an auxiliary tool in the PR workflow. For code changes or complex decisions, manual confirmation is mandatory, with humans determining whether to submit and the specific modifications. Technical challenges of code revision and log retrieval were discussed; Wang Lei suggested AI-assisted code modification, while Wang Yehui recommended limiting AI use to confirmatory changes, with complex revisions requiring manual intervention.
+### III. Discussion on Sandbox Environment Testing and Authentication (Ran Fengyuan)
+Sandbox environment and authentication issues were addressed. Ran Fengyuan tested the AIO Sandbox, but Qi Guoqiang noted its lack of customizability and recommended referencing the OpenClaw implementation for environment orchestration and task scheduling via Docker, along with email verification for CLA signing. For CRA signing, Wang Yehui suggested using real email addresses for simulation to avoid verification issues caused by disposable emails.
+### IV. Outstanding Issues
+●Implement human intervention logic in the Agent.Owner: Dai Ruiqi, Zhu Jiashun; Deadline: March 13, 2026
+
+●Prepare demo for Friday’s meeting.Owner: Wang Lei; Deadline: March 13, 2026
+
 # 2026-01-27 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 January 27 2026, 19:00-20:00 PM Beijing time
