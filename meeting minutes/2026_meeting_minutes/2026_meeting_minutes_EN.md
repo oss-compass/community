@@ -1,3 +1,37 @@
+# 2026-03-24 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 24 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin
+## Meeting Minutes
+### I. Discussion on Progress of Agent Evaluation Report Generation
+Regarding the generation of evaluation reports for the Developer Experience Agent, Dai Ruiqi and Zhu Jiashun updated each other on the optimization and verification status of the current process. Concerning the report content and formatting specifications, Dai Ruiqi simplified the scoring criteria and controlled the output content. The generation logic was adjusted to only output analysis, improvement suggestions, key issue diagnosis, and radar charts after all submissions are completed, avoiding redundant information in intermediate steps.
+### II. Progress of Other Modules
+For the PR information flow reconstruction, Wang Lei adjusted the PR filtering logic to prioritize PRs with high comment volumes. He redesigned the information flow filtering rules for the comment section, removing irrelevant information through regular expression matching and other methods to save Tokens and improve model processing efficiency.
+### III. Introduction of the New Evaluation Report Template
+Qi Guoqiang introduced the design concept and structural optimization of the new version of the evaluation report template. Minor adjustments were made to the structural hierarchy, with a new chapter on "Developer Journey" to be added. By visualizing the developer's action flow during evaluation, the assessment results, deficiencies, and advantages are intuitively displayed. Improvement suggestions are moved forward from the end of the report to facilitate quick problem location. The original standardized learning content is retained to ensure the professionalism and continuity of the report.
+### IV.  Outstanding Issues
+●Regenerate a complete evaluation report based on the new report template.(Completion Date: March 27, 2026; Person in Charge: Dai Ruiqi)
+
+# 2026-03-17 Weekly Meeting Minutes of OSS Compass Community
+## Time
+March 17 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin 
+## Meeting Minutes
+### I. Discussion on Agent Evaluation Report Template and Issue Submission Process (Dai Ruiqi)
+Discussions were held on report generation issues, and the principles for generating the Agent automatic evaluation report template were clarified. Regarding the frequent errors in reading web page content via browser automation, it is recommended to prioritize data retrieval through API to improve stability. For detailed functions that cannot be realized via API， they can be ignored temporarily.
+For locating the issue contribution guide, it is clarified that the requirement is deemed satisfied as long as instructions for submitting issues can be found in the project README file; a separate CONTRIBUTING file is not mandatory. The check for the "Code of Conduct" will not be implemented at the current stage and may be added in subsequent iterations.
+### II. Discuss Progress on Automatic Analysis of PR Contribution Process (Wang Lei)
+Wang Lei is conducting automatic analysis of the PR processing workflow, attempting to extract events, stages, timestamps and other information from PRs for statistical analysis. It is recommended to adjust the PR sampling strategy to obtain more valuable information.
+In the follow-up work, Wang Lei will focus on the analysis of the PR process, and the final evaluation report generation template will be shared with Dai Ruiqi’s deliverables. A relatively complete report generation process is planned to be demonstrated in the subsequent presentation.
+### III. Discussion on Environment Deployment and NPU Adaptation (Ran Fengyuan)
+Ran Fengyuan stated that the containerized deployment and testing of basic functions have been successfully completed in both GPU and CPU environments. However, issues were encountered when running Docker containers on NPU servers; the error may be related to inconsistent file permission mapping inside and outside the container.Qi Guoqiang suggested checking and adjusting the **other** permissions of the files, granting at least read and execute permissions.
+### IV. Outstanding Issues
+●Complete the generation and debugging of the Issue report template, and deliver a complete report including the Agent execution path.（Person in charge: Dai Ruiqi; Deadline: March 24, 2026）
+
+●Generate a relatively complete report based on the latest PR data and prepare the Demo.（Person in charge: Wang Lei; Deadline: March 20, 2026）
+
 # 2026-03-10 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 10 2026, 19:00-20:00 PM Beijing time
