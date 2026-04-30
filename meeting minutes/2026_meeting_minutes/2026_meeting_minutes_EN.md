@@ -1,3 +1,51 @@
+# 2026-04-28 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 28 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang，Zhang Shengxiang， Qiu Ruiqiao，Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin 
+## Meeting Minutes
+### 1. Issue Quality Assessment System and Agent Role Identification (Dai Ruiqi、Qiu Ruiqiao)
+Dai Ruiqi shared the preliminary process for Issue assessment. The discussion clarified that the ultimate goal of the assessment is to improve community quality. Assessment results will be mapped to specific repository owners to form a clear responsibility division framework, ensuring the practical value of the assessment. Subsequent Issue assessments will focus on the inherent quality of Issues and the quality of their processing and maintenance workflows.
+
+The discussion also confirmed the critical role of Agents in community contributions. It was proposed that future assessment of developer experience should be expanded to cover the collaborative development experience between human developers and Agents. Meanwhile, community governance documents need to be optimized for better readability and executability for Agent scenarios.
+### 2. CI/CD Experience Assessment and Architecture Decoupling (Wang Lei)
+Wang Lei reported the development progress of the CI assessment function. The team conducted in-depth discussions on the adaptation of GitCode-related features, code engineering structure, and project advancement risks. The necessity of file splitting was emphasized, and the team was advised to pay close attention to such issues when dismantling module engineering structures. Relevant task assignments and follow-up plans were finally confirmed.
+### 3. PR & Issue Contribution Journey Restructuring (Qiu Ruiqiao)
+Qiu Ruiqiao presented the design of the contribution journey for Pull Requests and Issues. The task orchestration logic was appropriately adjusted after group discussion. Going forward, Qiu Ruiqiao will integrate the indicator systems proposed by Wang Lei and Dai Ruiqi to build a comprehensive assessment indicator dictionary.Additionally, the keyword-matching based indicator calculation logic will be gradually migrated to LLM-driven extraction to improve recognition accuracy, especially for complex scenarios such as task retries and timeouts.
+### 4. Docker Sandbox Environment Verification (Ran Fengyuan)
+Ran Fengyuan reported the development progress of the Docker sandbox environment, with initial verification completed. The follow-up plan is to upgrade static container configurations to task-driven dynamic generation, where the LLM will manage the full lifecycle of containers throughout task execution.
+### 5. Outstanding Action Items
+●Add Agent dimension to participant profiling and refine analysis on its impact on collaboration efficiency.（Owner: Qiu Ruiqiao ； Deadline: May 6, 2026）
+
+●Deliver unified REST APIs and supplement missing data such as operation logs.（Owner: Li Songnan ；Deadline: May 6, 2026）
+
+●Integrate CI and Issue indicators to optimize and complete the indicator system for the PR & Issue contribution journey.（Owner: Qiu Ruiqiao ；Deadline: May 6, 2026）
+
+●Push Docker sandbox environment code to the upstream repository and support Qi Guoqiang in relevant testing work.（Owner: Ran Fengyuan ；Deadline: May 6, 2026）
+
+# 2026-04-21 Weekly Meeting Minutes of OSS Compass Community
+## Time
+April 21 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Qiu Ruiqiao，Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Li Chunmin 
+## Meeting Minutes
+### 1.Discussion on Development and Optimization of Agent Core Capabilities (Zhu Jiashun)
+An in-depth discussion was held on the execution efficiency and stability of Agents in complex tasks, covering the dimensions of context management, environment adaptation, and Issue submission.Zhu Jiashun will carry out subsequent development based on a new branch, aiming to implement more powerful context summarization, loading and management functions, so as to improve the Agent's perception of global tasks.
+### 2.Discussion on Implementation Scheme of Issue Submission Scenarios (Dai Ruiqi)
+Dai Ruiqi has completed code review and added the functional logic of "Waiting for Official Reply".After discussion and analysis, it was confirmed that the current scenario goal should focus on "ensuring successful Issue submission", so as to perceive the experience of the submission process and the rationality of the document template.
+### 3.Discussion on Development of CI/CD Experience Evaluation Indicators and Data Verification (Wang Lei)
+Wang Lei reported on the development of CI/CD experience evaluation indicators and data verification. Discussions were held on the scoring standards of indicators, the value of log analysis, and how to effectively present results encountered in the process.A follow-up meeting will be held to jointly review the relevant indicator design and preliminary data results.
+### 4.Discussion on Sandbox Environment Adaptation and Testing (Ran Fengyuan)
+Ran Fengyuan has completed command execution tests in the Docker environment and is currently conducting host code separation and operation tests, with results planned to be delivered within this week.Qi Guoqiang pointed out the need to distinguish between two scenarios: "predefined sandbox environment" and "project-specific container environment". It was required to ensure that the existing Docker sandbox scheme works properly first, before supporting the specific container startup logic specified in the project README.It was suggested that the next priority should be to complete and ensure the stable operation of the first general sandbox mode, with code developed on a new branch for subsequent merging.
+### 5.Discussion on Optimization of Issue Submission Experience (Qiu Ruiqiao)
+Qiu Ruiqiao has completed the journey design for the "task discovery" scenario by referring to the journey definitions of PR and Issue.Wang Yehui explained the difference between "subjective indicators" and "objective indicators" in developer experience metrics, and proposed to cooperate with Dai Ruiqi in the next step to jointly develop Agent functions related to Issue submission and avoid duplicated work.
+### 6.Outstanding Issues
+●Resolve runtime problems in the Discovery phase and start the refactoring and development of the context management module based on a new branch.（Person in charge: Zhu Jiashun; Deadline: April 28）
+
+●Collaborate and align on Agent development for Issue submission and task discovery scenarios.（Person in charge: Dai Ruiqi, Qiu Ruiqiao; Deadline: April 28）
+
+●Complete sandbox testing in the host environment and ensure stable basic functions.（Person in charge: Ran Fengyuan; Deadline: April 28）
+
 # 2026-03-24 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 March 24 2026, 19:00-20:00 PM Beijing time
