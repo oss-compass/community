@@ -1,3 +1,22 @@
+# 2026-05-12 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 12 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Zhang Shengxiang，Qiu Ruiqiao，Zhu Jiashun,  Wang Lei, Ran Fengyuan,Lai Xingyou, Li Songnan, Li Chunmin 
+## Meeting Minutes
+### 1.Work Discussion on the "Context Management" Module (Zhu Jiashun)
+A report was delivered on the progress of key work completed last week. The context management module was optimized to address the context length limitation of Large Language Models (LLMs).Qi Guoqiang pointed out that the current fixed sliding window discarding strategy is overly simplistic. The standard approach is to generate abstracts or summaries of historical information (e.g., commands, outputs) and retain only key information (e.g., command parameters, execution conclusions), so as to free up context space for subsequent tasks.Zhu Jiashun stated that in the next phase, he will follow Qi Guoqiang’s suggestions to proceed with phased development and testing step by step.
+### 2. Discussion on the Design of PR/Issue Processes and Metrics (Qiu Ruiqiao)
+Last week’s work was reported, which mainly involved redesigning subtasks for the participation process of PRs and Issues, as well as designing measurement metrics for all stages. Issues concerning existing metrics and community governance were also discussed.Qi Guoqiang suggested adopting LLMs to conduct analysis based on documents or historical execution command records; analysis should be performed synchronously during each task execution rather than calculated uniformly at the end. In addition, he favored integrating this capability into the unified Cogito agent solution, driving different scenarios through different input parameters, and ultimately delivering a unified binary package instead of developing fully independent solutions.
+### 3. Discussion on Agent Development and CI/CD Experience (Wang Lei)
+A report was presented on Agent development and CI/CD experience. A proposal was raised to directly analyze the CI configuration files of the code repository, instead of inferring relevant information merely from execution logs.Wang Yehui shared a CI/CD experience evaluation framework formulated after discussions with AI, and plans to conduct in-depth discussions on CI metrics separately at a later stage.
+### 4. Discussion on Project Architecture and Future Development Direction (Wang Yehui, Qi Guoqiang, Zhang Shengxiang)
+Wang Yehui and Qi Guoqiang discussed the project architecture and future direction, focusing on the necessity of a unified architecture and higher-level orchestration solutions.Zhang Shengxiang recommended paying attention to Google’s ADK framework, noting that it excels in engineering decoupling, visual orchestration and ecosystem integration, and is likely to become a future industry trend.
+### 5. Progress Report on Sandbox Environment Optimization (Ran Fengyuan)
+Recent progress was reported:The sandbox environment has been enhanced to first read the repository’s README file before code execution, dynamically determine whether a Docker environment is required, and initialize the corresponding runtime environment accordingly.
+### 6. Outstanding Issues
+None.
+
 # 2026-04-28 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 April 28 2026, 19:00-20:00 PM Beijing time
