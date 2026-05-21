@@ -1,3 +1,7 @@
+---
+id: 2026_meeting_minutes_EN
+---
+
 # 2026-05-12 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 12 2026, 19:00-20:00 PM Beijing time
