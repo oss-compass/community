@@ -1,6 +1,21 @@
----
-id: 2026_meeting_minutes_EN
----
+# 2026-05-26 Weekly Meeting Minutes of OSS Compass Community
+## Time
+May 26 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang， Zhang Shengxiang，Zhu Jiashun, Dai Ruiqi， Wang Lei, Ran Fengyuan,Lai Xingyou, Li Songnan, Li Chunmin 
+## Meeting Minutes
+### 1. Discussion on Agent Context Compression and Log Management Mechanism (Zhu Jiashun)
+Regarding excessive context length and log storage issues during Agent execution, Zhu Jiashun presented the current technical implementation. The team discussed multi-stage context compression strategies as well as pain points in log storage and troubleshooting. Going forward, a more intelligent summarization mechanism will be adopted to replace the existing basic method, so as to better retain key information.
+### 2. Discussion on Optimization of CI/CD Evaluation Report (Wang Lei)
+Wang Lei shared the latest progress of the CI/CD evaluation report. In-depth discussions were held on its logical structure and value orientation. It was pointed out that the report lacked clear evaluation targets and conclusions on core pain points, which undermined its practical value. Wang Yehui stressed that the report should dig down from data distribution (e.g., right-skewed CI execution frequency) to actual business pain points, and conduct root cause analysis. A separate meeting will be arranged for follow-up alignment.
+### 3. Discussion on Issue Handling Experience Evaluation (Dai Ruiqi)
+Dai Ruiqi reported the initial outcomes of the Issue handling experience evaluation. The team exchanged views on data cleansing and user profiling analysis, and highlighted disruptions caused by low-quality Issues. To address this problem, Wang Yehui suggested introducing user profiling. By identifying the organizational affiliation of Issue submitters and handlers, the real reasons for overlooked Issues can be clarified. The Compass API will be used to retrieve user profile data from the Git platform to support in-depth analysis. Dai Ruiqi will integrate the profile data and revise the report in accordance with the new framework.
+### 4. Action Items
+●Confirm the raw log storage strategy and subsequent troubleshooting solutions.（Person in charge: Zhu Jiashun | Deadline: June 2, 2026）
+
+●Optimize prompts for the CI/CD evaluation report, generate new results and submit the template to Wang Yehui for review.（Person in charge: Wang Lei | Deadline: June 2, 2026）
+
+●Retrieve user profile data via the Compass API for Issue evaluation and analysis.（Person in charge: Dai Ruiqi | Deadline: June 2, 2026）
 
 # 2026-05-12 Weekly Meeting Minutes of OSS Compass Community
 ## Time
