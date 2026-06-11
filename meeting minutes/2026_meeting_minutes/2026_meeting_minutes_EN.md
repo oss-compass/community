@@ -1,3 +1,21 @@
+# 2026-06-09 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 9 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Song Changxia, Zhang Shengxiang, Qiu Ruiqiao, Li Yu'e, Zhu Jiashun, Dai Ruiqi, Wang Lei, Ran Fengyuan, Li Shengbao, Lai Xingyou, Li Songnan, Ma Lin, Li Chunmin
+## Meeting Minutes
+### 1. Discussion on Agent Context Management and Compression (Zhu Jiashun)
+Work progress was reported. The initial versions of context offloading, phased summarization and phase isolation have been completed. Referencing the publicly reverse-engineered context importance compression prompts for Claude Code, we plan to apply similar logic to implement importance-based context compression for Coding Agents.Qi Guoqiang proposed adopting global context sharing combined with stage-based importance downgrading.Next steps: Optimize summary prompts tailored to deterministic tasks, raise the threshold for single-step offloading, and connect to the model context limit configuration in the config file.
+### 2. Discussion on CI/CD Evaluation Agent Report (Wang Lei)
+Data sources and report structure were discussed. Song Changxia suggested first mapping out the project CI Landscape before conducting in-depth indicator analysis. Focus areas include Gate Jobs (fail-fast mechanism and interception of low-quality PRs) and the duration of jobs on the longest critical path. It is recommended to parse workflow YAML files to build a CI knowledge base, with NCCL and NVIDIA Collections selected as benchmark projects.Next steps: Parse workflow files of benchmark projects to build CI Landscape knowledge, then restructure the logic for indicator analysis and data cleansing.
+### 3. Discussion on Issue Contribution & Pain Point Analysis Agent Report (Dai Ruiqi)
+A pain point analysis report for Issues based on Magatron community data was presented. The granularity of evaluation dimensions was aligned with domain experts. The team agreed to establish an indicator system for Issue evaluation covering three dimensions: personnel (roles of submitters & handlers), processes (template compliance, AI Slop prevention and deduplication), and content (similarity detection and automatic tagging of valid issues).Next steps: Formulate the Issue evaluation indicator system (including AI Slop resistance assessment), improve the flexibility of pain point analysis, and conduct learning from abnormal Issue samples collected from the community.
+### 4. Action Items
+a.Optimize the context compression mechanism to ensure no loss of key information.（Deadline: June 16, 2026 | Person in Charge: Zhu Jiashun）
+
+b.Sort out the CI pipeline dependency diagram for NCCL and Collections repositories.（Deadline: June 16, 2026 | Person in Charge: Wang Lei）
+
+c.Refine the Issue evaluation indicator system.（Deadline: June 16, 2026 | Person in Charge: Dai Ruiqi）
 # 2026-05-26 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 May 26 2026, 19:00-20:00 PM Beijing time
