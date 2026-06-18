@@ -1,3 +1,31 @@
+# 2026-06-16 Weekly Meeting Minutes of OSS Compass Community
+## Time
+June 16 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang, Qiu Ruiqiao, Chen Hongyun, Dai Ruiqi, Wang Lei, Li Shengbao, Lai Xingyou, Li Songnan, Ma Lin, Li Chunmin
+## Meeting Minutes
+### 1. Optimization of Agent Context Compression Strategy (Zhu Jiashun)
+The presenter reported progress made this week: prompt-based context compression has been implemented. All phases currently share a unified compression prompt, which retains critical information on task success/failure and identifiers of ongoing phases.
+Participants discussed existing pain points of the current solution, including excessive time consumption during the compilation phase and overly frequent summary triggers. Optimization measures were formulated, including adjustments to the compression triggering mechanism as well as evaluation and verification of compression performance.
+Next steps: revise triggering logic and phase-specific parameters, conduct full-scale tests on the ops-math and ops-nn projects, and deliver a comparative analysis report.
+### 2. Discussion on CI/CD Observation and Reporting (Wang Lei)
+Wang Lei presented preliminary outcomes of CI log analysis. The meeting clarified structural requirements for the final report: a CI Pipeline Landscape overview diagram (state diagram/DAG) must be added, with key metrics annotated for each phase (duration, failure rate, artifact size, hardware branches, etc.). The final report shall adopt structured JSON format to support front-end visualization.
+Next steps: deliver a complete CI analysis report after the holiday, covering the Pipeline Landscape, detailed Job breakdowns and all core metrics.
+### 3. Analysis of Community Contributions and Model Governance (Dai Ruiqi)
+Dai Ruiqi shared preliminary trials on Bot behavior analysis. Progress has been slow due to scattered and non-standard user IDs; follow-up work will focus on basic process analysis.
+Action items: generate a one-month metric report for ops-nn. In addition, Qi Guoqiang will identify 1 to 2 benchmark open-source communities for reference. A formal benchmarking report will be submitted post-holiday.
+### 4. Mitigation of Model Hallucinations (Ma Lin)
+Ma Lin proposed introducing a supervision node (referee system) between SQL modules and tool calls. Deviations in model task planning will be corrected via dual-layer validation: code-level checks (e.g., JSON structural verification) and model-layer audits.
+It is recommended that the referee system extract acceptance criteria and specifications from each task, establish a standardized checklist, and rigorously validate whether model outputs comply with defined requirements.
+### 5. Action Items
+1.Adjust the context compression triggering logic, run end-to-end workflows for ops-math and ops-nn, and deliver a detailed report with pre/post-compression comparisons and token volume statistics.（ Deadline: June 23, 2026 | Owner: Zhu Jiashun）
+
+2.Generate a comprehensive CI analysis report equipped with Pipeline visual charts and global metrics, and share it with the OpenHarmony community for benchmark comparison. （Deadline: June 23, 2026 | Owner: Wang Lei）
+
+3.Compile a one-month operational analysis report for ops-nn and conduct data benchmarking against 1–2 reference communities (e.g., NCCL / HCCL). （Deadline: June 23, 2026 | Owner: Dai Ruiqi）
+
+4.Complete code development and testing of the referee system, and deliver a performance validation report.（ Deadline: June 23, 2026 | Owner: Ma Lin）
+
 # 2026-06-09 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 June 9 2026, 19:00-20:00 PM Beijing time
