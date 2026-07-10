@@ -1,3 +1,23 @@
+# 2026-07-07 Weekly Meeting Minutes of OSS Compass Community
+## Time
+July 7 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang,  Dai Ruiqi, Wang Lei, Li Shengbao, Lai Xingyou, Li Songnan, Ma Lin, Li Chunmin
+## Meeting Minutes
+### 1. Agent Performance Optimization & Bug Fixes (Zhu Jiashun)
+Reports for the two projects have been fully generated. Multiple pending issues were identified, including flaws in the context compression strategy, environment configuration, and sensitive information handling. Qi Guoqiang pointed out that excessive compression leads to loss of critical information. He required a redesign of context compression trigger rules and strategies with reference to mainstream open-source IDE and code projects. Regarding the leakage of sensitive data such as Git Code Tokens in report outputs, the output filtering logic needs optimization.
+### 2. Discussion on Optimization & Follow-up Plan of Issue Experience Report (Dai Ruiqi)
+A new report template has been redesigned, covering overview, composite score (objective score + subjective score + month-on-month comparison), top pain points, phased details, and diagnostic summary. In response to the redundant structure and lack of quantitative metrics in the original template, Wang Yehui proposed a new report framework and corresponding data collection requirements.The team also discussed project integration and subsequent arrangements: Dai Ruiqi shall migrate the code of the Issue Experience Agent to the Coto repository and manage it under a dedicated independent directory. Qi Guoqiang will refactor Dai Ruiqi’s Agent code and integrate it into the unified Agent architecture to align the service layer.Three core experience scenarios are defined: community onboarding experience, community contribution experience, and community engineering experience. The current Issue Experience module under Dai Ruiqi falls under the sub-scenario of community contribution experience. Presentation modules for the remaining two major scenarios are scheduled to be completed by the end of July.
+### 3. Outstanding Tasks
+●Adjust the Agent context compression strategy, manually debug compilation environment commands, and fix sensitive information leakage in report outputs. Person in charge: Zhu Jiashun | Deadline: July 14, 2026
+
+●Resolve data capture failures for Git Code tags and assignee workflows. Person in charge: Li Songnan | Deadline: July 14, 2026
+
+●Develop quantitative indicator algorithms and generate weekly reports for analytical evaluation. Person in charge: Dai Ruiqi | Deadline: July 14, 2026
+
+●Migrate Issue Experience Agent source code to the Coto repository. Person in charge: Dai Ruiqi | Deadline: July 14, 2026
+
+●Unify the service layer and integrate Dai Ruiqi’s Agent code into the overall architecture. Person in charge: Qi Guoqiang | Deadline: July 14, 2026
 # 2026-06-16 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 June 16 2026, 19:00-20:00 PM Beijing time
