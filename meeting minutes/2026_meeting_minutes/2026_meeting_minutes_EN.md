@@ -1,3 +1,21 @@
+# 2026-07-14 Weekly Meeting Minutes of OSS Compass Community
+## Time
+July 14 2026, 19:00-20:00 PM Beijing time
+## Attendees
+Wang Yehui, Qi Guoqiang,  Dai Ruiqi, Wang Lei, Li Shengbao, Lai Xingyou, Li Songnan, Ma Lin, Li Chunmin
+## Meeting Minutes
+### 1. Issue Lifecycle Analysis & Report Delivery (Dai Ruiqi)
+Dai Ruiqi reported that around 29 phased metrics have been implemented, and spot checks on low-scoring Issues met expectations.
+Partial subjective metrics (e.g., quality of issue descriptions) require adjustment; objective metrics including first response time and community activity rate are accurate.During discussion, the team noted the current output includes Markdown reports and model evaluation results, and CSV structured exports need to be supplemented.Scores for the "Discussion & Closure Archiving" phase are generally low. Typical low-scoring Issues (such as closed tickets without associated PRs or missing discussion records) will be showcased as case studies in the report to expose weak links in community operation workflows.
+### 2. CI/CD Pipeline Analysis & Optimization (Wang Lei)
+WangLei presented progress on CI/CD analysis for the ops-nn and Runtime projects. The group focused on data collection logic, metric definition, and root causes of anomalies, identifying abnormal build durations and incorrect definitions for gate missed tests.Consensus: CI phases should align with real-world workflows instead of rigidly applying conceptual phase divisions.Core optimization priorities: CI stability (flaky rate) and pipeline execution efficiency.
+### 3. Optimization of Agent Context Compression Strategy ( Zhu Jiashun)
+Zhu Jiashun shared improvements to the long-context compression strategy for Agents to reduce Token consumption.After discussion, Qi Guoqiang suggested compression should prioritize deduplication over summarization to retain critical raw log information and avoid data loss caused by over-compression.Configuration and security mechanisms were reviewed: placeholders are enforced in prompts to replace sensitive Tokens, resolving the prior security risk of exposed access Keys.
+### Action Items
+●Supplement data from the past two weeks. Person in charge: Dai Ruiqi | Deadline: July 21, 2026
+
+●Complete development and deployment of static pages by next Wednesday, and integrate Issue lifecycle analysis results into the Tianti System. Person in charge: Qi Guoqiang | Deadline: July 21, 2026
+
 # 2026-07-07 Weekly Meeting Minutes of OSS Compass Community
 ## Time
 July 7 2026, 19:00-20:00 PM Beijing time
