@@ -1,5 +1,5 @@
 ---
-id: community/meeting minutes/meeting_minutes/2026_board-meeting_minutes
+id: board-meeting-minutes-2026
 title: 2026 Board Meeting Minutes
 ---
 
