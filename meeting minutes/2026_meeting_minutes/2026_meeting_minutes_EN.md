@@ -1,3 +1,45 @@
+# 2026-08-11 Weekly Meeting Minutes of OSS Compass Community
+
+## Time
+
+Beijing Time, August 11, 2026, 19:00–20:00
+
+## Attendees
+
+Wang Yehui, Qi Guoqiang, Zhu Jiashun, Dai Ruiqi, Zhang Shengxiang, Li Shengbao, Li Songnan
+
+## Minutes
+
+### I. OSS-Compass Index Integration (Wang Yehui, Zhang Shengxiang)
+
+Wang Yehui noted one item to push forward: integrating the OSS-Compass index into Gitee. The integration involves a V2-to-V3 version update and data refresh, and mainly depends on Zhang Shengxiang's side starting the work and updating the widget; Zhang Shengxiang reported that, after speaking with the relevant people this week, the time window will not be quick due to limited resource investment. The two sides agreed that data crawling can proceed first without blocking, and that integration can move forward in sync once the widget update is complete.
+
+### II. Agent Context Compression — Progress and Tuning (Zhu Jiashun, Qi Guoqiang)
+
+Zhu Jiashun reported the visualization progress and effects of the context-compression work, and Qi Guoqiang raised several tuning suggestions on summary quality. Key points include:
+
+- Trigger mechanisms: two types — single-step over-long trigger (e.g., a single step exceeding 20k tokens) and cross-stage summary trigger (a fixed summary generated after each major stage and passed to the next stage).
+- Compression effect: a typical single step reaches about a 50% compression ratio, but the retained tail information is still too long with too much redundancy; the head-to-tail ratio and degree of refinement are insufficient.
+- Cross-stage summary semantics: Qi Guoqiang pointed out that fields such as "error" and "pain point" in the summary are semantically confused and duplicate earlier information; they should be normalized into "task execution result, command executed, and return value," and pain points should not be carried across tasks but only appear as a final result.
+- Prompt tuning direction: Qi Guoqiang suggested compression should "deduplicate" rather than simply summarize — retain key head/tail information, errors, and environment info, and drop routine redundant logs; the pure-prompt summarization approach of cloud code can be referenced, with summaries covering the current environment, an overview of historical commands and results, key documents, and code snippets.
+- Environment information retention: standard baseline information in each task (hardware/system environment, historically installed libraries, environment variables, etc.) should be retained and shareable across tasks; it is recommended to guide the model to produce this via the summary rather than filling fixed placeholders in code.
+- Global background information: Qi Guoqiang suggested not introducing a complex global-task background dimension for now, instead uniformly retaining generic dimensions (environment, historical tools and results, key information points) in the summary; task-specific configuration should not be reflected there.
+
+### III. Issue Scoring Scheme Design (Dai Ruiqi, Wang Yehui)
+
+Dai Ruiqi introduced a more concise Issue scoring design: the i0 stage is scored as background knowledge, while the remaining three parts are "first-round assignment and first-response discussion," "progression," and "summary and closing," uniformly using "quality" and "efficiency" as North-Star metrics, with supporting metrics refined beneath them; different Issue types (bug, requirement, consultation) will differ in the thresholds and focus extent of the two dimensions at each stage, but all remain applicable within the quality/efficiency scope. Wang Yehui indicated the team can continue along this line and further align the next day.
+
+### IV. Action Items
+
+**1. Agent Context Compression Optimization**
+
+- Optimize the context-compression prompt, add global task background, and adjust the summary logic to improve semantic clarity. (Person in charge: Zhu Jiashun | Deadline: before August 18, 2026)
+- Run several more projects and send the effect links to Qi Guoqiang for evaluation. (Person in charge: Zhu Jiashun | Deadline: before August 18, 2026)
+
+**2. Issue Scoring Scheme**
+
+- Continue refining the Issue-handling evaluation framework based on the quality/efficiency dual dimensions, and formulate differentiated metrics for different Issue types. (Person in charge: Dai Ruiqi | Deadline: before August 18, 2026)
+
 # 2026-08-04 Weekly Meeting Minutes of OSS Compass Community
 ## Time
  August 4  2026, 19:00–20:00  PM Beijing time
