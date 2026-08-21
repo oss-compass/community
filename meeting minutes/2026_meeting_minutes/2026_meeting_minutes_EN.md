@@ -1,3 +1,50 @@
+# 2026-08-18 Weekly Meeting Minutes of OSS Compass Community
+## Time
+Beijing Time, August 18, 2026, 19:00–20:00
+## Attendees
+Wang Yehui, Qi Guoqiang, Zhu Jiashun, Dai Ruiqi, Li Shengbao, Li Songnan
+## Minutes
+### I. Agent Context Compression and Cross-Stage Summary Optimization (Zhu Jiashun, Qi Guoqiang)
+Focusing on the Agent's context-management issues in complex task execution, the meeting centered on compression effectiveness and the accuracy of cross-stage information transfer:
+
+**1. Compression Mechanism and Effect Verification**
+
+- Two-layer compression strategy confirmed: Zhu Jiashun demonstrated the effect of the two-layer compression, where single-step compression retains key prompt information while overall compression substantially reduces the context length (e.g., from 150k tokens down to 80k tokens).
+- Summary visualization requirement: Qi Guoqiang stressed that the before/after content comparison must be shown intuitively in the HTML or JSON report, so as to evaluate the effectiveness of the compression strategy.
+
+**2. Version-Conflict Investigation in Cross-Stage Summaries**
+
+- Environment version inconsistency: In the ops-math project, the Agent used version 8.5.2 in the Setup stage, but the Quick Start stage failed due to a hard-coding issue and required version 9.2.0 to succeed.
+
+- Responsibility boundary and information transfer: Qi Guoqiang pointed out that this is an Agent task-planning or document-sync issue rather than a summary-logic defect. He required ensuring that the environment-probe information from the S1 stage is accurately passed to the S2 stage, so as to maintain consistency across multiple environments.
+
+**3. Standardization of Environment Information**
+
+  Generic Prompt specification: Qi Guoqiang suggested building a generic environment-description schema covering standardized hardware (driver, firmware) and software (OS version, kernel, key library versions) information, to improve the Agent's perception of the environment.
+
+### II. Issue Metrics Evaluation System Optimization (Li Shengbao, Dai Ruiqi, Qi Guoqiang, Wang Yehui)
+For the evaluation model of Issue-handling quality, the meeting refined the scoring criteria and resolved boundary confusion between metrics:
+
+**1. Decoupling Response Quality from Responsibility Clarity**
+
+- Metric boundary correction: Addressing the issue that the "first response quality" score was mixing in the "responsibility clarity" dimension, Qi Guoqiang and Wang Yehui reached consensus to isolate the two. Response quality focuses only on information content (e.g., confirming the issue, giving a conclusion, providing a plan) and does not examine the assignee field.
+- High-score response standard: It was clarified that a full-score response should include "confirming the validity of the issue," "providing a preliminary conclusion/status," and "providing a specific investigation plan or timeline," rather than a generic "will assess as soon as possible."
+
+**2. Evaluation Model Optimization and Verification**
+
+  - Anomalous-operation identification: Regarding the misoperation of repeated Assign within a short window (e.g., a few seconds), Dai Ruiqi proposed adding identification logic to the model; currently the model has not surfaced this layer and needs further tuning.
+  - Verification progress and target: Li Shengbao is scoring based on the latest metrics, with current completion at about 60%–70%. Wang Yehui required that, before the official launch next Monday, a full review of August's low-score Issues be completed and the verification completion be raised to 80%.
+
+**3. Collaborative Review Mechanism**
+
+  - Third-party expert review: To ensure the objectivity of metric evaluation, Wang Yehui suggested that Li Shengbao sync in-progress reports to Dai Ruiqi, who would act as a third-party expert reviewer focusing on the completed metric items.
+
+### III. Action Items
+- Send the already-run HTML and code path to Qi Guoqiang for evaluation, and run several more projects in parallel. (Person in charge: Zhu Jiashun | Deadline: before August 25, 2026)
+- Adjust the Issue metrics evaluation model, fix the boundary between "response quality" and "responsibility clarity," and remove the interference from the assignee dimension. (Person in charge: Li Shengbao | Deadline: before August 25, 2026)
+- Sync in-progress reports to Dai Ruiqi for third-party expert review. (Person in charge: Li Shengbao | Deadline: before August 25, 2026)
+
+
 # 2026-08-11 Weekly Meeting Minutes of OSS Compass Community
 
 ## Time
