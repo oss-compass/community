@@ -9,7 +9,7 @@ description: Join the OSS-Compass community on WeChat
 
 You can join our WeChat communication group by scanning the following QR code on WeChat.
 
-<img alt='Join Community on WeChat' src="https://talk.gitee.com/oss-compass/wechat.jpeg" style={{height:600}}/>
+![Join Community on WeChat](media/wechat.png)
 
 If the QR code expires, you can contact us through the following channels:
 
